@@ -15,6 +15,7 @@ public class ConversationsInviteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsInviteApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class ConversationsInviteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("users")
     public String users;
+
     public ConversationsInviteApplicationJSON withUsers(String users) {
         this.users = users;
         return this;

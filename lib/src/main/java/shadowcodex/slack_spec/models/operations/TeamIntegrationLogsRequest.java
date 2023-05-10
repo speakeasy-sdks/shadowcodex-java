@@ -13,6 +13,7 @@ public class TeamIntegrationLogsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=app_id")
     public String appId;
+
     public TeamIntegrationLogsRequest withAppId(String appId) {
         this.appId = appId;
         return this;
@@ -23,6 +24,7 @@ public class TeamIntegrationLogsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=change_type")
     public String changeType;
+
     public TeamIntegrationLogsRequest withChangeType(String changeType) {
         this.changeType = changeType;
         return this;
@@ -30,6 +32,7 @@ public class TeamIntegrationLogsRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=count")
     public String count;
+
     public TeamIntegrationLogsRequest withCount(String count) {
         this.count = count;
         return this;
@@ -37,6 +40,7 @@ public class TeamIntegrationLogsRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=page")
     public String page;
+
     public TeamIntegrationLogsRequest withPage(String page) {
         this.page = page;
         return this;
@@ -47,6 +51,7 @@ public class TeamIntegrationLogsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=service_id")
     public String serviceId;
+
     public TeamIntegrationLogsRequest withServiceId(String serviceId) {
         this.serviceId = serviceId;
         return this;
@@ -57,6 +62,7 @@ public class TeamIntegrationLogsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public TeamIntegrationLogsRequest withToken(String token) {
         this.token = token;
         return this;
@@ -67,6 +73,7 @@ public class TeamIntegrationLogsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=user")
     public String user;
+
     public TeamIntegrationLogsRequest withUser(String user) {
         this.user = user;
         return this;

@@ -15,6 +15,7 @@ public class FilesDeleteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("file")
     public String file;
+
     public FilesDeleteApplicationJSON withFile(String file) {
         this.file = file;
         return this;

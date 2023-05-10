@@ -12,6 +12,7 @@ public class FilesRemoteInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=external_id")
     public String externalId;
+
     public FilesRemoteInfoRequest withExternalId(String externalId) {
         this.externalId = externalId;
         return this;
@@ -22,6 +23,7 @@ public class FilesRemoteInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=file")
     public String file;
+
     public FilesRemoteInfoRequest withFile(String file) {
         this.file = file;
         return this;
@@ -32,6 +34,7 @@ public class FilesRemoteInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public FilesRemoteInfoRequest withToken(String token) {
         this.token = token;
         return this;

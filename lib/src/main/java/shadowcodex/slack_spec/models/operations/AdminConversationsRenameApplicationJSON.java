@@ -12,6 +12,7 @@ public class AdminConversationsRenameApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsRenameApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -19,6 +20,7 @@ public class AdminConversationsRenameApplicationJSON {
     
     @JsonProperty("name")
     public String name;
+
     public AdminConversationsRenameApplicationJSON withName(String name) {
         this.name = name;
         return this;

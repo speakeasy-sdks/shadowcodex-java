@@ -31,6 +31,14 @@ public class AppsPermissions {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Returns list of permissions this app has on a team.
+     * https://api.slack.com/methods/apps.permissions.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsPermissionsInfoResponse appsPermissionsInfo(shadowcodex.slack_spec.models.operations.AppsPermissionsInfoRequest request, shadowcodex.slack_spec.models.operations.AppsPermissionsInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.permissions.info");
@@ -76,6 +84,14 @@ public class AppsPermissions {
         return res;
     }
 
+    /**
+     * Allows an app to request additional scopes
+     * https://api.slack.com/methods/apps.permissions.request - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsPermissionsRequestResponse appsPermissionsRequest(shadowcodex.slack_spec.models.operations.AppsPermissionsRequestRequest request, shadowcodex.slack_spec.models.operations.AppsPermissionsRequestSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.permissions.request");

@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AppsUninstallSecurity {
     @SpeakeasyMetadata("security:scheme=true,type=oauth2,name=Authorization")
     public String slackAuth;
+
     public AppsUninstallSecurity withSlackAuth(String slackAuth) {
         this.slackAuth = slackAuth;
         return this;

@@ -13,6 +13,7 @@ public class AdminTeamsSettingsSetDefaultChannelsRequestBody {
      */
     @SpeakeasyMetadata("form:name=channel_ids")
     public String channelIds;
+
     public AdminTeamsSettingsSetDefaultChannelsRequestBody withChannelIds(String channelIds) {
         this.channelIds = channelIds;
         return this;
@@ -23,6 +24,7 @@ public class AdminTeamsSettingsSetDefaultChannelsRequestBody {
      */
     @SpeakeasyMetadata("form:name=team_id")
     public String teamId;
+
     public AdminTeamsSettingsSetDefaultChannelsRequestBody withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -33,6 +35,7 @@ public class AdminTeamsSettingsSetDefaultChannelsRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public AdminTeamsSettingsSetDefaultChannelsRequestBody withToken(String token) {
         this.token = token;
         return this;

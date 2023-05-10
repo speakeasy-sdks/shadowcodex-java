@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminConversationsDeleteRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminConversationsDeleteApplicationJSON requestBody;
+
     public AdminConversationsDeleteRequest withRequestBody(AdminConversationsDeleteApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminConversationsDeleteRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminConversationsDeleteRequest withToken(String token) {
         this.token = token;
         return this;

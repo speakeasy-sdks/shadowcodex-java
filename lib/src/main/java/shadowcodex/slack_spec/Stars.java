@@ -32,6 +32,14 @@ public class Stars {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Adds a star to an item.
+     * https://api.slack.com/methods/stars.add - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.StarsAddResponse starsAdd(shadowcodex.slack_spec.models.operations.StarsAddRequest request, shadowcodex.slack_spec.models.operations.StarsAddSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/stars.add");
@@ -81,6 +89,14 @@ public class Stars {
         return res;
     }
 
+    /**
+     * Lists stars for a user.
+     * https://api.slack.com/methods/stars.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.StarsListResponse starsList(shadowcodex.slack_spec.models.operations.StarsListRequest request, shadowcodex.slack_spec.models.operations.StarsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/stars.list");
@@ -126,6 +142,14 @@ public class Stars {
         return res;
     }
 
+    /**
+     * Removes a star from an item.
+     * https://api.slack.com/methods/stars.remove - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.StarsRemoveResponse starsRemove(shadowcodex.slack_spec.models.operations.StarsRemoveRequest request, shadowcodex.slack_spec.models.operations.StarsRemoveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/stars.remove");

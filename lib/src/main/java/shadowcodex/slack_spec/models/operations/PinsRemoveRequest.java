@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class PinsRemoveRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public PinsRemoveApplicationJSON requestBody;
+
     public PinsRemoveRequest withRequestBody(PinsRemoveApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class PinsRemoveRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public PinsRemoveRequest withToken(String token) {
         this.token = token;
         return this;

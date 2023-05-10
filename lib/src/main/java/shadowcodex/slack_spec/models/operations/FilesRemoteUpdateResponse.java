@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesRemoteUpdateResponse {
     
     public String contentType;
+
     public FilesRemoteUpdateResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class FilesRemoteUpdateResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public FilesRemoteUpdateResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class FilesRemoteUpdateResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public FilesRemoteUpdateResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class FilesRemoteUpdateResponse {
     
     
     public Integer statusCode;
+
     public FilesRemoteUpdateResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class FilesRemoteUpdateResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesRemoteUpdateResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

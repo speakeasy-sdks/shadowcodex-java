@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesUploadResponse {
     
     public String contentType;
+
     public FilesUploadResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class FilesUploadResponse {
     
     
     public Integer statusCode;
+
     public FilesUploadResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class FilesUploadResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesUploadResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class FilesUploadResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesUploadErrorSchema;
+
     public FilesUploadResponse withFilesUploadErrorSchema(java.util.Map<String, java.util.Map<String, Object>> filesUploadErrorSchema) {
         this.filesUploadErrorSchema = filesUploadErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class FilesUploadResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesUploadSchema;
+
     public FilesUploadResponse withFilesUploadSchema(java.util.Map<String, java.util.Map<String, Object>> filesUploadSchema) {
         this.filesUploadSchema = filesUploadSchema;
         return this;

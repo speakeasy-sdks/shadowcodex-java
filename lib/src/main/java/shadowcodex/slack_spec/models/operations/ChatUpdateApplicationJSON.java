@@ -15,6 +15,7 @@ public class ChatUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("as_user")
     public String asUser;
+
     public ChatUpdateApplicationJSON withAsUser(String asUser) {
         this.asUser = asUser;
         return this;
@@ -26,6 +27,7 @@ public class ChatUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("attachments")
     public String attachments;
+
     public ChatUpdateApplicationJSON withAttachments(String attachments) {
         this.attachments = attachments;
         return this;
@@ -37,6 +39,7 @@ public class ChatUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("blocks")
     public String blocks;
+
     public ChatUpdateApplicationJSON withBlocks(String blocks) {
         this.blocks = blocks;
         return this;
@@ -47,6 +50,7 @@ public class ChatUpdateApplicationJSON {
      */
     @JsonProperty("channel")
     public String channel;
+
     public ChatUpdateApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -58,6 +62,7 @@ public class ChatUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("link_names")
     public String linkNames;
+
     public ChatUpdateApplicationJSON withLinkNames(String linkNames) {
         this.linkNames = linkNames;
         return this;
@@ -69,6 +74,7 @@ public class ChatUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("parse")
     public String parse;
+
     public ChatUpdateApplicationJSON withParse(String parse) {
         this.parse = parse;
         return this;
@@ -80,6 +86,7 @@ public class ChatUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("text")
     public String text;
+
     public ChatUpdateApplicationJSON withText(String text) {
         this.text = text;
         return this;
@@ -90,6 +97,7 @@ public class ChatUpdateApplicationJSON {
      */
     @JsonProperty("ts")
     public String ts;
+
     public ChatUpdateApplicationJSON withTs(String ts) {
         this.ts = ts;
         return this;

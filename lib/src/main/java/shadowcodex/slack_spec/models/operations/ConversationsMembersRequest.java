@@ -12,6 +12,7 @@ public class ConversationsMembersRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public ConversationsMembersRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -22,6 +23,7 @@ public class ConversationsMembersRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public ConversationsMembersRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -32,6 +34,7 @@ public class ConversationsMembersRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public ConversationsMembersRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -42,6 +45,7 @@ public class ConversationsMembersRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public ConversationsMembersRequest withToken(String token) {
         this.token = token;
         return this;

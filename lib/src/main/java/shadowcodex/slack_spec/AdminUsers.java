@@ -32,6 +32,14 @@ public class AdminUsers {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Add an Enterprise user to a workspace.
+     * https://api.slack.com/methods/admin.users.assign - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersAssignResponse adminUsersAssign(shadowcodex.slack_spec.models.operations.AdminUsersAssignRequest request, shadowcodex.slack_spec.models.operations.AdminUsersAssignSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.assign");
@@ -84,6 +92,14 @@ public class AdminUsers {
         return res;
     }
 
+    /**
+     * Invite a user to a workspace.
+     * https://api.slack.com/methods/admin.users.invite - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersInviteResponse adminUsersInvite(shadowcodex.slack_spec.models.operations.AdminUsersInviteRequest request, shadowcodex.slack_spec.models.operations.AdminUsersInviteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.invite");
@@ -136,6 +152,14 @@ public class AdminUsers {
         return res;
     }
 
+    /**
+     * List users on a workspace
+     * https://api.slack.com/methods/admin.users.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersListResponse adminUsersList(shadowcodex.slack_spec.models.operations.AdminUsersListRequest request, shadowcodex.slack_spec.models.operations.AdminUsersListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.list");
@@ -189,6 +213,14 @@ public class AdminUsers {
         return res;
     }
 
+    /**
+     * Remove a user from a workspace.
+     * https://api.slack.com/methods/admin.users.remove - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersRemoveResponse adminUsersRemove(shadowcodex.slack_spec.models.operations.AdminUsersRemoveRequest request, shadowcodex.slack_spec.models.operations.AdminUsersRemoveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.remove");
@@ -241,6 +273,14 @@ public class AdminUsers {
         return res;
     }
 
+    /**
+     * Set an existing guest, regular user, or owner to be an admin user.
+     * https://api.slack.com/methods/admin.users.setAdmin - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersSetAdminResponse adminUsersSetAdmin(shadowcodex.slack_spec.models.operations.AdminUsersSetAdminRequest request, shadowcodex.slack_spec.models.operations.AdminUsersSetAdminSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.setAdmin");
@@ -293,6 +333,14 @@ public class AdminUsers {
         return res;
     }
 
+    /**
+     * Set an expiration for a guest user
+     * https://api.slack.com/methods/admin.users.setExpiration - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersSetExpirationResponse adminUsersSetExpiration(shadowcodex.slack_spec.models.operations.AdminUsersSetExpirationRequest request, shadowcodex.slack_spec.models.operations.AdminUsersSetExpirationSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.setExpiration");
@@ -345,6 +393,14 @@ public class AdminUsers {
         return res;
     }
 
+    /**
+     * Set an existing guest, regular user, or admin user to be a workspace owner.
+     * https://api.slack.com/methods/admin.users.setOwner - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersSetOwnerResponse adminUsersSetOwner(shadowcodex.slack_spec.models.operations.AdminUsersSetOwnerRequest request, shadowcodex.slack_spec.models.operations.AdminUsersSetOwnerSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.setOwner");
@@ -397,6 +453,14 @@ public class AdminUsers {
         return res;
     }
 
+    /**
+     * Set an existing guest user, admin user, or owner to be a regular user.
+     * https://api.slack.com/methods/admin.users.setRegular - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersSetRegularResponse adminUsersSetRegular(shadowcodex.slack_spec.models.operations.AdminUsersSetRegularRequest request, shadowcodex.slack_spec.models.operations.AdminUsersSetRegularSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.setRegular");

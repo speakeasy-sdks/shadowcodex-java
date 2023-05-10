@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class UsergroupsDisableResponse {
     
     public String contentType;
+
     public UsergroupsDisableResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class UsergroupsDisableResponse {
     
     
     public Integer statusCode;
+
     public UsergroupsDisableResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class UsergroupsDisableResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public UsergroupsDisableResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class UsergroupsDisableResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usergroupsDisableErrorSchema;
+
     public UsergroupsDisableResponse withUsergroupsDisableErrorSchema(java.util.Map<String, java.util.Map<String, Object>> usergroupsDisableErrorSchema) {
         this.usergroupsDisableErrorSchema = usergroupsDisableErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class UsergroupsDisableResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usergroupsDisableSchema;
+
     public UsergroupsDisableResponse withUsergroupsDisableSchema(java.util.Map<String, java.util.Map<String, Object>> usergroupsDisableSchema) {
         this.usergroupsDisableSchema = usergroupsDisableSchema;
         return this;

@@ -12,6 +12,7 @@ public class UsersIdentityRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public UsersIdentityRequest withToken(String token) {
         this.token = token;
         return this;

@@ -15,6 +15,7 @@ public class ChatDeleteScheduledMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("as_user")
     public Boolean asUser;
+
     public ChatDeleteScheduledMessageApplicationJSON withAsUser(Boolean asUser) {
         this.asUser = asUser;
         return this;
@@ -25,6 +26,7 @@ public class ChatDeleteScheduledMessageApplicationJSON {
      */
     @JsonProperty("channel")
     public String channel;
+
     public ChatDeleteScheduledMessageApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -35,6 +37,7 @@ public class ChatDeleteScheduledMessageApplicationJSON {
      */
     @JsonProperty("scheduled_message_id")
     public String scheduledMessageId;
+
     public ChatDeleteScheduledMessageApplicationJSON withScheduledMessageId(String scheduledMessageId) {
         this.scheduledMessageId = scheduledMessageId;
         return this;

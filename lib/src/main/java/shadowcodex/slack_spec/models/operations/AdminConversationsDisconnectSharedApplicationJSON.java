@@ -14,6 +14,7 @@ public class AdminConversationsDisconnectSharedApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsDisconnectSharedApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -25,6 +26,7 @@ public class AdminConversationsDisconnectSharedApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("leaving_team_ids")
     public String leavingTeamIds;
+
     public AdminConversationsDisconnectSharedApplicationJSON withLeavingTeamIds(String leavingTeamIds) {
         this.leavingTeamIds = leavingTeamIds;
         return this;

@@ -15,6 +15,7 @@ public class ChatDeleteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("as_user")
     public Boolean asUser;
+
     public ChatDeleteApplicationJSON withAsUser(Boolean asUser) {
         this.asUser = asUser;
         return this;
@@ -26,6 +27,7 @@ public class ChatDeleteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ChatDeleteApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -37,6 +39,7 @@ public class ChatDeleteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("ts")
     public Double ts;
+
     public ChatDeleteApplicationJSON withTs(Double ts) {
         this.ts = ts;
         return this;

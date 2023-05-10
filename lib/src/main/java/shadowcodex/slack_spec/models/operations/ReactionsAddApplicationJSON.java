@@ -12,6 +12,7 @@ public class ReactionsAddApplicationJSON {
      */
     @JsonProperty("channel")
     public String channel;
+
     public ReactionsAddApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -22,6 +23,7 @@ public class ReactionsAddApplicationJSON {
      */
     @JsonProperty("name")
     public String name;
+
     public ReactionsAddApplicationJSON withName(String name) {
         this.name = name;
         return this;
@@ -32,6 +34,7 @@ public class ReactionsAddApplicationJSON {
      */
     @JsonProperty("timestamp")
     public String timestamp;
+
     public ReactionsAddApplicationJSON withTimestamp(String timestamp) {
         this.timestamp = timestamp;
         return this;

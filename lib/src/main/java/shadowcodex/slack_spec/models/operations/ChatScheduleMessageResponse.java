@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ChatScheduleMessageResponse {
     
     public String contentType;
+
     public ChatScheduleMessageResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ChatScheduleMessageResponse {
     
     
     public Integer statusCode;
+
     public ChatScheduleMessageResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ChatScheduleMessageResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ChatScheduleMessageResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ChatScheduleMessageResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatScheduleMessageErrorSchema;
+
     public ChatScheduleMessageResponse withChatScheduleMessageErrorSchema(java.util.Map<String, java.util.Map<String, Object>> chatScheduleMessageErrorSchema) {
         this.chatScheduleMessageErrorSchema = chatScheduleMessageErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ChatScheduleMessageResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatScheduleMessageSuccessSchema;
+
     public ChatScheduleMessageResponse withChatScheduleMessageSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> chatScheduleMessageSuccessSchema) {
         this.chatScheduleMessageSuccessSchema = chatScheduleMessageSuccessSchema;
         return this;

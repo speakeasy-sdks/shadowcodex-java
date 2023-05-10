@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminUsersSessionResetRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminUsersSessionResetApplicationJSON requestBody;
+
     public AdminUsersSessionResetRequest withRequestBody(AdminUsersSessionResetApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminUsersSessionResetRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminUsersSessionResetRequest withToken(String token) {
         this.token = token;
         return this;

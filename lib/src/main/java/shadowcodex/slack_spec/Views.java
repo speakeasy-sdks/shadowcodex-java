@@ -31,6 +31,14 @@ public class Views {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Open a view for a user.
+     * https://api.slack.com/methods/views.open - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ViewsOpenResponse viewsOpen(shadowcodex.slack_spec.models.operations.ViewsOpenRequest request, shadowcodex.slack_spec.models.operations.ViewsOpenSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/views.open");
@@ -84,6 +92,14 @@ public class Views {
         return res;
     }
 
+    /**
+     * Publish a static view for a User.
+     * https://api.slack.com/methods/views.publish - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ViewsPublishResponse viewsPublish(shadowcodex.slack_spec.models.operations.ViewsPublishRequest request, shadowcodex.slack_spec.models.operations.ViewsPublishSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/views.publish");
@@ -137,6 +153,14 @@ public class Views {
         return res;
     }
 
+    /**
+     * Push a view onto the stack of a root view.
+     * https://api.slack.com/methods/views.push - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ViewsPushResponse viewsPush(shadowcodex.slack_spec.models.operations.ViewsPushRequest request, shadowcodex.slack_spec.models.operations.ViewsPushSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/views.push");
@@ -190,6 +214,14 @@ public class Views {
         return res;
     }
 
+    /**
+     * Update an existing view.
+     * https://api.slack.com/methods/views.update - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ViewsUpdateResponse viewsUpdate(shadowcodex.slack_spec.models.operations.ViewsUpdateRequest request, shadowcodex.slack_spec.models.operations.ViewsUpdateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/views.update");

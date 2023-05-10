@@ -13,6 +13,7 @@ public class UsersGetPresenceResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> apiMethodUsersGetPresence;
+
     public UsersGetPresenceResponse withAPIMethodUsersGetPresence(java.util.Map<String, java.util.Map<String, Object>> apiMethodUsersGetPresence) {
         this.apiMethodUsersGetPresence = apiMethodUsersGetPresence;
         return this;
@@ -20,6 +21,7 @@ public class UsersGetPresenceResponse {
     
     
     public String contentType;
+
     public UsersGetPresenceResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -27,6 +29,7 @@ public class UsersGetPresenceResponse {
     
     
     public Integer statusCode;
+
     public UsersGetPresenceResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -34,6 +37,7 @@ public class UsersGetPresenceResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public UsersGetPresenceResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -44,6 +48,7 @@ public class UsersGetPresenceResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersCountsErrorSchema;
+
     public UsersGetPresenceResponse withUsersCountsErrorSchema(java.util.Map<String, java.util.Map<String, Object>> usersCountsErrorSchema) {
         this.usersCountsErrorSchema = usersCountsErrorSchema;
         return this;

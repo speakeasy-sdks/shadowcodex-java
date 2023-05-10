@@ -12,6 +12,7 @@ public class AdminConversationsInviteApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsInviteApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -22,6 +23,7 @@ public class AdminConversationsInviteApplicationJSON {
      */
     @JsonProperty("user_ids")
     public String userIds;
+
     public AdminConversationsInviteApplicationJSON withUserIds(String userIds) {
         this.userIds = userIds;
         return this;

@@ -13,6 +13,7 @@ public class AuthRevokeRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=test")
     public Boolean test;
+
     public AuthRevokeRequest withTest(Boolean test) {
         this.test = test;
         return this;
@@ -23,6 +24,7 @@ public class AuthRevokeRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AuthRevokeRequest withToken(String token) {
         this.token = token;
         return this;

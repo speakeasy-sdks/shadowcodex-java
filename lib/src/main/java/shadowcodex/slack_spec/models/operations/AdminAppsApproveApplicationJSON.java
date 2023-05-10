@@ -15,6 +15,7 @@ public class AdminAppsApproveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("app_id")
     public String appId;
+
     public AdminAppsApproveApplicationJSON withAppId(String appId) {
         this.appId = appId;
         return this;
@@ -26,6 +27,7 @@ public class AdminAppsApproveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("request_id")
     public String requestId;
+
     public AdminAppsApproveApplicationJSON withRequestId(String requestId) {
         this.requestId = requestId;
         return this;
@@ -34,6 +36,7 @@ public class AdminAppsApproveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminAppsApproveApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

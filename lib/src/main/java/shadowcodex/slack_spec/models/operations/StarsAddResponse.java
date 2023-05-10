@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class StarsAddResponse {
     
     public String contentType;
+
     public StarsAddResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class StarsAddResponse {
     
     
     public Integer statusCode;
+
     public StarsAddResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class StarsAddResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public StarsAddResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class StarsAddResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> starsAddErrorSchema;
+
     public StarsAddResponse withStarsAddErrorSchema(java.util.Map<String, java.util.Map<String, Object>> starsAddErrorSchema) {
         this.starsAddErrorSchema = starsAddErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class StarsAddResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> starsAddSchema;
+
     public StarsAddResponse withStarsAddSchema(java.util.Map<String, java.util.Map<String, Object>> starsAddSchema) {
         this.starsAddSchema = starsAddSchema;
         return this;

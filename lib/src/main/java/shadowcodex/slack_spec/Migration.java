@@ -31,6 +31,14 @@ public class Migration {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * For Enterprise Grid workspaces, map local user IDs to global user IDs
+     * https://api.slack.com/methods/migration.exchange - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.MigrationExchangeResponse migrationExchange(shadowcodex.slack_spec.models.operations.MigrationExchangeRequest request, shadowcodex.slack_spec.models.operations.MigrationExchangeSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/migration.exchange");

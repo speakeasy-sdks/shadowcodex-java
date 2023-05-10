@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminTeamsSettingsSetIconResponse {
     
     public String contentType;
+
     public AdminTeamsSettingsSetIconResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class AdminTeamsSettingsSetIconResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public AdminTeamsSettingsSetIconResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class AdminTeamsSettingsSetIconResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public AdminTeamsSettingsSetIconResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class AdminTeamsSettingsSetIconResponse {
     
     
     public Integer statusCode;
+
     public AdminTeamsSettingsSetIconResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class AdminTeamsSettingsSetIconResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminTeamsSettingsSetIconResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

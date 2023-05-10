@@ -13,6 +13,7 @@ public class UsersDeletePhotoRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public UsersDeletePhotoRequestBody withToken(String token) {
         this.token = token;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesDeleteResponse {
     
     public String contentType;
+
     public FilesDeleteResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class FilesDeleteResponse {
     
     
     public Integer statusCode;
+
     public FilesDeleteResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class FilesDeleteResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesDeleteResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class FilesDeleteResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesDeleteErrorSchema;
+
     public FilesDeleteResponse withFilesDeleteErrorSchema(java.util.Map<String, java.util.Map<String, Object>> filesDeleteErrorSchema) {
         this.filesDeleteErrorSchema = filesDeleteErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class FilesDeleteResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesDeleteSchema;
+
     public FilesDeleteResponse withFilesDeleteSchema(java.util.Map<String, java.util.Map<String, Object>> filesDeleteSchema) {
         this.filesDeleteSchema = filesDeleteSchema;
         return this;

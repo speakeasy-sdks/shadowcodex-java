@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class UsersProfileSetResponse {
     
     public String contentType;
+
     public UsersProfileSetResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class UsersProfileSetResponse {
     
     
     public Integer statusCode;
+
     public UsersProfileSetResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class UsersProfileSetResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public UsersProfileSetResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class UsersProfileSetResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersProfileSetErrorSchema;
+
     public UsersProfileSetResponse withUsersProfileSetErrorSchema(java.util.Map<String, java.util.Map<String, Object>> usersProfileSetErrorSchema) {
         this.usersProfileSetErrorSchema = usersProfileSetErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class UsersProfileSetResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersProfileSetSchema;
+
     public UsersProfileSetResponse withUsersProfileSetSchema(java.util.Map<String, java.util.Map<String, Object>> usersProfileSetSchema) {
         this.usersProfileSetSchema = usersProfileSetSchema;
         return this;

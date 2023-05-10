@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AuthRevokeResponse {
     
     public String contentType;
+
     public AuthRevokeResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AuthRevokeResponse {
     
     
     public Integer statusCode;
+
     public AuthRevokeResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AuthRevokeResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AuthRevokeResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AuthRevokeResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> authRevokeErrorSchema;
+
     public AuthRevokeResponse withAuthRevokeErrorSchema(java.util.Map<String, java.util.Map<String, Object>> authRevokeErrorSchema) {
         this.authRevokeErrorSchema = authRevokeErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AuthRevokeResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> authRevokeSchema;
+
     public AuthRevokeResponse withAuthRevokeSchema(java.util.Map<String, java.util.Map<String, Object>> authRevokeSchema) {
         this.authRevokeSchema = authRevokeSchema;
         return this;

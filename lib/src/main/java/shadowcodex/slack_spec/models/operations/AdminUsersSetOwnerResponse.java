@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminUsersSetOwnerResponse {
     
     public String contentType;
+
     public AdminUsersSetOwnerResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class AdminUsersSetOwnerResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public AdminUsersSetOwnerResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class AdminUsersSetOwnerResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public AdminUsersSetOwnerResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class AdminUsersSetOwnerResponse {
     
     
     public Integer statusCode;
+
     public AdminUsersSetOwnerResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class AdminUsersSetOwnerResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminUsersSetOwnerResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

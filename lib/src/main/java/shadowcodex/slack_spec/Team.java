@@ -31,6 +31,14 @@ public class Team {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Gets the access logs for the current team.
+     * https://api.slack.com/methods/team.accessLogs - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.TeamAccessLogsResponse teamAccessLogs(shadowcodex.slack_spec.models.operations.TeamAccessLogsRequest request, shadowcodex.slack_spec.models.operations.TeamAccessLogsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/team.accessLogs");
@@ -76,6 +84,14 @@ public class Team {
         return res;
     }
 
+    /**
+     * Gets billable users information for the current team.
+     * https://api.slack.com/methods/team.billableInfo - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.TeamBillableInfoResponse teamBillableInfo(shadowcodex.slack_spec.models.operations.TeamBillableInfoRequest request, shadowcodex.slack_spec.models.operations.TeamBillableInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/team.billableInfo");
@@ -121,6 +137,14 @@ public class Team {
         return res;
     }
 
+    /**
+     * Gets information about the current team.
+     * https://api.slack.com/methods/team.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.TeamInfoResponse teamInfo(shadowcodex.slack_spec.models.operations.TeamInfoRequest request, shadowcodex.slack_spec.models.operations.TeamInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/team.info");
@@ -166,6 +190,14 @@ public class Team {
         return res;
     }
 
+    /**
+     * Gets the integration logs for the current team.
+     * https://api.slack.com/methods/team.integrationLogs - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.TeamIntegrationLogsResponse teamIntegrationLogs(shadowcodex.slack_spec.models.operations.TeamIntegrationLogsRequest request, shadowcodex.slack_spec.models.operations.TeamIntegrationLogsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/team.integrationLogs");
@@ -211,6 +243,14 @@ public class Team {
         return res;
     }
 
+    /**
+     * Retrieve a team's profile.
+     * https://api.slack.com/methods/team.profile.get - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.TeamProfileGetResponse teamProfileGet(shadowcodex.slack_spec.models.operations.TeamProfileGetRequest request, shadowcodex.slack_spec.models.operations.TeamProfileGetSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/team.profile.get");

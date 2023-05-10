@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminAppsRestrictedListResponse {
     
     public String contentType;
+
     public AdminAppsRestrictedListResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class AdminAppsRestrictedListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public AdminAppsRestrictedListResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class AdminAppsRestrictedListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public AdminAppsRestrictedListResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class AdminAppsRestrictedListResponse {
     
     
     public Integer statusCode;
+
     public AdminAppsRestrictedListResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class AdminAppsRestrictedListResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminAppsRestrictedListResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ChatGetPermalinkResponse {
     
     public String contentType;
+
     public ChatGetPermalinkResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ChatGetPermalinkResponse {
     
     
     public Integer statusCode;
+
     public ChatGetPermalinkResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ChatGetPermalinkResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ChatGetPermalinkResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ChatGetPermalinkResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatGetPermalinkErrorSchema;
+
     public ChatGetPermalinkResponse withChatGetPermalinkErrorSchema(java.util.Map<String, java.util.Map<String, Object>> chatGetPermalinkErrorSchema) {
         this.chatGetPermalinkErrorSchema = chatGetPermalinkErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ChatGetPermalinkResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatGetPermalinkSuccessSchema;
+
     public ChatGetPermalinkResponse withChatGetPermalinkSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> chatGetPermalinkSuccessSchema) {
         this.chatGetPermalinkSuccessSchema = chatGetPermalinkSuccessSchema;
         return this;

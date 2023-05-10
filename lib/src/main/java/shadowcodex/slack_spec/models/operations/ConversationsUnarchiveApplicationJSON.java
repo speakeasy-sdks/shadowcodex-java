@@ -15,6 +15,7 @@ public class ConversationsUnarchiveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsUnarchiveApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;

@@ -15,6 +15,7 @@ public class UsergroupsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channels")
     public String channels;
+
     public UsergroupsCreateApplicationJSON withChannels(String channels) {
         this.channels = channels;
         return this;
@@ -26,6 +27,7 @@ public class UsergroupsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("description")
     public String description;
+
     public UsergroupsCreateApplicationJSON withDescription(String description) {
         this.description = description;
         return this;
@@ -37,6 +39,7 @@ public class UsergroupsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("handle")
     public String handle;
+
     public UsergroupsCreateApplicationJSON withHandle(String handle) {
         this.handle = handle;
         return this;
@@ -48,6 +51,7 @@ public class UsergroupsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("include_count")
     public Boolean includeCount;
+
     public UsergroupsCreateApplicationJSON withIncludeCount(Boolean includeCount) {
         this.includeCount = includeCount;
         return this;
@@ -58,6 +62,7 @@ public class UsergroupsCreateApplicationJSON {
      */
     @JsonProperty("name")
     public String name;
+
     public UsergroupsCreateApplicationJSON withName(String name) {
         this.name = name;
         return this;

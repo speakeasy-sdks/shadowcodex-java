@@ -12,6 +12,7 @@ public class DndTeamInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public DndTeamInfoRequest withToken(String token) {
         this.token = token;
         return this;
@@ -22,6 +23,7 @@ public class DndTeamInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=users")
     public String users;
+
     public DndTeamInfoRequest withUsers(String users) {
         this.users = users;
         return this;

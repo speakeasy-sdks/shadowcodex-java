@@ -15,6 +15,7 @@ public class ConversationsKickApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsKickApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class ConversationsKickApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("user")
     public String user;
+
     public ConversationsKickApplicationJSON withUser(String user) {
         this.user = user;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminConversationsDisconnectSharedResponse {
     
     public String contentType;
+
     public AdminConversationsDisconnectSharedResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AdminConversationsDisconnectSharedResponse {
     
     
     public Integer statusCode;
+
     public AdminConversationsDisconnectSharedResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AdminConversationsDisconnectSharedResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminConversationsDisconnectSharedResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AdminConversationsDisconnectSharedResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsDisconnectSharedErrorSchema;
+
     public AdminConversationsDisconnectSharedResponse withAdminConversationsDisconnectSharedErrorSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsDisconnectSharedErrorSchema) {
         this.adminConversationsDisconnectSharedErrorSchema = adminConversationsDisconnectSharedErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AdminConversationsDisconnectSharedResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsRenameSchema;
+
     public AdminConversationsDisconnectSharedResponse withAdminConversationsRenameSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsRenameSchema) {
         this.adminConversationsRenameSchema = adminConversationsRenameSchema;
         return this;

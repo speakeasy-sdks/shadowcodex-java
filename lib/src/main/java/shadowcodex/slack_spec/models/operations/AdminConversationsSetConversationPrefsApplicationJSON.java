@@ -12,6 +12,7 @@ public class AdminConversationsSetConversationPrefsApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsSetConversationPrefsApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -22,6 +23,7 @@ public class AdminConversationsSetConversationPrefsApplicationJSON {
      */
     @JsonProperty("prefs")
     public String prefs;
+
     public AdminConversationsSetConversationPrefsApplicationJSON withPrefs(String prefs) {
         this.prefs = prefs;
         return this;

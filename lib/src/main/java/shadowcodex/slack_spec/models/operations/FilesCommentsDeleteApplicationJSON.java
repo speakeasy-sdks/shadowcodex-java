@@ -15,6 +15,7 @@ public class FilesCommentsDeleteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("file")
     public String file;
+
     public FilesCommentsDeleteApplicationJSON withFile(String file) {
         this.file = file;
         return this;
@@ -26,6 +27,7 @@ public class FilesCommentsDeleteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("id")
     public String id;
+
     public FilesCommentsDeleteApplicationJSON withId(String id) {
         this.id = id;
         return this;

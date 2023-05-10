@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class TeamIntegrationLogsResponse {
     
     public String contentType;
+
     public TeamIntegrationLogsResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class TeamIntegrationLogsResponse {
     
     
     public Integer statusCode;
+
     public TeamIntegrationLogsResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class TeamIntegrationLogsResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public TeamIntegrationLogsResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class TeamIntegrationLogsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> teamIntegrationLogsErrorSchema;
+
     public TeamIntegrationLogsResponse withTeamIntegrationLogsErrorSchema(java.util.Map<String, java.util.Map<String, Object>> teamIntegrationLogsErrorSchema) {
         this.teamIntegrationLogsErrorSchema = teamIntegrationLogsErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class TeamIntegrationLogsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> teamIntegrationLogsSchema;
+
     public TeamIntegrationLogsResponse withTeamIntegrationLogsSchema(java.util.Map<String, java.util.Map<String, Object>> teamIntegrationLogsSchema) {
         this.teamIntegrationLogsSchema = teamIntegrationLogsSchema;
         return this;

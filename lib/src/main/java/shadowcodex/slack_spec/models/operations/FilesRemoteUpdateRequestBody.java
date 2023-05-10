@@ -12,6 +12,7 @@ public class FilesRemoteUpdateRequestBody {
      */
     @SpeakeasyMetadata("form:name=external_id")
     public String externalId;
+
     public FilesRemoteUpdateRequestBody withExternalId(String externalId) {
         this.externalId = externalId;
         return this;
@@ -22,6 +23,7 @@ public class FilesRemoteUpdateRequestBody {
      */
     @SpeakeasyMetadata("form:name=external_url")
     public String externalUrl;
+
     public FilesRemoteUpdateRequestBody withExternalUrl(String externalUrl) {
         this.externalUrl = externalUrl;
         return this;
@@ -32,6 +34,7 @@ public class FilesRemoteUpdateRequestBody {
      */
     @SpeakeasyMetadata("form:name=file")
     public String file;
+
     public FilesRemoteUpdateRequestBody withFile(String file) {
         this.file = file;
         return this;
@@ -42,6 +45,7 @@ public class FilesRemoteUpdateRequestBody {
      */
     @SpeakeasyMetadata("form:name=filetype")
     public String filetype;
+
     public FilesRemoteUpdateRequestBody withFiletype(String filetype) {
         this.filetype = filetype;
         return this;
@@ -52,6 +56,7 @@ public class FilesRemoteUpdateRequestBody {
      */
     @SpeakeasyMetadata("form:name=indexable_file_contents")
     public String indexableFileContents;
+
     public FilesRemoteUpdateRequestBody withIndexableFileContents(String indexableFileContents) {
         this.indexableFileContents = indexableFileContents;
         return this;
@@ -62,6 +67,7 @@ public class FilesRemoteUpdateRequestBody {
      */
     @SpeakeasyMetadata("form:name=preview_image")
     public String previewImage;
+
     public FilesRemoteUpdateRequestBody withPreviewImage(String previewImage) {
         this.previewImage = previewImage;
         return this;
@@ -72,6 +78,7 @@ public class FilesRemoteUpdateRequestBody {
      */
     @SpeakeasyMetadata("form:name=title")
     public String title;
+
     public FilesRemoteUpdateRequestBody withTitle(String title) {
         this.title = title;
         return this;
@@ -82,6 +89,7 @@ public class FilesRemoteUpdateRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public FilesRemoteUpdateRequestBody withToken(String token) {
         this.token = token;
         return this;

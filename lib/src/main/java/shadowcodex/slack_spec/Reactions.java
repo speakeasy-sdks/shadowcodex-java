@@ -32,6 +32,14 @@ public class Reactions {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Adds a reaction to an item.
+     * https://api.slack.com/methods/reactions.add - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ReactionsAddResponse reactionsAdd(shadowcodex.slack_spec.models.operations.ReactionsAddRequest request, shadowcodex.slack_spec.models.operations.ReactionsAddSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reactions.add");
@@ -84,6 +92,14 @@ public class Reactions {
         return res;
     }
 
+    /**
+     * Gets reactions for an item.
+     * https://api.slack.com/methods/reactions.get - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ReactionsGetResponse reactionsGet(shadowcodex.slack_spec.models.operations.ReactionsGetRequest request, shadowcodex.slack_spec.models.operations.ReactionsGetSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reactions.get");
@@ -129,6 +145,14 @@ public class Reactions {
         return res;
     }
 
+    /**
+     * Lists reactions made by a user.
+     * https://api.slack.com/methods/reactions.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ReactionsListResponse reactionsList(shadowcodex.slack_spec.models.operations.ReactionsListRequest request, shadowcodex.slack_spec.models.operations.ReactionsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reactions.list");
@@ -174,6 +198,14 @@ public class Reactions {
         return res;
     }
 
+    /**
+     * Removes a reaction from an item.
+     * https://api.slack.com/methods/reactions.remove - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ReactionsRemoveResponse reactionsRemove(shadowcodex.slack_spec.models.operations.ReactionsRemoveRequest request, shadowcodex.slack_spec.models.operations.ReactionsRemoveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reactions.remove");

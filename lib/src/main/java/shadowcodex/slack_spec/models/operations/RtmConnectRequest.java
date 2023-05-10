@@ -13,6 +13,7 @@ public class RtmConnectRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=batch_presence_aware")
     public Boolean batchPresenceAware;
+
     public RtmConnectRequest withBatchPresenceAware(Boolean batchPresenceAware) {
         this.batchPresenceAware = batchPresenceAware;
         return this;
@@ -23,6 +24,7 @@ public class RtmConnectRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=presence_sub")
     public Boolean presenceSub;
+
     public RtmConnectRequest withPresenceSub(Boolean presenceSub) {
         this.presenceSub = presenceSub;
         return this;
@@ -33,6 +35,7 @@ public class RtmConnectRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public RtmConnectRequest withToken(String token) {
         this.token = token;
         return this;

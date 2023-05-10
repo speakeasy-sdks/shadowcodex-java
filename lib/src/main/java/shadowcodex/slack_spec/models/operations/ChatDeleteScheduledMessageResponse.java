@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ChatDeleteScheduledMessageResponse {
     
     public String contentType;
+
     public ChatDeleteScheduledMessageResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ChatDeleteScheduledMessageResponse {
     
     
     public Integer statusCode;
+
     public ChatDeleteScheduledMessageResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ChatDeleteScheduledMessageResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ChatDeleteScheduledMessageResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ChatDeleteScheduledMessageResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatDeleteScheduledMessageErrorSchema;
+
     public ChatDeleteScheduledMessageResponse withChatDeleteScheduledMessageErrorSchema(java.util.Map<String, java.util.Map<String, Object>> chatDeleteScheduledMessageErrorSchema) {
         this.chatDeleteScheduledMessageErrorSchema = chatDeleteScheduledMessageErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ChatDeleteScheduledMessageResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatDeleteScheduledMessageSchema;
+
     public ChatDeleteScheduledMessageResponse withChatDeleteScheduledMessageSchema(java.util.Map<String, java.util.Map<String, Object>> chatDeleteScheduledMessageSchema) {
         this.chatDeleteScheduledMessageSchema = chatDeleteScheduledMessageSchema;
         return this;

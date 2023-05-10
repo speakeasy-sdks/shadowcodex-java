@@ -12,6 +12,7 @@ public class CallsParticipantsRemoveApplicationJSON {
      */
     @JsonProperty("id")
     public String id;
+
     public CallsParticipantsRemoveApplicationJSON withId(String id) {
         this.id = id;
         return this;
@@ -22,6 +23,7 @@ public class CallsParticipantsRemoveApplicationJSON {
      */
     @JsonProperty("users")
     public String users;
+
     public CallsParticipantsRemoveApplicationJSON withUsers(String users) {
         this.users = users;
         return this;

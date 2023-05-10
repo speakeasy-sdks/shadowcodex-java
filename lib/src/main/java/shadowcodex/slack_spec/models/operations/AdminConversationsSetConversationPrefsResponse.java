@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminConversationsSetConversationPrefsResponse {
     
     public String contentType;
+
     public AdminConversationsSetConversationPrefsResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AdminConversationsSetConversationPrefsResponse {
     
     
     public Integer statusCode;
+
     public AdminConversationsSetConversationPrefsResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AdminConversationsSetConversationPrefsResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminConversationsSetConversationPrefsResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AdminConversationsSetConversationPrefsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsSetConversationPrefsErrorSchema;
+
     public AdminConversationsSetConversationPrefsResponse withAdminConversationsSetConversationPrefsErrorSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsSetConversationPrefsErrorSchema) {
         this.adminConversationsSetConversationPrefsErrorSchema = adminConversationsSetConversationPrefsErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AdminConversationsSetConversationPrefsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsSetConversationPrefsSchema;
+
     public AdminConversationsSetConversationPrefsResponse withAdminConversationsSetConversationPrefsSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsSetConversationPrefsSchema) {
         this.adminConversationsSetConversationPrefsSchema = adminConversationsSetConversationPrefsSchema;
         return this;

@@ -13,6 +13,7 @@ public class ViewsUpdateRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=external_id")
     public String externalId;
+
     public ViewsUpdateRequest withExternalId(String externalId) {
         this.externalId = externalId;
         return this;
@@ -23,6 +24,7 @@ public class ViewsUpdateRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=hash")
     public String hash;
+
     public ViewsUpdateRequest withHash(String hash) {
         this.hash = hash;
         return this;
@@ -33,6 +35,7 @@ public class ViewsUpdateRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public ViewsUpdateRequest withToken(String token) {
         this.token = token;
         return this;
@@ -43,6 +46,7 @@ public class ViewsUpdateRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=view")
     public String view;
+
     public ViewsUpdateRequest withView(String view) {
         this.view = view;
         return this;
@@ -53,6 +57,7 @@ public class ViewsUpdateRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=view_id")
     public String viewId;
+
     public ViewsUpdateRequest withViewId(String viewId) {
         this.viewId = viewId;
         return this;

@@ -32,6 +32,14 @@ public class AdminInviteRequests {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Approve a workspace invite request.
+     * https://api.slack.com/methods/admin.inviteRequests.approve - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminInviteRequestsApproveResponse adminInviteRequestsApprove(shadowcodex.slack_spec.models.operations.AdminInviteRequestsApproveRequest request, shadowcodex.slack_spec.models.operations.AdminInviteRequestsApproveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.inviteRequests.approve");
@@ -84,6 +92,14 @@ public class AdminInviteRequests {
         return res;
     }
 
+    /**
+     * Deny a workspace invite request.
+     * https://api.slack.com/methods/admin.inviteRequests.deny - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminInviteRequestsDenyResponse adminInviteRequestsDeny(shadowcodex.slack_spec.models.operations.AdminInviteRequestsDenyRequest request, shadowcodex.slack_spec.models.operations.AdminInviteRequestsDenySecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.inviteRequests.deny");
@@ -136,6 +152,14 @@ public class AdminInviteRequests {
         return res;
     }
 
+    /**
+     * List all pending workspace invite requests.
+     * https://api.slack.com/methods/admin.inviteRequests.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminInviteRequestsListResponse adminInviteRequestsList(shadowcodex.slack_spec.models.operations.AdminInviteRequestsListRequest request, shadowcodex.slack_spec.models.operations.AdminInviteRequestsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.inviteRequests.list");

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ReactionsGetResponse {
     
     public String contentType;
+
     public ReactionsGetResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ReactionsGetResponse {
     
     
     public Integer statusCode;
+
     public ReactionsGetResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ReactionsGetResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ReactionsGetResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ReactionsGetResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> reactionsGetErrorSchema;
+
     public ReactionsGetResponse withReactionsGetErrorSchema(java.util.Map<String, java.util.Map<String, Object>> reactionsGetErrorSchema) {
         this.reactionsGetErrorSchema = reactionsGetErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ReactionsGetResponse {
      */
     
     public java.util.Map<String, Object> reactionsGetSuccessSchema;
+
     public ReactionsGetResponse withReactionsGetSuccessSchema(java.util.Map<String, Object> reactionsGetSuccessSchema) {
         this.reactionsGetSuccessSchema = reactionsGetSuccessSchema;
         return this;

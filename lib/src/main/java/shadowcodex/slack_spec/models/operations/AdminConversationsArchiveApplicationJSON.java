@@ -12,6 +12,7 @@ public class AdminConversationsArchiveApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsArchiveApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;

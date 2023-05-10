@@ -13,6 +13,7 @@ public class AdminTeamsOwnersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public AdminTeamsOwnersListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -23,6 +24,7 @@ public class AdminTeamsOwnersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public AdminTeamsOwnersListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -30,6 +32,7 @@ public class AdminTeamsOwnersListRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_id")
     public String teamId;
+
     public AdminTeamsOwnersListRequest withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -40,6 +43,7 @@ public class AdminTeamsOwnersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AdminTeamsOwnersListRequest withToken(String token) {
         this.token = token;
         return this;

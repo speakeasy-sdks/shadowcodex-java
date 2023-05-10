@@ -12,6 +12,7 @@ public class ChatScheduledMessagesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public ChatScheduledMessagesListRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -22,6 +23,7 @@ public class ChatScheduledMessagesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public ChatScheduledMessagesListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -32,6 +34,7 @@ public class ChatScheduledMessagesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=latest")
     public Double latest;
+
     public ChatScheduledMessagesListRequest withLatest(Double latest) {
         this.latest = latest;
         return this;
@@ -42,6 +45,7 @@ public class ChatScheduledMessagesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public ChatScheduledMessagesListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -52,6 +56,7 @@ public class ChatScheduledMessagesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=oldest")
     public Double oldest;
+
     public ChatScheduledMessagesListRequest withOldest(Double oldest) {
         this.oldest = oldest;
         return this;
@@ -62,6 +67,7 @@ public class ChatScheduledMessagesListRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public ChatScheduledMessagesListRequest withToken(String token) {
         this.token = token;
         return this;

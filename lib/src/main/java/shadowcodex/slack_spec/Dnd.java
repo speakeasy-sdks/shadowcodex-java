@@ -32,6 +32,14 @@ public class Dnd {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Ends the current user's Do Not Disturb session immediately.
+     * https://api.slack.com/methods/dnd.endDnd - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.DndEndDndResponse dndEndDnd(shadowcodex.slack_spec.models.operations.DndEndDndRequest request, shadowcodex.slack_spec.models.operations.DndEndDndSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/dnd.endDnd");
@@ -79,6 +87,14 @@ public class Dnd {
         return res;
     }
 
+    /**
+     * Ends the current user's snooze mode immediately.
+     * https://api.slack.com/methods/dnd.endSnooze - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.DndEndSnoozeResponse dndEndSnooze(shadowcodex.slack_spec.models.operations.DndEndSnoozeRequest request, shadowcodex.slack_spec.models.operations.DndEndSnoozeSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/dnd.endSnooze");
@@ -126,6 +142,14 @@ public class Dnd {
         return res;
     }
 
+    /**
+     * Retrieves a user's current Do Not Disturb status.
+     * https://api.slack.com/methods/dnd.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.DndInfoResponse dndInfo(shadowcodex.slack_spec.models.operations.DndInfoRequest request, shadowcodex.slack_spec.models.operations.DndInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/dnd.info");
@@ -171,6 +195,14 @@ public class Dnd {
         return res;
     }
 
+    /**
+     * Turns on Do Not Disturb mode for the current user, or changes its duration.
+     * https://api.slack.com/methods/dnd.setSnooze - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.DndSetSnoozeResponse dndSetSnooze(shadowcodex.slack_spec.models.operations.DndSetSnoozeRequestBody request, shadowcodex.slack_spec.models.operations.DndSetSnoozeSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/dnd.setSnooze");
@@ -215,6 +247,14 @@ public class Dnd {
         return res;
     }
 
+    /**
+     * Retrieves the Do Not Disturb status for up to 50 users on a team.
+     * https://api.slack.com/methods/dnd.teamInfo - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.DndTeamInfoResponse dndTeamInfo(shadowcodex.slack_spec.models.operations.DndTeamInfoRequest request, shadowcodex.slack_spec.models.operations.DndTeamInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/dnd.teamInfo");

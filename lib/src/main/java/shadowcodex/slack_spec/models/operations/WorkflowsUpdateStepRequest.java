@@ -13,6 +13,7 @@ public class WorkflowsUpdateStepRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=inputs")
     public String inputs;
+
     public WorkflowsUpdateStepRequest withInputs(String inputs) {
         this.inputs = inputs;
         return this;
@@ -23,6 +24,7 @@ public class WorkflowsUpdateStepRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=outputs")
     public String outputs;
+
     public WorkflowsUpdateStepRequest withOutputs(String outputs) {
         this.outputs = outputs;
         return this;
@@ -33,6 +35,7 @@ public class WorkflowsUpdateStepRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=step_image_url")
     public String stepImageUrl;
+
     public WorkflowsUpdateStepRequest withStepImageUrl(String stepImageUrl) {
         this.stepImageUrl = stepImageUrl;
         return this;
@@ -43,6 +46,7 @@ public class WorkflowsUpdateStepRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=step_name")
     public String stepName;
+
     public WorkflowsUpdateStepRequest withStepName(String stepName) {
         this.stepName = stepName;
         return this;
@@ -53,6 +57,7 @@ public class WorkflowsUpdateStepRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public WorkflowsUpdateStepRequest withToken(String token) {
         this.token = token;
         return this;
@@ -63,6 +68,7 @@ public class WorkflowsUpdateStepRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=workflow_step_edit_id")
     public String workflowStepEditId;
+
     public WorkflowsUpdateStepRequest withWorkflowStepEditId(String workflowStepEditId) {
         this.workflowStepEditId = workflowStepEditId;
         return this;

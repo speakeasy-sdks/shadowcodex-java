@@ -9,6 +9,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class FilesRevokePublicURLRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public FilesRevokePublicURLApplicationJSON requestBody;
+
     public FilesRevokePublicURLRequest withRequestBody(FilesRevokePublicURLApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -19,6 +20,7 @@ public class FilesRevokePublicURLRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public FilesRevokePublicURLRequest withToken(String token) {
         this.token = token;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ChatPostEphemeralResponse {
     
     public String contentType;
+
     public ChatPostEphemeralResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ChatPostEphemeralResponse {
     
     
     public Integer statusCode;
+
     public ChatPostEphemeralResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ChatPostEphemeralResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ChatPostEphemeralResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ChatPostEphemeralResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatPostEphemeralErrorSchema;
+
     public ChatPostEphemeralResponse withChatPostEphemeralErrorSchema(java.util.Map<String, java.util.Map<String, Object>> chatPostEphemeralErrorSchema) {
         this.chatPostEphemeralErrorSchema = chatPostEphemeralErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ChatPostEphemeralResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatPostEphemeralSuccessSchema;
+
     public ChatPostEphemeralResponse withChatPostEphemeralSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> chatPostEphemeralSuccessSchema) {
         this.chatPostEphemeralSuccessSchema = chatPostEphemeralSuccessSchema;
         return this;

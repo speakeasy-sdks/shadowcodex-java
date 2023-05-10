@@ -31,6 +31,14 @@ public class AdminApps {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Approve an app for installation on a workspace.
+     * https://api.slack.com/methods/admin.apps.approve - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminAppsApproveResponse adminAppsApprove(shadowcodex.slack_spec.models.operations.AdminAppsApproveRequest request, shadowcodex.slack_spec.models.operations.AdminAppsApproveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.apps.approve");
@@ -80,6 +88,14 @@ public class AdminApps {
         return res;
     }
 
+    /**
+     * Restrict an app for installation on a workspace.
+     * https://api.slack.com/methods/admin.apps.restrict - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminAppsRestrictResponse adminAppsRestrict(shadowcodex.slack_spec.models.operations.AdminAppsRestrictRequest request, shadowcodex.slack_spec.models.operations.AdminAppsRestrictSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.apps.restrict");

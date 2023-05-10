@@ -13,6 +13,7 @@ public class PinsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public PinsListRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -23,6 +24,7 @@ public class PinsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public PinsListRequest withToken(String token) {
         this.token = token;
         return this;

@@ -31,6 +31,14 @@ public class Bots {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Gets information about a bot user.
+     * https://api.slack.com/methods/bots.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.BotsInfoResponse botsInfo(shadowcodex.slack_spec.models.operations.BotsInfoRequest request, shadowcodex.slack_spec.models.operations.BotsInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/bots.info");

@@ -13,6 +13,7 @@ public class AdminConversationsSearchRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public AdminConversationsSearchRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -23,6 +24,7 @@ public class AdminConversationsSearchRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public AdminConversationsSearchRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -33,6 +35,7 @@ public class AdminConversationsSearchRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=query")
     public String query;
+
     public AdminConversationsSearchRequest withQuery(String query) {
         this.query = query;
         return this;
@@ -43,6 +46,7 @@ public class AdminConversationsSearchRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=search_channel_types")
     public String searchChannelTypes;
+
     public AdminConversationsSearchRequest withSearchChannelTypes(String searchChannelTypes) {
         this.searchChannelTypes = searchChannelTypes;
         return this;
@@ -53,6 +57,7 @@ public class AdminConversationsSearchRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=sort")
     public String sort;
+
     public AdminConversationsSearchRequest withSort(String sort) {
         this.sort = sort;
         return this;
@@ -63,6 +68,7 @@ public class AdminConversationsSearchRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=sort_dir")
     public String sortDir;
+
     public AdminConversationsSearchRequest withSortDir(String sortDir) {
         this.sortDir = sortDir;
         return this;
@@ -73,6 +79,7 @@ public class AdminConversationsSearchRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_ids")
     public String teamIds;
+
     public AdminConversationsSearchRequest withTeamIds(String teamIds) {
         this.teamIds = teamIds;
         return this;
@@ -83,6 +90,7 @@ public class AdminConversationsSearchRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminConversationsSearchRequest withToken(String token) {
         this.token = token;
         return this;

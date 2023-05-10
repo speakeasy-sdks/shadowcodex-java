@@ -15,6 +15,7 @@ public class ConversationsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("is_private")
     public Boolean isPrivate;
+
     public ConversationsCreateApplicationJSON withIsPrivate(Boolean isPrivate) {
         this.isPrivate = isPrivate;
         return this;
@@ -26,6 +27,7 @@ public class ConversationsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("name")
     public String name;
+
     public ConversationsCreateApplicationJSON withName(String name) {
         this.name = name;
         return this;

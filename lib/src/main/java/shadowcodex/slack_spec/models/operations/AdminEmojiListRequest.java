@@ -13,6 +13,7 @@ public class AdminEmojiListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public AdminEmojiListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -23,6 +24,7 @@ public class AdminEmojiListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public AdminEmojiListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -33,6 +35,7 @@ public class AdminEmojiListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AdminEmojiListRequest withToken(String token) {
         this.token = token;
         return this;

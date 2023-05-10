@@ -15,6 +15,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("as_user")
     public Boolean asUser;
+
     public ChatScheduleMessageApplicationJSON withAsUser(Boolean asUser) {
         this.asUser = asUser;
         return this;
@@ -26,6 +27,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("attachments")
     public String attachments;
+
     public ChatScheduleMessageApplicationJSON withAttachments(String attachments) {
         this.attachments = attachments;
         return this;
@@ -37,6 +39,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("blocks")
     public String blocks;
+
     public ChatScheduleMessageApplicationJSON withBlocks(String blocks) {
         this.blocks = blocks;
         return this;
@@ -48,6 +51,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ChatScheduleMessageApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -59,6 +63,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("link_names")
     public Boolean linkNames;
+
     public ChatScheduleMessageApplicationJSON withLinkNames(Boolean linkNames) {
         this.linkNames = linkNames;
         return this;
@@ -70,6 +75,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("parse")
     public String parse;
+
     public ChatScheduleMessageApplicationJSON withParse(String parse) {
         this.parse = parse;
         return this;
@@ -81,6 +87,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("post_at")
     public String postAt;
+
     public ChatScheduleMessageApplicationJSON withPostAt(String postAt) {
         this.postAt = postAt;
         return this;
@@ -92,6 +99,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("reply_broadcast")
     public Boolean replyBroadcast;
+
     public ChatScheduleMessageApplicationJSON withReplyBroadcast(Boolean replyBroadcast) {
         this.replyBroadcast = replyBroadcast;
         return this;
@@ -103,6 +111,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("text")
     public String text;
+
     public ChatScheduleMessageApplicationJSON withText(String text) {
         this.text = text;
         return this;
@@ -114,6 +123,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("thread_ts")
     public Double threadTs;
+
     public ChatScheduleMessageApplicationJSON withThreadTs(Double threadTs) {
         this.threadTs = threadTs;
         return this;
@@ -125,6 +135,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("unfurl_links")
     public Boolean unfurlLinks;
+
     public ChatScheduleMessageApplicationJSON withUnfurlLinks(Boolean unfurlLinks) {
         this.unfurlLinks = unfurlLinks;
         return this;
@@ -136,6 +147,7 @@ public class ChatScheduleMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("unfurl_media")
     public Boolean unfurlMedia;
+
     public ChatScheduleMessageApplicationJSON withUnfurlMedia(Boolean unfurlMedia) {
         this.unfurlMedia = unfurlMedia;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ChatScheduledMessagesListResponse {
     
     public String contentType;
+
     public ChatScheduledMessagesListResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ChatScheduledMessagesListResponse {
     
     
     public Integer statusCode;
+
     public ChatScheduledMessagesListResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ChatScheduledMessagesListResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ChatScheduledMessagesListResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ChatScheduledMessagesListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatScheduledMessagesListErrorSchema;
+
     public ChatScheduledMessagesListResponse withChatScheduledMessagesListErrorSchema(java.util.Map<String, java.util.Map<String, Object>> chatScheduledMessagesListErrorSchema) {
         this.chatScheduledMessagesListErrorSchema = chatScheduledMessagesListErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ChatScheduledMessagesListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatScheduledMessagesListSchema;
+
     public ChatScheduledMessagesListResponse withChatScheduledMessagesListSchema(java.util.Map<String, java.util.Map<String, Object>> chatScheduledMessagesListSchema) {
         this.chatScheduledMessagesListSchema = chatScheduledMessagesListSchema;
         return this;

@@ -32,6 +32,14 @@ public class AdminUsergroups {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Add one or more default channels to an IDP group.
+     * https://api.slack.com/methods/admin.usergroups.addChannels - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsergroupsAddChannelsResponse adminUsergroupsAddChannels(shadowcodex.slack_spec.models.operations.AdminUsergroupsAddChannelsRequest request, shadowcodex.slack_spec.models.operations.AdminUsergroupsAddChannelsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.usergroups.addChannels");
@@ -84,6 +92,14 @@ public class AdminUsergroups {
         return res;
     }
 
+    /**
+     * Associate one or more default workspaces with an organization-wide IDP group.
+     * https://api.slack.com/methods/admin.usergroups.addTeams - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsergroupsAddTeamsResponse adminUsergroupsAddTeams(shadowcodex.slack_spec.models.operations.AdminUsergroupsAddTeamsRequest request, shadowcodex.slack_spec.models.operations.AdminUsergroupsAddTeamsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.usergroups.addTeams");
@@ -136,6 +152,14 @@ public class AdminUsergroups {
         return res;
     }
 
+    /**
+     * List the channels linked to an org-level IDP group (user group).
+     * https://api.slack.com/methods/admin.usergroups.listChannels - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsergroupsListChannelsResponse adminUsergroupsListChannels(shadowcodex.slack_spec.models.operations.AdminUsergroupsListChannelsRequest request, shadowcodex.slack_spec.models.operations.AdminUsergroupsListChannelsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.usergroups.listChannels");
@@ -189,6 +213,14 @@ public class AdminUsergroups {
         return res;
     }
 
+    /**
+     * Remove one or more default channels from an org-level IDP group (user group).
+     * https://api.slack.com/methods/admin.usergroups.removeChannels - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsergroupsRemoveChannelsResponse adminUsergroupsRemoveChannels(shadowcodex.slack_spec.models.operations.AdminUsergroupsRemoveChannelsRequest request, shadowcodex.slack_spec.models.operations.AdminUsergroupsRemoveChannelsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.usergroups.removeChannels");

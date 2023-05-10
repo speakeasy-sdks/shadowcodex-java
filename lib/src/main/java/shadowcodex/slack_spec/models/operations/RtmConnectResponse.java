@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class RtmConnectResponse {
     
     public String contentType;
+
     public RtmConnectResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class RtmConnectResponse {
     
     
     public Integer statusCode;
+
     public RtmConnectResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class RtmConnectResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public RtmConnectResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class RtmConnectResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> rtmConnectErrorSchema;
+
     public RtmConnectResponse withRtmConnectErrorSchema(java.util.Map<String, java.util.Map<String, Object>> rtmConnectErrorSchema) {
         this.rtmConnectErrorSchema = rtmConnectErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class RtmConnectResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> rtmConnectSchema;
+
     public RtmConnectResponse withRtmConnectSchema(java.util.Map<String, java.util.Map<String, Object>> rtmConnectSchema) {
         this.rtmConnectSchema = rtmConnectSchema;
         return this;

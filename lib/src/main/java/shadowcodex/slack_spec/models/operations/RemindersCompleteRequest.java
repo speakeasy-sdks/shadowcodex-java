@@ -9,6 +9,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class RemindersCompleteRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public RemindersCompleteApplicationJSON requestBody;
+
     public RemindersCompleteRequest withRequestBody(RemindersCompleteApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -19,6 +20,7 @@ public class RemindersCompleteRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public RemindersCompleteRequest withToken(String token) {
         this.token = token;
         return this;

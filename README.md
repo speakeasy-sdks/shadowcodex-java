@@ -6,7 +6,7 @@
 ### Gradle
 
 ```groovy
-implementation 'shadowcodex.slack_spec:slack-spec:1.0.0'
+implementation 'shadowcodex.slack_spec:slack-spec:1.0.1'
 ```
 <!-- End SDK Installation -->
 

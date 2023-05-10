@@ -15,6 +15,7 @@ public class FilesSharedPublicURLApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("file")
     public String file;
+
     public FilesSharedPublicURLApplicationJSON withFile(String file) {
         this.file = file;
         return this;

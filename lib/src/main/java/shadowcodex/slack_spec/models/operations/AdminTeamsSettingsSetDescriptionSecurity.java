@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminTeamsSettingsSetDescriptionSecurity {
     @SpeakeasyMetadata("security:scheme=true,type=oauth2,name=Authorization")
     public String slackAuth;
+
     public AdminTeamsSettingsSetDescriptionSecurity withSlackAuth(String slackAuth) {
         this.slackAuth = slackAuth;
         return this;

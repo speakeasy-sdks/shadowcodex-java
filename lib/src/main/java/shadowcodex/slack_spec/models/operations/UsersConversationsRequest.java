@@ -12,6 +12,7 @@ public class UsersConversationsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public UsersConversationsRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -22,6 +23,7 @@ public class UsersConversationsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=exclude_archived")
     public Boolean excludeArchived;
+
     public UsersConversationsRequest withExcludeArchived(Boolean excludeArchived) {
         this.excludeArchived = excludeArchived;
         return this;
@@ -32,6 +34,7 @@ public class UsersConversationsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public UsersConversationsRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -42,6 +45,7 @@ public class UsersConversationsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public UsersConversationsRequest withToken(String token) {
         this.token = token;
         return this;
@@ -52,6 +56,7 @@ public class UsersConversationsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=types")
     public String types;
+
     public UsersConversationsRequest withTypes(String types) {
         this.types = types;
         return this;
@@ -62,6 +67,7 @@ public class UsersConversationsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=user")
     public String user;
+
     public UsersConversationsRequest withUser(String user) {
         this.user = user;
         return this;

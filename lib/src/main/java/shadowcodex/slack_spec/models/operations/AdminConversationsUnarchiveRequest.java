@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminConversationsUnarchiveRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminConversationsUnarchiveApplicationJSON requestBody;
+
     public AdminConversationsUnarchiveRequest withRequestBody(AdminConversationsUnarchiveApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminConversationsUnarchiveRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminConversationsUnarchiveRequest withToken(String token) {
         this.token = token;
         return this;

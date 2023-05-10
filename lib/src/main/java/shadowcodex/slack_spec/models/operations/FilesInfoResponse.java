@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesInfoResponse {
     
     public String contentType;
+
     public FilesInfoResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class FilesInfoResponse {
     
     
     public Integer statusCode;
+
     public FilesInfoResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class FilesInfoResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesInfoResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class FilesInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesInfoErrorSchema;
+
     public FilesInfoResponse withFilesInfoErrorSchema(java.util.Map<String, java.util.Map<String, Object>> filesInfoErrorSchema) {
         this.filesInfoErrorSchema = filesInfoErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class FilesInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesInfoSchema;
+
     public FilesInfoResponse withFilesInfoSchema(java.util.Map<String, java.util.Map<String, Object>> filesInfoSchema) {
         this.filesInfoSchema = filesInfoSchema;
         return this;

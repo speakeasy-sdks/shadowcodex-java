@@ -15,6 +15,7 @@ public class ConversationsCloseApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsCloseApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;

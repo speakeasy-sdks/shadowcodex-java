@@ -13,6 +13,7 @@ public class ChatGetPermalinkRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public ChatGetPermalinkRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -23,6 +24,7 @@ public class ChatGetPermalinkRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=message_ts")
     public String messageTs;
+
     public ChatGetPermalinkRequest withMessageTs(String messageTs) {
         this.messageTs = messageTs;
         return this;
@@ -33,6 +35,7 @@ public class ChatGetPermalinkRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public ChatGetPermalinkRequest withToken(String token) {
         this.token = token;
         return this;

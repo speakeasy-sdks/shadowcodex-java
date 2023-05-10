@@ -9,6 +9,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class ChatScheduleMessageRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public ChatScheduleMessageApplicationJSON requestBody;
+
     public ChatScheduleMessageRequest withRequestBody(ChatScheduleMessageApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -19,6 +20,7 @@ public class ChatScheduleMessageRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public ChatScheduleMessageRequest withToken(String token) {
         this.token = token;
         return this;

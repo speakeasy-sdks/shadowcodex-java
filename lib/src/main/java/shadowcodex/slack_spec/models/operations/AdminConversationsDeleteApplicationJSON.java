@@ -12,6 +12,7 @@ public class AdminConversationsDeleteApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsDeleteApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;

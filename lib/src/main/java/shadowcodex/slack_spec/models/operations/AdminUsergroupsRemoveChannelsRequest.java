@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminUsergroupsRemoveChannelsRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminUsergroupsRemoveChannelsApplicationJSON requestBody;
+
     public AdminUsergroupsRemoveChannelsRequest withRequestBody(AdminUsergroupsRemoveChannelsApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminUsergroupsRemoveChannelsRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminUsergroupsRemoveChannelsRequest withToken(String token) {
         this.token = token;
         return this;

@@ -31,6 +31,14 @@ public class AppsPermissionsScopes {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Returns list of scopes this app has on a team.
+     * https://api.slack.com/methods/apps.permissions.scopes.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsPermissionsScopesListResponse appsPermissionsScopesList(shadowcodex.slack_spec.models.operations.AppsPermissionsScopesListRequest request, shadowcodex.slack_spec.models.operations.AppsPermissionsScopesListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.permissions.scopes.list");

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ConversationsMarkResponse {
     
     public String contentType;
+
     public ConversationsMarkResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ConversationsMarkResponse {
     
     
     public Integer statusCode;
+
     public ConversationsMarkResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ConversationsMarkResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ConversationsMarkResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ConversationsMarkResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> conversationsMarkErrorSchema;
+
     public ConversationsMarkResponse withConversationsMarkErrorSchema(java.util.Map<String, java.util.Map<String, Object>> conversationsMarkErrorSchema) {
         this.conversationsMarkErrorSchema = conversationsMarkErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ConversationsMarkResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> conversationsMarkSuccessSchema;
+
     public ConversationsMarkResponse withConversationsMarkSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> conversationsMarkSuccessSchema) {
         this.conversationsMarkSuccessSchema = conversationsMarkSuccessSchema;
         return this;

@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class OauthTokenSecurity {
     @SpeakeasyMetadata("security:scheme=true,type=oauth2,name=Authorization")
     public String slackAuth;
+
     public OauthTokenSecurity withSlackAuth(String slackAuth) {
         this.slackAuth = slackAuth;
         return this;

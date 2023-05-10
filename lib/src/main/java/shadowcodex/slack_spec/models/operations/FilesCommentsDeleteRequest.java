@@ -9,6 +9,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class FilesCommentsDeleteRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public FilesCommentsDeleteApplicationJSON requestBody;
+
     public FilesCommentsDeleteRequest withRequestBody(FilesCommentsDeleteApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -19,6 +20,7 @@ public class FilesCommentsDeleteRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public FilesCommentsDeleteRequest withToken(String token) {
         this.token = token;
         return this;

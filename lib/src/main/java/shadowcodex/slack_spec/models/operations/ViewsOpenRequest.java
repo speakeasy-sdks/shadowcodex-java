@@ -13,6 +13,7 @@ public class ViewsOpenRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public ViewsOpenRequest withToken(String token) {
         this.token = token;
         return this;
@@ -23,6 +24,7 @@ public class ViewsOpenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=trigger_id")
     public String triggerId;
+
     public ViewsOpenRequest withTriggerId(String triggerId) {
         this.triggerId = triggerId;
         return this;
@@ -33,6 +35,7 @@ public class ViewsOpenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=view")
     public String view;
+
     public ViewsOpenRequest withView(String view) {
         this.view = view;
         return this;

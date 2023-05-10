@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminConversationsRestrictAccessListGroupsRequest {
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel_id")
     public String channelId;
+
     public AdminConversationsRestrictAccessListGroupsRequest withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -20,6 +21,7 @@ public class AdminConversationsRestrictAccessListGroupsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_id")
     public String teamId;
+
     public AdminConversationsRestrictAccessListGroupsRequest withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -30,6 +32,7 @@ public class AdminConversationsRestrictAccessListGroupsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AdminConversationsRestrictAccessListGroupsRequest withToken(String token) {
         this.token = token;
         return this;

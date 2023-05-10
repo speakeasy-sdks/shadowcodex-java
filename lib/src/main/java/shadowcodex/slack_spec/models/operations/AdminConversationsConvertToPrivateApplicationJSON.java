@@ -12,6 +12,7 @@ public class AdminConversationsConvertToPrivateApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsConvertToPrivateApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;

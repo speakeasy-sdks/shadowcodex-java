@@ -14,6 +14,7 @@ public class AdminInviteRequestsApproveApplicationJSON {
      */
     @JsonProperty("invite_request_id")
     public String inviteRequestId;
+
     public AdminInviteRequestsApproveApplicationJSON withInviteRequestId(String inviteRequestId) {
         this.inviteRequestId = inviteRequestId;
         return this;
@@ -25,6 +26,7 @@ public class AdminInviteRequestsApproveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminInviteRequestsApproveApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

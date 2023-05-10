@@ -31,6 +31,14 @@ public class AdminUsersSession {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Invalidate a single session for a user by session_id
+     * https://api.slack.com/methods/admin.users.session.invalidate - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersSessionInvalidateResponse adminUsersSessionInvalidate(shadowcodex.slack_spec.models.operations.AdminUsersSessionInvalidateRequest request, shadowcodex.slack_spec.models.operations.AdminUsersSessionInvalidateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.session.invalidate");
@@ -83,6 +91,14 @@ public class AdminUsersSession {
         return res;
     }
 
+    /**
+     * Wipes all valid sessions on all devices for a given user
+     * https://api.slack.com/methods/admin.users.session.reset - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminUsersSessionResetResponse adminUsersSessionReset(shadowcodex.slack_spec.models.operations.AdminUsersSessionResetRequest request, shadowcodex.slack_spec.models.operations.AdminUsersSessionResetSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.users.session.reset");

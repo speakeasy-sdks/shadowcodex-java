@@ -31,6 +31,14 @@ public class AdminTeamsAdmins {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * List all of the admins on a given workspace.
+     * https://api.slack.com/methods/admin.teams.admins.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsAdminsListResponse adminTeamsAdminsList(shadowcodex.slack_spec.models.operations.AdminTeamsAdminsListRequest request, shadowcodex.slack_spec.models.operations.AdminTeamsAdminsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.admins.list");

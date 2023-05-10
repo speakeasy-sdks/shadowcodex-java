@@ -32,6 +32,14 @@ public class Usergroups {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Create a User Group
+     * https://api.slack.com/methods/usergroups.create - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsergroupsCreateResponse usergroupsCreate(shadowcodex.slack_spec.models.operations.UsergroupsCreateRequest request, shadowcodex.slack_spec.models.operations.UsergroupsCreateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/usergroups.create");
@@ -84,6 +92,14 @@ public class Usergroups {
         return res;
     }
 
+    /**
+     * Disable an existing User Group
+     * https://api.slack.com/methods/usergroups.disable - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsergroupsDisableResponse usergroupsDisable(shadowcodex.slack_spec.models.operations.UsergroupsDisableRequest request, shadowcodex.slack_spec.models.operations.UsergroupsDisableSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/usergroups.disable");
@@ -136,6 +152,14 @@ public class Usergroups {
         return res;
     }
 
+    /**
+     * Enable a User Group
+     * https://api.slack.com/methods/usergroups.enable - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsergroupsEnableResponse usergroupsEnable(shadowcodex.slack_spec.models.operations.UsergroupsEnableRequest request, shadowcodex.slack_spec.models.operations.UsergroupsEnableSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/usergroups.enable");
@@ -188,6 +212,14 @@ public class Usergroups {
         return res;
     }
 
+    /**
+     * List all User Groups for a team
+     * https://api.slack.com/methods/usergroups.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsergroupsListResponse usergroupsList(shadowcodex.slack_spec.models.operations.UsergroupsListRequest request, shadowcodex.slack_spec.models.operations.UsergroupsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/usergroups.list");
@@ -233,6 +265,14 @@ public class Usergroups {
         return res;
     }
 
+    /**
+     * Update an existing User Group
+     * https://api.slack.com/methods/usergroups.update - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsergroupsUpdateResponse usergroupsUpdate(shadowcodex.slack_spec.models.operations.UsergroupsUpdateRequest request, shadowcodex.slack_spec.models.operations.UsergroupsUpdateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/usergroups.update");
@@ -285,6 +325,14 @@ public class Usergroups {
         return res;
     }
 
+    /**
+     * List all users in a User Group
+     * https://api.slack.com/methods/usergroups.users.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsergroupsUsersListResponse usergroupsUsersList(shadowcodex.slack_spec.models.operations.UsergroupsUsersListRequest request, shadowcodex.slack_spec.models.operations.UsergroupsUsersListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/usergroups.users.list");
@@ -330,6 +378,14 @@ public class Usergroups {
         return res;
     }
 
+    /**
+     * Update the list of users for a User Group
+     * https://api.slack.com/methods/usergroups.users.update - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsergroupsUsersUpdateResponse usergroupsUsersUpdate(shadowcodex.slack_spec.models.operations.UsergroupsUsersUpdateRequest request, shadowcodex.slack_spec.models.operations.UsergroupsUsersUpdateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/usergroups.users.update");

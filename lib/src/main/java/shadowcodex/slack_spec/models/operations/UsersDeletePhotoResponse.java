@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class UsersDeletePhotoResponse {
     
     public String contentType;
+
     public UsersDeletePhotoResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class UsersDeletePhotoResponse {
     
     
     public Integer statusCode;
+
     public UsersDeletePhotoResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class UsersDeletePhotoResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public UsersDeletePhotoResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class UsersDeletePhotoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersDeletePhotoErrorSchema;
+
     public UsersDeletePhotoResponse withUsersDeletePhotoErrorSchema(java.util.Map<String, java.util.Map<String, Object>> usersDeletePhotoErrorSchema) {
         this.usersDeletePhotoErrorSchema = usersDeletePhotoErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class UsersDeletePhotoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersDeletePhotoSchema;
+
     public UsersDeletePhotoResponse withUsersDeletePhotoSchema(java.util.Map<String, java.util.Map<String, Object>> usersDeletePhotoSchema) {
         this.usersDeletePhotoSchema = usersDeletePhotoSchema;
         return this;

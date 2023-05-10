@@ -13,6 +13,7 @@ public class TeamProfileGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public TeamProfileGetRequest withToken(String token) {
         this.token = token;
         return this;
@@ -23,6 +24,7 @@ public class TeamProfileGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=visibility")
     public String visibility;
+
     public TeamProfileGetRequest withVisibility(String visibility) {
         this.visibility = visibility;
         return this;

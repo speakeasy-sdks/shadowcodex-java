@@ -13,6 +13,7 @@ public class AdminUsergroupsListChannelsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=include_num_members")
     public Boolean includeNumMembers;
+
     public AdminUsergroupsListChannelsRequest withIncludeNumMembers(Boolean includeNumMembers) {
         this.includeNumMembers = includeNumMembers;
         return this;
@@ -23,6 +24,7 @@ public class AdminUsergroupsListChannelsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_id")
     public String teamId;
+
     public AdminUsergroupsListChannelsRequest withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -33,6 +35,7 @@ public class AdminUsergroupsListChannelsRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminUsergroupsListChannelsRequest withToken(String token) {
         this.token = token;
         return this;
@@ -43,6 +46,7 @@ public class AdminUsergroupsListChannelsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=usergroup_id")
     public String usergroupId;
+
     public AdminUsergroupsListChannelsRequest withUsergroupId(String usergroupId) {
         this.usergroupId = usergroupId;
         return this;

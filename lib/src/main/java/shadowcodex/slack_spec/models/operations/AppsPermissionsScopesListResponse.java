@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AppsPermissionsScopesListResponse {
     
     public String contentType;
+
     public AppsPermissionsScopesListResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AppsPermissionsScopesListResponse {
     
     
     public Integer statusCode;
+
     public AppsPermissionsScopesListResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AppsPermissionsScopesListResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AppsPermissionsScopesListResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AppsPermissionsScopesListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> apiPermissionsScopesListSuccessSchema;
+
     public AppsPermissionsScopesListResponse withApiPermissionsScopesListSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> apiPermissionsScopesListSuccessSchema) {
         this.apiPermissionsScopesListSuccessSchema = apiPermissionsScopesListSuccessSchema;
         return this;
@@ -44,6 +48,7 @@ public class AppsPermissionsScopesListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> appsPermissionsScopesListErrorSchema;
+
     public AppsPermissionsScopesListResponse withAppsPermissionsScopesListErrorSchema(java.util.Map<String, java.util.Map<String, Object>> appsPermissionsScopesListErrorSchema) {
         this.appsPermissionsScopesListErrorSchema = appsPermissionsScopesListErrorSchema;
         return this;

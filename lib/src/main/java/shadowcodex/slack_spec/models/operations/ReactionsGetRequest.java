@@ -13,6 +13,7 @@ public class ReactionsGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public ReactionsGetRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -23,6 +24,7 @@ public class ReactionsGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=file")
     public String file;
+
     public ReactionsGetRequest withFile(String file) {
         this.file = file;
         return this;
@@ -33,6 +35,7 @@ public class ReactionsGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=file_comment")
     public String fileComment;
+
     public ReactionsGetRequest withFileComment(String fileComment) {
         this.fileComment = fileComment;
         return this;
@@ -43,6 +46,7 @@ public class ReactionsGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=full")
     public Boolean full;
+
     public ReactionsGetRequest withFull(Boolean full) {
         this.full = full;
         return this;
@@ -53,6 +57,7 @@ public class ReactionsGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=timestamp")
     public String timestamp;
+
     public ReactionsGetRequest withTimestamp(String timestamp) {
         this.timestamp = timestamp;
         return this;
@@ -63,6 +68,7 @@ public class ReactionsGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public ReactionsGetRequest withToken(String token) {
         this.token = token;
         return this;

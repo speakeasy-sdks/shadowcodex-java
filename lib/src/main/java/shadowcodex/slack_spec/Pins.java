@@ -32,6 +32,14 @@ public class Pins {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Pins an item to a channel.
+     * https://api.slack.com/methods/pins.add - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.PinsAddResponse pinsAdd(shadowcodex.slack_spec.models.operations.PinsAddRequest request, shadowcodex.slack_spec.models.operations.PinsAddSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/pins.add");
@@ -84,6 +92,14 @@ public class Pins {
         return res;
     }
 
+    /**
+     * Lists items pinned to a channel.
+     * https://api.slack.com/methods/pins.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.PinsListResponse pinsList(shadowcodex.slack_spec.models.operations.PinsListRequest request, shadowcodex.slack_spec.models.operations.PinsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/pins.list");
@@ -129,6 +145,14 @@ public class Pins {
         return res;
     }
 
+    /**
+     * Un-pins an item from a channel.
+     * https://api.slack.com/methods/pins.remove - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.PinsRemoveResponse pinsRemove(shadowcodex.slack_spec.models.operations.PinsRemoveRequest request, shadowcodex.slack_spec.models.operations.PinsRemoveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/pins.remove");

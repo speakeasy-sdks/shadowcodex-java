@@ -13,6 +13,7 @@ public class UsergroupsUsersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=include_disabled")
     public Boolean includeDisabled;
+
     public UsergroupsUsersListRequest withIncludeDisabled(Boolean includeDisabled) {
         this.includeDisabled = includeDisabled;
         return this;
@@ -23,6 +24,7 @@ public class UsergroupsUsersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public UsergroupsUsersListRequest withToken(String token) {
         this.token = token;
         return this;
@@ -33,6 +35,7 @@ public class UsergroupsUsersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=usergroup")
     public String usergroup;
+
     public UsergroupsUsersListRequest withUsergroup(String usergroup) {
         this.usergroup = usergroup;
         return this;

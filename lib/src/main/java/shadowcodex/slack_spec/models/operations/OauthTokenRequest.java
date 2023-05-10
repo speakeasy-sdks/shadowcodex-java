@@ -12,6 +12,7 @@ public class OauthTokenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=client_id")
     public String clientId;
+
     public OauthTokenRequest withClientId(String clientId) {
         this.clientId = clientId;
         return this;
@@ -22,6 +23,7 @@ public class OauthTokenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=client_secret")
     public String clientSecret;
+
     public OauthTokenRequest withClientSecret(String clientSecret) {
         this.clientSecret = clientSecret;
         return this;
@@ -32,6 +34,7 @@ public class OauthTokenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=code")
     public String code;
+
     public OauthTokenRequest withCode(String code) {
         this.code = code;
         return this;
@@ -42,6 +45,7 @@ public class OauthTokenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=redirect_uri")
     public String redirectUri;
+
     public OauthTokenRequest withRedirectUri(String redirectUri) {
         this.redirectUri = redirectUri;
         return this;
@@ -52,6 +56,7 @@ public class OauthTokenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=single_channel")
     public Boolean singleChannel;
+
     public OauthTokenRequest withSingleChannel(Boolean singleChannel) {
         this.singleChannel = singleChannel;
         return this;

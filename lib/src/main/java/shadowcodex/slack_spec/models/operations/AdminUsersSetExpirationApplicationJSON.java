@@ -12,6 +12,7 @@ public class AdminUsersSetExpirationApplicationJSON {
      */
     @JsonProperty("expiration_ts")
     public Integer expirationTs;
+
     public AdminUsersSetExpirationApplicationJSON withExpirationTs(Integer expirationTs) {
         this.expirationTs = expirationTs;
         return this;
@@ -22,6 +23,7 @@ public class AdminUsersSetExpirationApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminUsersSetExpirationApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -32,6 +34,7 @@ public class AdminUsersSetExpirationApplicationJSON {
      */
     @JsonProperty("user_id")
     public String userId;
+
     public AdminUsersSetExpirationApplicationJSON withUserId(String userId) {
         this.userId = userId;
         return this;

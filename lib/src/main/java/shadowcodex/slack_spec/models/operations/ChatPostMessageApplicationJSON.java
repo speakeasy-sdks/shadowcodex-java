@@ -15,6 +15,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("as_user")
     public String asUser;
+
     public ChatPostMessageApplicationJSON withAsUser(String asUser) {
         this.asUser = asUser;
         return this;
@@ -26,6 +27,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("attachments")
     public String attachments;
+
     public ChatPostMessageApplicationJSON withAttachments(String attachments) {
         this.attachments = attachments;
         return this;
@@ -37,6 +39,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("blocks")
     public String blocks;
+
     public ChatPostMessageApplicationJSON withBlocks(String blocks) {
         this.blocks = blocks;
         return this;
@@ -47,6 +50,7 @@ public class ChatPostMessageApplicationJSON {
      */
     @JsonProperty("channel")
     public String channel;
+
     public ChatPostMessageApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -58,6 +62,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("icon_emoji")
     public String iconEmoji;
+
     public ChatPostMessageApplicationJSON withIconEmoji(String iconEmoji) {
         this.iconEmoji = iconEmoji;
         return this;
@@ -69,6 +74,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("icon_url")
     public String iconUrl;
+
     public ChatPostMessageApplicationJSON withIconUrl(String iconUrl) {
         this.iconUrl = iconUrl;
         return this;
@@ -80,6 +86,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("link_names")
     public Boolean linkNames;
+
     public ChatPostMessageApplicationJSON withLinkNames(Boolean linkNames) {
         this.linkNames = linkNames;
         return this;
@@ -91,6 +98,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("mrkdwn")
     public Boolean mrkdwn;
+
     public ChatPostMessageApplicationJSON withMrkdwn(Boolean mrkdwn) {
         this.mrkdwn = mrkdwn;
         return this;
@@ -102,6 +110,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("parse")
     public String parse;
+
     public ChatPostMessageApplicationJSON withParse(String parse) {
         this.parse = parse;
         return this;
@@ -113,6 +122,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("reply_broadcast")
     public Boolean replyBroadcast;
+
     public ChatPostMessageApplicationJSON withReplyBroadcast(Boolean replyBroadcast) {
         this.replyBroadcast = replyBroadcast;
         return this;
@@ -124,6 +134,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("text")
     public String text;
+
     public ChatPostMessageApplicationJSON withText(String text) {
         this.text = text;
         return this;
@@ -135,6 +146,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("thread_ts")
     public String threadTs;
+
     public ChatPostMessageApplicationJSON withThreadTs(String threadTs) {
         this.threadTs = threadTs;
         return this;
@@ -146,6 +158,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("unfurl_links")
     public Boolean unfurlLinks;
+
     public ChatPostMessageApplicationJSON withUnfurlLinks(Boolean unfurlLinks) {
         this.unfurlLinks = unfurlLinks;
         return this;
@@ -157,6 +170,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("unfurl_media")
     public Boolean unfurlMedia;
+
     public ChatPostMessageApplicationJSON withUnfurlMedia(Boolean unfurlMedia) {
         this.unfurlMedia = unfurlMedia;
         return this;
@@ -168,6 +182,7 @@ public class ChatPostMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("username")
     public String username;
+
     public ChatPostMessageApplicationJSON withUsername(String username) {
         this.username = username;
         return this;

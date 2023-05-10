@@ -12,6 +12,7 @@ public class RemindersInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=reminder")
     public String reminder;
+
     public RemindersInfoRequest withReminder(String reminder) {
         this.reminder = reminder;
         return this;
@@ -22,6 +23,7 @@ public class RemindersInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public RemindersInfoRequest withToken(String token) {
         this.token = token;
         return this;

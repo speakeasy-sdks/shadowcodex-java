@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminUsersSetExpirationRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminUsersSetExpirationApplicationJSON requestBody;
+
     public AdminUsersSetExpirationRequest withRequestBody(AdminUsersSetExpirationApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminUsersSetExpirationRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminUsersSetExpirationRequest withToken(String token) {
         this.token = token;
         return this;

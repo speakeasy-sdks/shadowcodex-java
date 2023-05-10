@@ -12,6 +12,7 @@ public class AdminUsersRemoveApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminUsersRemoveApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -22,6 +23,7 @@ public class AdminUsersRemoveApplicationJSON {
      */
     @JsonProperty("user_id")
     public String userId;
+
     public AdminUsersRemoveApplicationJSON withUserId(String userId) {
         this.userId = userId;
         return this;

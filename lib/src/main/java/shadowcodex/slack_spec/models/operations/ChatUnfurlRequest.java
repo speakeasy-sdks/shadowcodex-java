@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class ChatUnfurlRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public ChatUnfurlApplicationJSON requestBody;
+
     public ChatUnfurlRequest withRequestBody(ChatUnfurlApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class ChatUnfurlRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public ChatUnfurlRequest withToken(String token) {
         this.token = token;
         return this;

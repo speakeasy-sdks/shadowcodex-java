@@ -32,6 +32,14 @@ public class UsersProfile {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Retrieves a user's profile information.
+     * https://api.slack.com/methods/users.profile.get - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersProfileGetResponse usersProfileGet(shadowcodex.slack_spec.models.operations.UsersProfileGetRequest request, shadowcodex.slack_spec.models.operations.UsersProfileGetSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.profile.get");
@@ -77,6 +85,14 @@ public class UsersProfile {
         return res;
     }
 
+    /**
+     * Set the profile information for a user.
+     * https://api.slack.com/methods/users.profile.set - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersProfileSetResponse usersProfileSet(shadowcodex.slack_spec.models.operations.UsersProfileSetRequest request, shadowcodex.slack_spec.models.operations.UsersProfileSetSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.profile.set");

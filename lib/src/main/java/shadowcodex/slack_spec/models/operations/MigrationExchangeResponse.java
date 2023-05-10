@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class MigrationExchangeResponse {
     
     public String contentType;
+
     public MigrationExchangeResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class MigrationExchangeResponse {
     
     
     public Integer statusCode;
+
     public MigrationExchangeResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class MigrationExchangeResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public MigrationExchangeResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class MigrationExchangeResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> migrationExchangeErrorSchema;
+
     public MigrationExchangeResponse withMigrationExchangeErrorSchema(java.util.Map<String, java.util.Map<String, Object>> migrationExchangeErrorSchema) {
         this.migrationExchangeErrorSchema = migrationExchangeErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class MigrationExchangeResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> migrationExchangeSuccessSchema;
+
     public MigrationExchangeResponse withMigrationExchangeSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> migrationExchangeSuccessSchema) {
         this.migrationExchangeSuccessSchema = migrationExchangeSuccessSchema;
         return this;

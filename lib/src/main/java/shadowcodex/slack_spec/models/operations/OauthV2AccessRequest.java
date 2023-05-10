@@ -13,6 +13,7 @@ public class OauthV2AccessRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=client_id")
     public String clientId;
+
     public OauthV2AccessRequest withClientId(String clientId) {
         this.clientId = clientId;
         return this;
@@ -23,6 +24,7 @@ public class OauthV2AccessRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=client_secret")
     public String clientSecret;
+
     public OauthV2AccessRequest withClientSecret(String clientSecret) {
         this.clientSecret = clientSecret;
         return this;
@@ -33,6 +35,7 @@ public class OauthV2AccessRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=code")
     public String code;
+
     public OauthV2AccessRequest withCode(String code) {
         this.code = code;
         return this;
@@ -43,6 +46,7 @@ public class OauthV2AccessRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=redirect_uri")
     public String redirectUri;
+
     public OauthV2AccessRequest withRedirectUri(String redirectUri) {
         this.redirectUri = redirectUri;
         return this;

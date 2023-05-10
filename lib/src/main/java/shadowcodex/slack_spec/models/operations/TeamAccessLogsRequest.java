@@ -13,6 +13,7 @@ public class TeamAccessLogsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=before")
     public String before;
+
     public TeamAccessLogsRequest withBefore(String before) {
         this.before = before;
         return this;
@@ -20,6 +21,7 @@ public class TeamAccessLogsRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=count")
     public String count;
+
     public TeamAccessLogsRequest withCount(String count) {
         this.count = count;
         return this;
@@ -27,6 +29,7 @@ public class TeamAccessLogsRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=page")
     public String page;
+
     public TeamAccessLogsRequest withPage(String page) {
         this.page = page;
         return this;
@@ -37,6 +40,7 @@ public class TeamAccessLogsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public TeamAccessLogsRequest withToken(String token) {
         this.token = token;
         return this;

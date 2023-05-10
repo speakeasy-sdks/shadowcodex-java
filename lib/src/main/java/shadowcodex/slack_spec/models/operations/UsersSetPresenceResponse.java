@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class UsersSetPresenceResponse {
     
     public String contentType;
+
     public UsersSetPresenceResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class UsersSetPresenceResponse {
     
     
     public Integer statusCode;
+
     public UsersSetPresenceResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class UsersSetPresenceResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public UsersSetPresenceResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class UsersSetPresenceResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersSetPresenceErrorSchema;
+
     public UsersSetPresenceResponse withUsersSetPresenceErrorSchema(java.util.Map<String, java.util.Map<String, Object>> usersSetPresenceErrorSchema) {
         this.usersSetPresenceErrorSchema = usersSetPresenceErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class UsersSetPresenceResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersSetPresenceSchema;
+
     public UsersSetPresenceResponse withUsersSetPresenceSchema(java.util.Map<String, java.util.Map<String, Object>> usersSetPresenceSchema) {
         this.usersSetPresenceSchema = usersSetPresenceSchema;
         return this;

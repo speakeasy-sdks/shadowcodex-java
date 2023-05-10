@@ -15,6 +15,7 @@ public class ConversationsRenameApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsRenameApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class ConversationsRenameApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("name")
     public String name;
+
     public ConversationsRenameApplicationJSON withName(String name) {
         this.name = name;
         return this;

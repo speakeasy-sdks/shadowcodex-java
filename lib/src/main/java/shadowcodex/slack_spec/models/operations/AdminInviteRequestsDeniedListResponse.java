@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminInviteRequestsDeniedListResponse {
     
     public String contentType;
+
     public AdminInviteRequestsDeniedListResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class AdminInviteRequestsDeniedListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public AdminInviteRequestsDeniedListResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class AdminInviteRequestsDeniedListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public AdminInviteRequestsDeniedListResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class AdminInviteRequestsDeniedListResponse {
     
     
     public Integer statusCode;
+
     public AdminInviteRequestsDeniedListResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class AdminInviteRequestsDeniedListResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminInviteRequestsDeniedListResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

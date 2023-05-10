@@ -15,6 +15,7 @@ public class ConversationsOpenApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsOpenApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class ConversationsOpenApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("return_im")
     public Boolean returnIm;
+
     public ConversationsOpenApplicationJSON withReturnIm(Boolean returnIm) {
         this.returnIm = returnIm;
         return this;
@@ -37,6 +39,7 @@ public class ConversationsOpenApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("users")
     public String users;
+
     public ConversationsOpenApplicationJSON withUsers(String users) {
         this.users = users;
         return this;

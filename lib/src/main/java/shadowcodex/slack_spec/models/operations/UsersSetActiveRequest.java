@@ -13,6 +13,7 @@ public class UsersSetActiveRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public UsersSetActiveRequest withToken(String token) {
         this.token = token;
         return this;

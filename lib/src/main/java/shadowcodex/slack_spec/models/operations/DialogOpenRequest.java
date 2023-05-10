@@ -13,6 +13,7 @@ public class DialogOpenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=dialog")
     public String dialog;
+
     public DialogOpenRequest withDialog(String dialog) {
         this.dialog = dialog;
         return this;
@@ -23,6 +24,7 @@ public class DialogOpenRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public DialogOpenRequest withToken(String token) {
         this.token = token;
         return this;
@@ -33,6 +35,7 @@ public class DialogOpenRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=trigger_id")
     public String triggerId;
+
     public DialogOpenRequest withTriggerId(String triggerId) {
         this.triggerId = triggerId;
         return this;

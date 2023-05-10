@@ -15,6 +15,7 @@ public class ChatMeMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ChatMeMessageApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class ChatMeMessageApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("text")
     public String text;
+
     public ChatMeMessageApplicationJSON withText(String text) {
         this.text = text;
         return this;

@@ -15,6 +15,7 @@ public class AdminUsersSessionResetApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("mobile_only")
     public Boolean mobileOnly;
+
     public AdminUsersSessionResetApplicationJSON withMobileOnly(Boolean mobileOnly) {
         this.mobileOnly = mobileOnly;
         return this;
@@ -25,6 +26,7 @@ public class AdminUsersSessionResetApplicationJSON {
      */
     @JsonProperty("user_id")
     public String userId;
+
     public AdminUsersSessionResetApplicationJSON withUserId(String userId) {
         this.userId = userId;
         return this;
@@ -36,6 +38,7 @@ public class AdminUsersSessionResetApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("web_only")
     public Boolean webOnly;
+
     public AdminUsersSessionResetApplicationJSON withWebOnly(Boolean webOnly) {
         this.webOnly = webOnly;
         return this;

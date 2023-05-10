@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class TeamAccessLogsResponse {
     
     public String contentType;
+
     public TeamAccessLogsResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class TeamAccessLogsResponse {
     
     
     public Integer statusCode;
+
     public TeamAccessLogsResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class TeamAccessLogsResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public TeamAccessLogsResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class TeamAccessLogsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> teamAccessLogsErrorSchema;
+
     public TeamAccessLogsResponse withTeamAccessLogsErrorSchema(java.util.Map<String, java.util.Map<String, Object>> teamAccessLogsErrorSchema) {
         this.teamAccessLogsErrorSchema = teamAccessLogsErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class TeamAccessLogsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> teamAccessLogsSchema;
+
     public TeamAccessLogsResponse withTeamAccessLogsSchema(java.util.Map<String, java.util.Map<String, Object>> teamAccessLogsSchema) {
         this.teamAccessLogsSchema = teamAccessLogsSchema;
         return this;

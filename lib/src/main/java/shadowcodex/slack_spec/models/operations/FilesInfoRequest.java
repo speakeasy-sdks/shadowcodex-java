@@ -9,6 +9,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class FilesInfoRequest {
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=count")
     public String count;
+
     public FilesInfoRequest withCount(String count) {
         this.count = count;
         return this;
@@ -19,6 +20,7 @@ public class FilesInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public FilesInfoRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -29,6 +31,7 @@ public class FilesInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=file")
     public String file;
+
     public FilesInfoRequest withFile(String file) {
         this.file = file;
         return this;
@@ -39,6 +42,7 @@ public class FilesInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public FilesInfoRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -46,6 +50,7 @@ public class FilesInfoRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=page")
     public String page;
+
     public FilesInfoRequest withPage(String page) {
         this.page = page;
         return this;
@@ -56,6 +61,7 @@ public class FilesInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public FilesInfoRequest withToken(String token) {
         this.token = token;
         return this;

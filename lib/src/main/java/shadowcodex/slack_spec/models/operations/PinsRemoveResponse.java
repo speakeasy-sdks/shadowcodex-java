@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class PinsRemoveResponse {
     
     public String contentType;
+
     public PinsRemoveResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class PinsRemoveResponse {
     
     
     public Integer statusCode;
+
     public PinsRemoveResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class PinsRemoveResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public PinsRemoveResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class PinsRemoveResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> pinsRemoveErrorSchema;
+
     public PinsRemoveResponse withPinsRemoveErrorSchema(java.util.Map<String, java.util.Map<String, Object>> pinsRemoveErrorSchema) {
         this.pinsRemoveErrorSchema = pinsRemoveErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class PinsRemoveResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> pinsRemoveSchema;
+
     public PinsRemoveResponse withPinsRemoveSchema(java.util.Map<String, java.util.Map<String, Object>> pinsRemoveSchema) {
         this.pinsRemoveSchema = pinsRemoveSchema;
         return this;

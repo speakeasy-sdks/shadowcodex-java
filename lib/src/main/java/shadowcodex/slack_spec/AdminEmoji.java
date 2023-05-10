@@ -32,6 +32,14 @@ public class AdminEmoji {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Add an emoji.
+     * https://api.slack.com/methods/admin.emoji.add - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminEmojiAddResponse adminEmojiAdd(shadowcodex.slack_spec.models.operations.AdminEmojiAddRequestBody request, shadowcodex.slack_spec.models.operations.AdminEmojiAddSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.emoji.add");
@@ -76,6 +84,14 @@ public class AdminEmoji {
         return res;
     }
 
+    /**
+     * Add an emoji alias.
+     * https://api.slack.com/methods/admin.emoji.addAlias - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminEmojiAddAliasResponse adminEmojiAddAlias(shadowcodex.slack_spec.models.operations.AdminEmojiAddAliasRequestBody request, shadowcodex.slack_spec.models.operations.AdminEmojiAddAliasSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.emoji.addAlias");
@@ -120,6 +136,14 @@ public class AdminEmoji {
         return res;
     }
 
+    /**
+     * List emoji for an Enterprise Grid organization.
+     * https://api.slack.com/methods/admin.emoji.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminEmojiListResponse adminEmojiList(shadowcodex.slack_spec.models.operations.AdminEmojiListRequest request, shadowcodex.slack_spec.models.operations.AdminEmojiListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.emoji.list");
@@ -165,6 +189,14 @@ public class AdminEmoji {
         return res;
     }
 
+    /**
+     * Remove an emoji across an Enterprise Grid organization
+     * https://api.slack.com/methods/admin.emoji.remove - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminEmojiRemoveResponse adminEmojiRemove(shadowcodex.slack_spec.models.operations.AdminEmojiRemoveRequestBody request, shadowcodex.slack_spec.models.operations.AdminEmojiRemoveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.emoji.remove");
@@ -209,6 +241,14 @@ public class AdminEmoji {
         return res;
     }
 
+    /**
+     * Rename an emoji.
+     * https://api.slack.com/methods/admin.emoji.rename - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminEmojiRenameResponse adminEmojiRename(shadowcodex.slack_spec.models.operations.AdminEmojiRenameRequestBody request, shadowcodex.slack_spec.models.operations.AdminEmojiRenameSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.emoji.rename");

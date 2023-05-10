@@ -13,6 +13,7 @@ public class UsersProfileGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=include_labels")
     public Boolean includeLabels;
+
     public UsersProfileGetRequest withIncludeLabels(Boolean includeLabels) {
         this.includeLabels = includeLabels;
         return this;
@@ -23,6 +24,7 @@ public class UsersProfileGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public UsersProfileGetRequest withToken(String token) {
         this.token = token;
         return this;
@@ -33,6 +35,7 @@ public class UsersProfileGetRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=user")
     public String user;
+
     public UsersProfileGetRequest withUser(String user) {
         this.user = user;
         return this;

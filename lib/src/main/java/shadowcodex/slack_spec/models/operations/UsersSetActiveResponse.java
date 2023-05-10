@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class UsersSetActiveResponse {
     
     public String contentType;
+
     public UsersSetActiveResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class UsersSetActiveResponse {
     
     
     public Integer statusCode;
+
     public UsersSetActiveResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class UsersSetActiveResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public UsersSetActiveResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class UsersSetActiveResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersSetActiveErrorSchema;
+
     public UsersSetActiveResponse withUsersSetActiveErrorSchema(java.util.Map<String, java.util.Map<String, Object>> usersSetActiveErrorSchema) {
         this.usersSetActiveErrorSchema = usersSetActiveErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class UsersSetActiveResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersSetActiveSchema;
+
     public UsersSetActiveResponse withUsersSetActiveSchema(java.util.Map<String, java.util.Map<String, Object>> usersSetActiveSchema) {
         this.usersSetActiveSchema = usersSetActiveSchema;
         return this;

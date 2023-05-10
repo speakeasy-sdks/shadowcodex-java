@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class RemindersInfoResponse {
     
     public String contentType;
+
     public RemindersInfoResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class RemindersInfoResponse {
     
     
     public Integer statusCode;
+
     public RemindersInfoResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class RemindersInfoResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public RemindersInfoResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class RemindersInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> remindersInfoErrorSchema;
+
     public RemindersInfoResponse withRemindersInfoErrorSchema(java.util.Map<String, java.util.Map<String, Object>> remindersInfoErrorSchema) {
         this.remindersInfoErrorSchema = remindersInfoErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class RemindersInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> remindersInfoSchema;
+
     public RemindersInfoResponse withRemindersInfoSchema(java.util.Map<String, java.util.Map<String, Object>> remindersInfoSchema) {
         this.remindersInfoSchema = remindersInfoSchema;
         return this;

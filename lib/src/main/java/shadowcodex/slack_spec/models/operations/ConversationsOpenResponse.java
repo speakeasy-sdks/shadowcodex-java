@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ConversationsOpenResponse {
     
     public String contentType;
+
     public ConversationsOpenResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ConversationsOpenResponse {
     
     
     public Integer statusCode;
+
     public ConversationsOpenResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ConversationsOpenResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ConversationsOpenResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ConversationsOpenResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> conversationsOpenErrorSchema;
+
     public ConversationsOpenResponse withConversationsOpenErrorSchema(java.util.Map<String, java.util.Map<String, Object>> conversationsOpenErrorSchema) {
         this.conversationsOpenErrorSchema = conversationsOpenErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ConversationsOpenResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> conversationsOpenSuccessSchema;
+
     public ConversationsOpenResponse withConversationsOpenSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> conversationsOpenSuccessSchema) {
         this.conversationsOpenSuccessSchema = conversationsOpenSuccessSchema;
         return this;

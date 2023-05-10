@@ -12,6 +12,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=channels")
     public String channels;
+
     public FilesUploadRequestBody withChannels(String channels) {
         this.channels = channels;
         return this;
@@ -22,6 +23,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=content")
     public String content;
+
     public FilesUploadRequestBody withContent(String content) {
         this.content = content;
         return this;
@@ -32,6 +34,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=file")
     public String file;
+
     public FilesUploadRequestBody withFile(String file) {
         this.file = file;
         return this;
@@ -42,6 +45,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=filename")
     public String filename;
+
     public FilesUploadRequestBody withFilename(String filename) {
         this.filename = filename;
         return this;
@@ -52,6 +56,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=filetype")
     public String filetype;
+
     public FilesUploadRequestBody withFiletype(String filetype) {
         this.filetype = filetype;
         return this;
@@ -62,6 +67,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=initial_comment")
     public String initialComment;
+
     public FilesUploadRequestBody withInitialComment(String initialComment) {
         this.initialComment = initialComment;
         return this;
@@ -72,6 +78,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=thread_ts")
     public Double threadTs;
+
     public FilesUploadRequestBody withThreadTs(Double threadTs) {
         this.threadTs = threadTs;
         return this;
@@ -82,6 +89,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=title")
     public String title;
+
     public FilesUploadRequestBody withTitle(String title) {
         this.title = title;
         return this;
@@ -92,6 +100,7 @@ public class FilesUploadRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public FilesUploadRequestBody withToken(String token) {
         this.token = token;
         return this;

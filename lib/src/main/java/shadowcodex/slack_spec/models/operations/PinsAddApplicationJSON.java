@@ -14,6 +14,7 @@ public class PinsAddApplicationJSON {
      */
     @JsonProperty("channel")
     public String channel;
+
     public PinsAddApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -25,6 +26,7 @@ public class PinsAddApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("timestamp")
     public String timestamp;
+
     public PinsAddApplicationJSON withTimestamp(String timestamp) {
         this.timestamp = timestamp;
         return this;

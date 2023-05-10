@@ -15,6 +15,7 @@ public class ReactionsRemoveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ReactionsRemoveApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class ReactionsRemoveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("file")
     public String file;
+
     public ReactionsRemoveApplicationJSON withFile(String file) {
         this.file = file;
         return this;
@@ -37,6 +39,7 @@ public class ReactionsRemoveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("file_comment")
     public String fileComment;
+
     public ReactionsRemoveApplicationJSON withFileComment(String fileComment) {
         this.fileComment = fileComment;
         return this;
@@ -47,6 +50,7 @@ public class ReactionsRemoveApplicationJSON {
      */
     @JsonProperty("name")
     public String name;
+
     public ReactionsRemoveApplicationJSON withName(String name) {
         this.name = name;
         return this;
@@ -58,6 +62,7 @@ public class ReactionsRemoveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("timestamp")
     public String timestamp;
+
     public ReactionsRemoveApplicationJSON withTimestamp(String timestamp) {
         this.timestamp = timestamp;
         return this;

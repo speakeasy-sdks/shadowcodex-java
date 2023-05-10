@@ -13,6 +13,7 @@ public class AppsPermissionsScopesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AppsPermissionsScopesListRequest withToken(String token) {
         this.token = token;
         return this;

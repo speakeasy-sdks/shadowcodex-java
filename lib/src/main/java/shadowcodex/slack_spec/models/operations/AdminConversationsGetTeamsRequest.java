@@ -13,6 +13,7 @@ public class AdminConversationsGetTeamsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel_id")
     public String channelId;
+
     public AdminConversationsGetTeamsRequest withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -23,6 +24,7 @@ public class AdminConversationsGetTeamsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public AdminConversationsGetTeamsRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -33,6 +35,7 @@ public class AdminConversationsGetTeamsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public AdminConversationsGetTeamsRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -43,6 +46,7 @@ public class AdminConversationsGetTeamsRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminConversationsGetTeamsRequest withToken(String token) {
         this.token = token;
         return this;

@@ -14,6 +14,7 @@ public class ChatUnfurlApplicationJSON {
      */
     @JsonProperty("channel")
     public String channel;
+
     public ChatUnfurlApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -24,6 +25,7 @@ public class ChatUnfurlApplicationJSON {
      */
     @JsonProperty("ts")
     public String ts;
+
     public ChatUnfurlApplicationJSON withTs(String ts) {
         this.ts = ts;
         return this;
@@ -35,6 +37,7 @@ public class ChatUnfurlApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("unfurls")
     public String unfurls;
+
     public ChatUnfurlApplicationJSON withUnfurls(String unfurls) {
         this.unfurls = unfurls;
         return this;
@@ -46,6 +49,7 @@ public class ChatUnfurlApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("user_auth_message")
     public String userAuthMessage;
+
     public ChatUnfurlApplicationJSON withUserAuthMessage(String userAuthMessage) {
         this.userAuthMessage = userAuthMessage;
         return this;
@@ -57,6 +61,7 @@ public class ChatUnfurlApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("user_auth_required")
     public Boolean userAuthRequired;
+
     public ChatUnfurlApplicationJSON withUserAuthRequired(Boolean userAuthRequired) {
         this.userAuthRequired = userAuthRequired;
         return this;
@@ -68,6 +73,7 @@ public class ChatUnfurlApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("user_auth_url")
     public String userAuthUrl;
+
     public ChatUnfurlApplicationJSON withUserAuthUrl(String userAuthUrl) {
         this.userAuthUrl = userAuthUrl;
         return this;

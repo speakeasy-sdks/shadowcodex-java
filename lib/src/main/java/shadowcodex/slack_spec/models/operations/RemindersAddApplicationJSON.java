@@ -14,6 +14,7 @@ public class RemindersAddApplicationJSON {
      */
     @JsonProperty("text")
     public String text;
+
     public RemindersAddApplicationJSON withText(String text) {
         this.text = text;
         return this;
@@ -24,6 +25,7 @@ public class RemindersAddApplicationJSON {
      */
     @JsonProperty("time")
     public String time;
+
     public RemindersAddApplicationJSON withTime(String time) {
         this.time = time;
         return this;
@@ -35,6 +37,7 @@ public class RemindersAddApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("user")
     public String user;
+
     public RemindersAddApplicationJSON withUser(String user) {
         this.user = user;
         return this;

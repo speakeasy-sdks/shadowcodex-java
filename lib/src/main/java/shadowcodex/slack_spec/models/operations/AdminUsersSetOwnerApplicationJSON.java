@@ -12,6 +12,7 @@ public class AdminUsersSetOwnerApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminUsersSetOwnerApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -22,6 +23,7 @@ public class AdminUsersSetOwnerApplicationJSON {
      */
     @JsonProperty("user_id")
     public String userId;
+
     public AdminUsersSetOwnerApplicationJSON withUserId(String userId) {
         this.userId = userId;
         return this;

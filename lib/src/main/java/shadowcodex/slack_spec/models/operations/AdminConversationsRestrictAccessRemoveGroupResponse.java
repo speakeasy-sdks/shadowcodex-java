@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminConversationsRestrictAccessRemoveGroupResponse {
     
     public String contentType;
+
     public AdminConversationsRestrictAccessRemoveGroupResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class AdminConversationsRestrictAccessRemoveGroupResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public AdminConversationsRestrictAccessRemoveGroupResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class AdminConversationsRestrictAccessRemoveGroupResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public AdminConversationsRestrictAccessRemoveGroupResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class AdminConversationsRestrictAccessRemoveGroupResponse {
     
     
     public Integer statusCode;
+
     public AdminConversationsRestrictAccessRemoveGroupResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class AdminConversationsRestrictAccessRemoveGroupResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminConversationsRestrictAccessRemoveGroupResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

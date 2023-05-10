@@ -32,6 +32,14 @@ public class Users {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * List conversations the calling user may access.
+     * https://api.slack.com/methods/users.conversations - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersConversationsResponse usersConversations(shadowcodex.slack_spec.models.operations.UsersConversationsRequest request, shadowcodex.slack_spec.models.operations.UsersConversationsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.conversations");
@@ -77,6 +85,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Delete the user profile photo
+     * https://api.slack.com/methods/users.deletePhoto - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersDeletePhotoResponse usersDeletePhoto(shadowcodex.slack_spec.models.operations.UsersDeletePhotoRequestBody request, shadowcodex.slack_spec.models.operations.UsersDeletePhotoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.deletePhoto");
@@ -121,6 +137,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Gets user presence information.
+     * https://api.slack.com/methods/users.getPresence - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersGetPresenceResponse usersGetPresence(shadowcodex.slack_spec.models.operations.UsersGetPresenceRequest request, shadowcodex.slack_spec.models.operations.UsersGetPresenceSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.getPresence");
@@ -166,6 +190,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Get a user's identity.
+     * https://api.slack.com/methods/users.identity - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersIdentityResponse usersIdentity(shadowcodex.slack_spec.models.operations.UsersIdentityRequest request, shadowcodex.slack_spec.models.operations.UsersIdentitySecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.identity");
@@ -211,6 +243,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Gets information about a user.
+     * https://api.slack.com/methods/users.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersInfoResponse usersInfo(shadowcodex.slack_spec.models.operations.UsersInfoRequest request, shadowcodex.slack_spec.models.operations.UsersInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.info");
@@ -256,6 +296,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Lists all users in a Slack team.
+     * https://api.slack.com/methods/users.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersListResponse usersList(shadowcodex.slack_spec.models.operations.UsersListRequest request, shadowcodex.slack_spec.models.operations.UsersListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.list");
@@ -301,6 +349,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Find a user with an email address.
+     * https://api.slack.com/methods/users.lookupByEmail - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersLookupByEmailResponse usersLookupByEmail(shadowcodex.slack_spec.models.operations.UsersLookupByEmailRequest request, shadowcodex.slack_spec.models.operations.UsersLookupByEmailSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.lookupByEmail");
@@ -346,6 +402,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Retrieves a user's profile information.
+     * https://api.slack.com/methods/users.profile.get - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersProfileGetResponse usersProfileGet(shadowcodex.slack_spec.models.operations.UsersProfileGetRequest request, shadowcodex.slack_spec.models.operations.UsersProfileGetSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.profile.get");
@@ -391,6 +455,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Set the profile information for a user.
+     * https://api.slack.com/methods/users.profile.set - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersProfileSetResponse usersProfileSet(shadowcodex.slack_spec.models.operations.UsersProfileSetRequest request, shadowcodex.slack_spec.models.operations.UsersProfileSetSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.profile.set");
@@ -440,6 +512,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Marked a user as active. Deprecated and non-functional.
+     * https://api.slack.com/methods/users.setActive - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersSetActiveResponse usersSetActive(shadowcodex.slack_spec.models.operations.UsersSetActiveRequest request, shadowcodex.slack_spec.models.operations.UsersSetActiveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.setActive");
@@ -487,6 +567,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Set the user profile photo
+     * https://api.slack.com/methods/users.setPhoto - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersSetPhotoResponse usersSetPhoto(shadowcodex.slack_spec.models.operations.UsersSetPhotoRequestBody request, shadowcodex.slack_spec.models.operations.UsersSetPhotoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.setPhoto");
@@ -531,6 +619,14 @@ public class Users {
         return res;
     }
 
+    /**
+     * Manually sets user presence.
+     * https://api.slack.com/methods/users.setPresence - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.UsersSetPresenceResponse usersSetPresence(shadowcodex.slack_spec.models.operations.UsersSetPresenceRequest request, shadowcodex.slack_spec.models.operations.UsersSetPresenceSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/users.setPresence");

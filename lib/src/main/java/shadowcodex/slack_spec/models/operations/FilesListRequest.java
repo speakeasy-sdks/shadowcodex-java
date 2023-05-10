@@ -12,6 +12,7 @@ public class FilesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public FilesListRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -19,6 +20,7 @@ public class FilesListRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=count")
     public String count;
+
     public FilesListRequest withCount(String count) {
         this.count = count;
         return this;
@@ -26,6 +28,7 @@ public class FilesListRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=page")
     public String page;
+
     public FilesListRequest withPage(String page) {
         this.page = page;
         return this;
@@ -36,6 +39,7 @@ public class FilesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=show_files_hidden_by_limit")
     public Boolean showFilesHiddenByLimit;
+
     public FilesListRequest withShowFilesHiddenByLimit(Boolean showFilesHiddenByLimit) {
         this.showFilesHiddenByLimit = showFilesHiddenByLimit;
         return this;
@@ -46,6 +50,7 @@ public class FilesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public FilesListRequest withToken(String token) {
         this.token = token;
         return this;
@@ -56,6 +61,7 @@ public class FilesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=ts_from")
     public Double tsFrom;
+
     public FilesListRequest withTsFrom(Double tsFrom) {
         this.tsFrom = tsFrom;
         return this;
@@ -66,6 +72,7 @@ public class FilesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=ts_to")
     public Double tsTo;
+
     public FilesListRequest withTsTo(Double tsTo) {
         this.tsTo = tsTo;
         return this;
@@ -76,6 +83,7 @@ public class FilesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=types")
     public String types;
+
     public FilesListRequest withTypes(String types) {
         this.types = types;
         return this;
@@ -86,6 +94,7 @@ public class FilesListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=user")
     public String user;
+
     public FilesListRequest withUser(String user) {
         this.user = user;
         return this;

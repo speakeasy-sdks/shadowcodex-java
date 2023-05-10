@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ApiTestResponse {
     
     public String contentType;
+
     public ApiTestResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ApiTestResponse {
     
     
     public Integer statusCode;
+
     public ApiTestResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ApiTestResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ApiTestResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ApiTestResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> apiTestErrorSchema;
+
     public ApiTestResponse withApiTestErrorSchema(java.util.Map<String, java.util.Map<String, Object>> apiTestErrorSchema) {
         this.apiTestErrorSchema = apiTestErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ApiTestResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> apiTestSuccessSchema;
+
     public ApiTestResponse withApiTestSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> apiTestSuccessSchema) {
         this.apiTestSuccessSchema = apiTestSuccessSchema;
         return this;

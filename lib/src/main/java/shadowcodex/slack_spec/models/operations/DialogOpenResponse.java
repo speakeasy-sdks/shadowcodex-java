@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class DialogOpenResponse {
     
     public String contentType;
+
     public DialogOpenResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class DialogOpenResponse {
     
     
     public Integer statusCode;
+
     public DialogOpenResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class DialogOpenResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public DialogOpenResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class DialogOpenResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> dialogOpenErrorSchema;
+
     public DialogOpenResponse withDialogOpenErrorSchema(java.util.Map<String, java.util.Map<String, Object>> dialogOpenErrorSchema) {
         this.dialogOpenErrorSchema = dialogOpenErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class DialogOpenResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> dialogOpenSchema;
+
     public DialogOpenResponse withDialogOpenSchema(java.util.Map<String, java.util.Map<String, Object>> dialogOpenSchema) {
         this.dialogOpenSchema = dialogOpenSchema;
         return this;

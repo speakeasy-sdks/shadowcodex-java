@@ -12,6 +12,7 @@ public class AdminConversationsUnarchiveApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsUnarchiveApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;

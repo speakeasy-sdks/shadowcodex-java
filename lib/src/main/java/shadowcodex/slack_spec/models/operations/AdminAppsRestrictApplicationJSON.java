@@ -15,6 +15,7 @@ public class AdminAppsRestrictApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("app_id")
     public String appId;
+
     public AdminAppsRestrictApplicationJSON withAppId(String appId) {
         this.appId = appId;
         return this;
@@ -26,6 +27,7 @@ public class AdminAppsRestrictApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("request_id")
     public String requestId;
+
     public AdminAppsRestrictApplicationJSON withRequestId(String requestId) {
         this.requestId = requestId;
         return this;
@@ -34,6 +36,7 @@ public class AdminAppsRestrictApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminAppsRestrictApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

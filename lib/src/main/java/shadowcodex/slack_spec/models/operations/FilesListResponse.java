@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesListResponse {
     
     public String contentType;
+
     public FilesListResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class FilesListResponse {
     
     
     public Integer statusCode;
+
     public FilesListResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class FilesListResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesListResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class FilesListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesListErrorSchema;
+
     public FilesListResponse withFilesListErrorSchema(java.util.Map<String, java.util.Map<String, Object>> filesListErrorSchema) {
         this.filesListErrorSchema = filesListErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class FilesListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesListSchema;
+
     public FilesListResponse withFilesListSchema(java.util.Map<String, java.util.Map<String, Object>> filesListSchema) {
         this.filesListSchema = filesListSchema;
         return this;

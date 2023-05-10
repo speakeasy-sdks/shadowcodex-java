@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class UsergroupsListResponse {
     
     public String contentType;
+
     public UsergroupsListResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class UsergroupsListResponse {
     
     
     public Integer statusCode;
+
     public UsergroupsListResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class UsergroupsListResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public UsergroupsListResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class UsergroupsListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usergroupsListErrorSchema;
+
     public UsergroupsListResponse withUsergroupsListErrorSchema(java.util.Map<String, java.util.Map<String, Object>> usergroupsListErrorSchema) {
         this.usergroupsListErrorSchema = usergroupsListErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class UsergroupsListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usergroupsListSchema;
+
     public UsergroupsListResponse withUsergroupsListSchema(java.util.Map<String, java.util.Map<String, Object>> usergroupsListSchema) {
         this.usergroupsListSchema = usergroupsListSchema;
         return this;

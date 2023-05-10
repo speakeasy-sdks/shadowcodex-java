@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AuthTestResponse {
     
     public String contentType;
+
     public AuthTestResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AuthTestResponse {
     
     
     public Integer statusCode;
+
     public AuthTestResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AuthTestResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AuthTestResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AuthTestResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> authTestErrorSchema;
+
     public AuthTestResponse withAuthTestErrorSchema(java.util.Map<String, java.util.Map<String, Object>> authTestErrorSchema) {
         this.authTestErrorSchema = authTestErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AuthTestResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> authTestSuccessSchema;
+
     public AuthTestResponse withAuthTestSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> authTestSuccessSchema) {
         this.authTestSuccessSchema = authTestSuccessSchema;
         return this;

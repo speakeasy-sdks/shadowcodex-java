@@ -12,6 +12,7 @@ public class AdminUsergroupsRemoveChannelsApplicationJSON {
      */
     @JsonProperty("channel_ids")
     public String channelIds;
+
     public AdminUsergroupsRemoveChannelsApplicationJSON withChannelIds(String channelIds) {
         this.channelIds = channelIds;
         return this;
@@ -22,6 +23,7 @@ public class AdminUsergroupsRemoveChannelsApplicationJSON {
      */
     @JsonProperty("usergroup_id")
     public String usergroupId;
+
     public AdminUsergroupsRemoveChannelsApplicationJSON withUsergroupId(String usergroupId) {
         this.usergroupId = usergroupId;
         return this;

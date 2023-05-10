@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminUsersSetOwnerRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminUsersSetOwnerApplicationJSON requestBody;
+
     public AdminUsersSetOwnerRequest withRequestBody(AdminUsersSetOwnerApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminUsersSetOwnerRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminUsersSetOwnerRequest withToken(String token) {
         this.token = token;
         return this;

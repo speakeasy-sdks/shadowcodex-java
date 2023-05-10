@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesSharedPublicURLResponse {
     
     public String contentType;
+
     public FilesSharedPublicURLResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class FilesSharedPublicURLResponse {
     
     
     public Integer statusCode;
+
     public FilesSharedPublicURLResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class FilesSharedPublicURLResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesSharedPublicURLResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class FilesSharedPublicURLResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesSharedPublicURLErrorSchema;
+
     public FilesSharedPublicURLResponse withFilesSharedPublicURLErrorSchema(java.util.Map<String, java.util.Map<String, Object>> filesSharedPublicURLErrorSchema) {
         this.filesSharedPublicURLErrorSchema = filesSharedPublicURLErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class FilesSharedPublicURLResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesSharedPublicURLSchema;
+
     public FilesSharedPublicURLResponse withFilesSharedPublicURLSchema(java.util.Map<String, java.util.Map<String, Object>> filesSharedPublicURLSchema) {
         this.filesSharedPublicURLSchema = filesSharedPublicURLSchema;
         return this;

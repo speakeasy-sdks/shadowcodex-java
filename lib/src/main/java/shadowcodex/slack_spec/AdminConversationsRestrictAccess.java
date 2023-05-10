@@ -32,6 +32,14 @@ public class AdminConversationsRestrictAccess {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Add an allowlist of IDP groups for accessing a channel
+     * https://api.slack.com/methods/admin.conversations.restrictAccess.addGroup - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessAddGroupResponse adminConversationsRestrictAccessAddGroup(shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessAddGroupRequestBody request, shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessAddGroupSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.restrictAccess.addGroup");
@@ -76,6 +84,14 @@ public class AdminConversationsRestrictAccess {
         return res;
     }
 
+    /**
+     * List all IDP Groups linked to a channel
+     * https://api.slack.com/methods/admin.conversations.restrictAccess.listGroups - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessListGroupsResponse adminConversationsRestrictAccessListGroups(shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessListGroupsRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessListGroupsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.restrictAccess.listGroups");
@@ -121,6 +137,14 @@ public class AdminConversationsRestrictAccess {
         return res;
     }
 
+    /**
+     * Remove a linked IDP group linked from a private channel
+     * https://api.slack.com/methods/admin.conversations.restrictAccess.removeGroup - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessRemoveGroupResponse adminConversationsRestrictAccessRemoveGroup(shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessRemoveGroupRequestBody request, shadowcodex.slack_spec.models.operations.AdminConversationsRestrictAccessRemoveGroupSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.restrictAccess.removeGroup");

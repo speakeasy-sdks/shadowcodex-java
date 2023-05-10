@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminInviteRequestsApprovedListSecurity {
     @SpeakeasyMetadata("security:scheme=true,type=oauth2,name=Authorization")
     public String slackAuth;
+
     public AdminInviteRequestsApprovedListSecurity withSlackAuth(String slackAuth) {
         this.slackAuth = slackAuth;
         return this;

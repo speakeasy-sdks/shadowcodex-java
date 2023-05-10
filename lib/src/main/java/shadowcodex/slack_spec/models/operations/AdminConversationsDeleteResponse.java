@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminConversationsDeleteResponse {
     
     public String contentType;
+
     public AdminConversationsDeleteResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AdminConversationsDeleteResponse {
     
     
     public Integer statusCode;
+
     public AdminConversationsDeleteResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AdminConversationsDeleteResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminConversationsDeleteResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AdminConversationsDeleteResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsDeleteErrorSchema;
+
     public AdminConversationsDeleteResponse withAdminConversationsDeleteErrorSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsDeleteErrorSchema) {
         this.adminConversationsDeleteErrorSchema = adminConversationsDeleteErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AdminConversationsDeleteResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsDeleteSchema;
+
     public AdminConversationsDeleteResponse withAdminConversationsDeleteSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsDeleteSchema) {
         this.adminConversationsDeleteSchema = adminConversationsDeleteSchema;
         return this;

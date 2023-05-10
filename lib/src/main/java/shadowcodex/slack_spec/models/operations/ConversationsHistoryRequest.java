@@ -12,6 +12,7 @@ public class ConversationsHistoryRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public ConversationsHistoryRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -22,6 +23,7 @@ public class ConversationsHistoryRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public ConversationsHistoryRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -32,6 +34,7 @@ public class ConversationsHistoryRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=inclusive")
     public Boolean inclusive;
+
     public ConversationsHistoryRequest withInclusive(Boolean inclusive) {
         this.inclusive = inclusive;
         return this;
@@ -42,6 +45,7 @@ public class ConversationsHistoryRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=latest")
     public Double latest;
+
     public ConversationsHistoryRequest withLatest(Double latest) {
         this.latest = latest;
         return this;
@@ -52,6 +56,7 @@ public class ConversationsHistoryRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public ConversationsHistoryRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -62,6 +67,7 @@ public class ConversationsHistoryRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=oldest")
     public Double oldest;
+
     public ConversationsHistoryRequest withOldest(Double oldest) {
         this.oldest = oldest;
         return this;
@@ -72,6 +78,7 @@ public class ConversationsHistoryRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public ConversationsHistoryRequest withToken(String token) {
         this.token = token;
         return this;

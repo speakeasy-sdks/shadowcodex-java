@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class DndInfoResponse {
     
     public String contentType;
+
     public DndInfoResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class DndInfoResponse {
     
     
     public Integer statusCode;
+
     public DndInfoResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class DndInfoResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public DndInfoResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class DndInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> dndInfoErrorSchema;
+
     public DndInfoResponse withDndInfoErrorSchema(java.util.Map<String, java.util.Map<String, Object>> dndInfoErrorSchema) {
         this.dndInfoErrorSchema = dndInfoErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class DndInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> dndInfoSchema;
+
     public DndInfoResponse withDndInfoSchema(java.util.Map<String, java.util.Map<String, Object>> dndInfoSchema) {
         this.dndInfoSchema = dndInfoSchema;
         return this;

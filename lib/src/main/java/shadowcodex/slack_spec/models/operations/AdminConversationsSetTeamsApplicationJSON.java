@@ -14,6 +14,7 @@ public class AdminConversationsSetTeamsApplicationJSON {
      */
     @JsonProperty("channel_id")
     public String channelId;
+
     public AdminConversationsSetTeamsApplicationJSON withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -25,6 +26,7 @@ public class AdminConversationsSetTeamsApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("org_channel")
     public Boolean orgChannel;
+
     public AdminConversationsSetTeamsApplicationJSON withOrgChannel(Boolean orgChannel) {
         this.orgChannel = orgChannel;
         return this;
@@ -36,6 +38,7 @@ public class AdminConversationsSetTeamsApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("target_team_ids")
     public String targetTeamIds;
+
     public AdminConversationsSetTeamsApplicationJSON withTargetTeamIds(String targetTeamIds) {
         this.targetTeamIds = targetTeamIds;
         return this;
@@ -47,6 +50,7 @@ public class AdminConversationsSetTeamsApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminConversationsSetTeamsApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

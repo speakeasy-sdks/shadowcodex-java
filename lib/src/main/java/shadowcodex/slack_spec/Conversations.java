@@ -32,6 +32,14 @@ public class Conversations {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Archives a conversation.
+     * https://api.slack.com/methods/conversations.archive - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsArchiveResponse conversationsArchive(shadowcodex.slack_spec.models.operations.ConversationsArchiveRequest request, shadowcodex.slack_spec.models.operations.ConversationsArchiveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.archive");
@@ -81,6 +89,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Closes a direct message or multi-person direct message.
+     * https://api.slack.com/methods/conversations.close - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsCloseResponse conversationsClose(shadowcodex.slack_spec.models.operations.ConversationsCloseRequest request, shadowcodex.slack_spec.models.operations.ConversationsCloseSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.close");
@@ -130,6 +146,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Initiates a public or private channel-based conversation
+     * https://api.slack.com/methods/conversations.create - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsCreateResponse conversationsCreate(shadowcodex.slack_spec.models.operations.ConversationsCreateRequest request, shadowcodex.slack_spec.models.operations.ConversationsCreateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.create");
@@ -179,6 +203,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Fetches a conversation's history of messages and events.
+     * https://api.slack.com/methods/conversations.history - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsHistoryResponse conversationsHistory(shadowcodex.slack_spec.models.operations.ConversationsHistoryRequest request, shadowcodex.slack_spec.models.operations.ConversationsHistorySecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.history");
@@ -224,6 +256,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Retrieve information about a conversation.
+     * https://api.slack.com/methods/conversations.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsInfoResponse conversationsInfo(shadowcodex.slack_spec.models.operations.ConversationsInfoRequest request, shadowcodex.slack_spec.models.operations.ConversationsInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.info");
@@ -269,6 +309,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Invites users to a channel.
+     * https://api.slack.com/methods/conversations.invite - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsInviteResponse conversationsInvite(shadowcodex.slack_spec.models.operations.ConversationsInviteRequest request, shadowcodex.slack_spec.models.operations.ConversationsInviteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.invite");
@@ -310,6 +358,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Joins an existing conversation.
+     * https://api.slack.com/methods/conversations.join - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsJoinResponse conversationsJoin(shadowcodex.slack_spec.models.operations.ConversationsJoinRequest request, shadowcodex.slack_spec.models.operations.ConversationsJoinSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.join");
@@ -359,6 +415,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Removes a user from a conversation.
+     * https://api.slack.com/methods/conversations.kick - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsKickResponse conversationsKick(shadowcodex.slack_spec.models.operations.ConversationsKickRequest request, shadowcodex.slack_spec.models.operations.ConversationsKickSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.kick");
@@ -408,6 +472,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Leaves a conversation.
+     * https://api.slack.com/methods/conversations.leave - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsLeaveResponse conversationsLeave(shadowcodex.slack_spec.models.operations.ConversationsLeaveRequest request, shadowcodex.slack_spec.models.operations.ConversationsLeaveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.leave");
@@ -457,6 +529,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Lists all channels in a Slack team.
+     * https://api.slack.com/methods/conversations.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsListResponse conversationsList(shadowcodex.slack_spec.models.operations.ConversationsListRequest request, shadowcodex.slack_spec.models.operations.ConversationsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.list");
@@ -502,6 +582,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Sets the read cursor in a channel.
+     * https://api.slack.com/methods/conversations.mark - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsMarkResponse conversationsMark(shadowcodex.slack_spec.models.operations.ConversationsMarkRequest request, shadowcodex.slack_spec.models.operations.ConversationsMarkSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.mark");
@@ -551,6 +639,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Retrieve members of a conversation.
+     * https://api.slack.com/methods/conversations.members - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsMembersResponse conversationsMembers(shadowcodex.slack_spec.models.operations.ConversationsMembersRequest request, shadowcodex.slack_spec.models.operations.ConversationsMembersSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.members");
@@ -596,6 +692,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Opens or resumes a direct message or multi-person direct message.
+     * https://api.slack.com/methods/conversations.open - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsOpenResponse conversationsOpen(shadowcodex.slack_spec.models.operations.ConversationsOpenRequest request, shadowcodex.slack_spec.models.operations.ConversationsOpenSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.open");
@@ -645,6 +749,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Renames a conversation.
+     * https://api.slack.com/methods/conversations.rename - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsRenameResponse conversationsRename(shadowcodex.slack_spec.models.operations.ConversationsRenameRequest request, shadowcodex.slack_spec.models.operations.ConversationsRenameSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.rename");
@@ -694,6 +806,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Retrieve a thread of messages posted to a conversation
+     * https://api.slack.com/methods/conversations.replies - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsRepliesResponse conversationsReplies(shadowcodex.slack_spec.models.operations.ConversationsRepliesRequest request, shadowcodex.slack_spec.models.operations.ConversationsRepliesSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.replies");
@@ -739,6 +859,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Sets the purpose for a conversation.
+     * https://api.slack.com/methods/conversations.setPurpose - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsSetPurposeResponse conversationsSetPurpose(shadowcodex.slack_spec.models.operations.ConversationsSetPurposeRequest request, shadowcodex.slack_spec.models.operations.ConversationsSetPurposeSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.setPurpose");
@@ -788,6 +916,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Sets the topic for a conversation.
+     * https://api.slack.com/methods/conversations.setTopic - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsSetTopicResponse conversationsSetTopic(shadowcodex.slack_spec.models.operations.ConversationsSetTopicRequest request, shadowcodex.slack_spec.models.operations.ConversationsSetTopicSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.setTopic");
@@ -837,6 +973,14 @@ public class Conversations {
         return res;
     }
 
+    /**
+     * Reverses conversation archival.
+     * https://api.slack.com/methods/conversations.unarchive - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ConversationsUnarchiveResponse conversationsUnarchive(shadowcodex.slack_spec.models.operations.ConversationsUnarchiveRequest request, shadowcodex.slack_spec.models.operations.ConversationsUnarchiveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/conversations.unarchive");

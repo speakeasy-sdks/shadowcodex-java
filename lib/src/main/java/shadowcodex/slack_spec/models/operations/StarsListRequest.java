@@ -9,6 +9,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class StarsListRequest {
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=count")
     public String count;
+
     public StarsListRequest withCount(String count) {
         this.count = count;
         return this;
@@ -19,6 +20,7 @@ public class StarsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public StarsListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -29,6 +31,7 @@ public class StarsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public StarsListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -36,6 +39,7 @@ public class StarsListRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=page")
     public String page;
+
     public StarsListRequest withPage(String page) {
         this.page = page;
         return this;
@@ -46,6 +50,7 @@ public class StarsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public StarsListRequest withToken(String token) {
         this.token = token;
         return this;

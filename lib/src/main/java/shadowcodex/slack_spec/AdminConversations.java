@@ -32,6 +32,14 @@ public class AdminConversations {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Archive a public or private channel.
+     * https://api.slack.com/methods/admin.conversations.archive - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsArchiveResponse adminConversationsArchive(shadowcodex.slack_spec.models.operations.AdminConversationsArchiveRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsArchiveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.archive");
@@ -84,6 +92,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Convert a public channel to a private channel.
+     * https://api.slack.com/methods/admin.conversations.convertToPrivate - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsConvertToPrivateResponse adminConversationsConvertToPrivate(shadowcodex.slack_spec.models.operations.AdminConversationsConvertToPrivateRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsConvertToPrivateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.convertToPrivate");
@@ -136,6 +152,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Create a public or private channel-based conversation.
+     * https://api.slack.com/methods/admin.conversations.create - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsCreateResponse adminConversationsCreate(shadowcodex.slack_spec.models.operations.AdminConversationsCreateRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsCreateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.create");
@@ -188,6 +212,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Delete a public or private channel.
+     * https://api.slack.com/methods/admin.conversations.delete - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsDeleteResponse adminConversationsDelete(shadowcodex.slack_spec.models.operations.AdminConversationsDeleteRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsDeleteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.delete");
@@ -240,6 +272,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Disconnect a connected channel from one or more workspaces.
+     * https://api.slack.com/methods/admin.conversations.disconnectShared - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsDisconnectSharedResponse adminConversationsDisconnectShared(shadowcodex.slack_spec.models.operations.AdminConversationsDisconnectSharedRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsDisconnectSharedSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.disconnectShared");
@@ -292,6 +332,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Get conversation preferences for a public or private channel.
+     * https://api.slack.com/methods/admin.conversations.getConversationPrefs - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsGetConversationPrefsResponse adminConversationsGetConversationPrefs(shadowcodex.slack_spec.models.operations.AdminConversationsGetConversationPrefsRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsGetConversationPrefsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.getConversationPrefs");
@@ -345,6 +393,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Get all the workspaces a given public or private channel is connected to within this Enterprise org.
+     * https://api.slack.com/methods/admin.conversations.getTeams - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsGetTeamsResponse adminConversationsGetTeams(shadowcodex.slack_spec.models.operations.AdminConversationsGetTeamsRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsGetTeamsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.getTeams");
@@ -398,6 +454,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Invite a user to a public or private channel.
+     * https://api.slack.com/methods/admin.conversations.invite - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsInviteResponse adminConversationsInvite(shadowcodex.slack_spec.models.operations.AdminConversationsInviteRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsInviteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.invite");
@@ -450,6 +514,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Rename a public or private channel.
+     * https://api.slack.com/methods/admin.conversations.rename - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsRenameResponse adminConversationsRename(shadowcodex.slack_spec.models.operations.AdminConversationsRenameRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsRenameSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.rename");
@@ -502,6 +574,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Search for public or private channels in an Enterprise organization.
+     * https://api.slack.com/methods/admin.conversations.search - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsSearchResponse adminConversationsSearch(shadowcodex.slack_spec.models.operations.AdminConversationsSearchRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsSearchSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.search");
@@ -555,6 +635,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Set the posting permissions for a public or private channel.
+     * https://api.slack.com/methods/admin.conversations.setConversationPrefs - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsSetConversationPrefsResponse adminConversationsSetConversationPrefs(shadowcodex.slack_spec.models.operations.AdminConversationsSetConversationPrefsRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsSetConversationPrefsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.setConversationPrefs");
@@ -607,6 +695,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Set the workspaces in an Enterprise grid org that connect to a public or private channel.
+     * https://api.slack.com/methods/admin.conversations.setTeams - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsSetTeamsResponse adminConversationsSetTeams(shadowcodex.slack_spec.models.operations.AdminConversationsSetTeamsRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsSetTeamsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.setTeams");
@@ -659,6 +755,14 @@ public class AdminConversations {
         return res;
     }
 
+    /**
+     * Unarchive a public or private channel.
+     * https://api.slack.com/methods/admin.conversations.unarchive - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsUnarchiveResponse adminConversationsUnarchive(shadowcodex.slack_spec.models.operations.AdminConversationsUnarchiveRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsUnarchiveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.unarchive");

@@ -13,6 +13,7 @@ public class CallsInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=id")
     public String id;
+
     public CallsInfoRequest withId(String id) {
         this.id = id;
         return this;
@@ -23,6 +24,7 @@ public class CallsInfoRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public CallsInfoRequest withToken(String token) {
         this.token = token;
         return this;

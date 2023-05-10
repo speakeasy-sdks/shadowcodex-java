@@ -12,6 +12,7 @@ public class UsersSetPresenceApplicationJSON {
      */
     @JsonProperty("presence")
     public String presence;
+
     public UsersSetPresenceApplicationJSON withPresence(String presence) {
         this.presence = presence;
         return this;

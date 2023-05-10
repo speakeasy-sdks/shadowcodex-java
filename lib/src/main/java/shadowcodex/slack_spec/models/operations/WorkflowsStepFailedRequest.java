@@ -13,6 +13,7 @@ public class WorkflowsStepFailedRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=error")
     public String error;
+
     public WorkflowsStepFailedRequest withError(String error) {
         this.error = error;
         return this;
@@ -23,6 +24,7 @@ public class WorkflowsStepFailedRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public WorkflowsStepFailedRequest withToken(String token) {
         this.token = token;
         return this;
@@ -33,6 +35,7 @@ public class WorkflowsStepFailedRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=workflow_step_execute_id")
     public String workflowStepExecuteId;
+
     public WorkflowsStepFailedRequest withWorkflowStepExecuteId(String workflowStepExecuteId) {
         this.workflowStepExecuteId = workflowStepExecuteId;
         return this;

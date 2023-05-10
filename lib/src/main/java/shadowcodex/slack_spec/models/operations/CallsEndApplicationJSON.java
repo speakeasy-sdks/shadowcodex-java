@@ -15,6 +15,7 @@ public class CallsEndApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("duration")
     public Integer duration;
+
     public CallsEndApplicationJSON withDuration(Integer duration) {
         this.duration = duration;
         return this;
@@ -25,6 +26,7 @@ public class CallsEndApplicationJSON {
      */
     @JsonProperty("id")
     public String id;
+
     public CallsEndApplicationJSON withId(String id) {
         this.id = id;
         return this;

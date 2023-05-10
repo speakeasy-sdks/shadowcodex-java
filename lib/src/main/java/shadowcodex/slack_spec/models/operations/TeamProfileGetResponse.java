@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class TeamProfileGetResponse {
     
     public String contentType;
+
     public TeamProfileGetResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class TeamProfileGetResponse {
     
     
     public Integer statusCode;
+
     public TeamProfileGetResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class TeamProfileGetResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public TeamProfileGetResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class TeamProfileGetResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> teamProfileGetErrorSchema;
+
     public TeamProfileGetResponse withTeamProfileGetErrorSchema(java.util.Map<String, java.util.Map<String, Object>> teamProfileGetErrorSchema) {
         this.teamProfileGetErrorSchema = teamProfileGetErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class TeamProfileGetResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> teamProfileGetSuccessSchema;
+
     public TeamProfileGetResponse withTeamProfileGetSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> teamProfileGetSuccessSchema) {
         this.teamProfileGetSuccessSchema = teamProfileGetSuccessSchema;
         return this;

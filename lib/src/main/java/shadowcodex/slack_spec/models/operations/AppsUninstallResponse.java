@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AppsUninstallResponse {
     
     public String contentType;
+
     public AppsUninstallResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AppsUninstallResponse {
     
     
     public Integer statusCode;
+
     public AppsUninstallResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AppsUninstallResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AppsUninstallResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AppsUninstallResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> appsUninstallErrorSchema;
+
     public AppsUninstallResponse withAppsUninstallErrorSchema(java.util.Map<String, java.util.Map<String, Object>> appsUninstallErrorSchema) {
         this.appsUninstallErrorSchema = appsUninstallErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AppsUninstallResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> appsUninstallSchema;
+
     public AppsUninstallResponse withAppsUninstallSchema(java.util.Map<String, java.util.Map<String, Object>> appsUninstallSchema) {
         this.appsUninstallSchema = appsUninstallSchema;
         return this;

@@ -31,6 +31,14 @@ public class AppsEventAuthorizations {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Get a list of authorizations for the given event context. Each authorization represents an app installation that the event is visible to.
+     * https://api.slack.com/methods/apps.event.authorizations.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsEventAuthorizationsListResponse appsEventAuthorizationsList(shadowcodex.slack_spec.models.operations.AppsEventAuthorizationsListRequest request, shadowcodex.slack_spec.models.operations.AppsEventAuthorizationsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.event.authorizations.list");

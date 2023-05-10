@@ -15,6 +15,7 @@ public class ConversationsJoinApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsJoinApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;

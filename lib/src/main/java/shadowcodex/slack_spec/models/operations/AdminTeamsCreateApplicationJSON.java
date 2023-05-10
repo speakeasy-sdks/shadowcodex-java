@@ -15,6 +15,7 @@ public class AdminTeamsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("team_description")
     public String teamDescription;
+
     public AdminTeamsCreateApplicationJSON withTeamDescription(String teamDescription) {
         this.teamDescription = teamDescription;
         return this;
@@ -26,6 +27,7 @@ public class AdminTeamsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("team_discoverability")
     public String teamDiscoverability;
+
     public AdminTeamsCreateApplicationJSON withTeamDiscoverability(String teamDiscoverability) {
         this.teamDiscoverability = teamDiscoverability;
         return this;
@@ -36,6 +38,7 @@ public class AdminTeamsCreateApplicationJSON {
      */
     @JsonProperty("team_domain")
     public String teamDomain;
+
     public AdminTeamsCreateApplicationJSON withTeamDomain(String teamDomain) {
         this.teamDomain = teamDomain;
         return this;
@@ -46,6 +49,7 @@ public class AdminTeamsCreateApplicationJSON {
      */
     @JsonProperty("team_name")
     public String teamName;
+
     public AdminTeamsCreateApplicationJSON withTeamName(String teamName) {
         this.teamName = teamName;
         return this;

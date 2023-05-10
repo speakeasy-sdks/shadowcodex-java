@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminTeamsSettingsInfoRequest {
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_id")
     public String teamId;
+
     public AdminTeamsSettingsInfoRequest withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -20,6 +21,7 @@ public class AdminTeamsSettingsInfoRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminTeamsSettingsInfoRequest withToken(String token) {
         this.token = token;
         return this;

@@ -13,6 +13,7 @@ public class AdminTeamsSettingsSetIconRequestBody {
      */
     @SpeakeasyMetadata("form:name=image_url")
     public String imageUrl;
+
     public AdminTeamsSettingsSetIconRequestBody withImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
         return this;
@@ -23,6 +24,7 @@ public class AdminTeamsSettingsSetIconRequestBody {
      */
     @SpeakeasyMetadata("form:name=team_id")
     public String teamId;
+
     public AdminTeamsSettingsSetIconRequestBody withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -33,6 +35,7 @@ public class AdminTeamsSettingsSetIconRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public AdminTeamsSettingsSetIconRequestBody withToken(String token) {
         this.token = token;
         return this;

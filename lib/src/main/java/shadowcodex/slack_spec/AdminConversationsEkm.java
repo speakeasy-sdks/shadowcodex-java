@@ -31,6 +31,14 @@ public class AdminConversationsEkm {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * List all disconnected channels\u2014i.e., channels that were once connected to other workspaces and then disconnected\u2014and the corresponding original channel IDs for key revocation with EKM.
+     * https://api.slack.com/methods/admin.conversations.ekm.listOriginalConnectedChannelInfo - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminConversationsEkmListOriginalConnectedChannelInfoResponse adminConversationsEkmListOriginalConnectedChannelInfo(shadowcodex.slack_spec.models.operations.AdminConversationsEkmListOriginalConnectedChannelInfoRequest request, shadowcodex.slack_spec.models.operations.AdminConversationsEkmListOriginalConnectedChannelInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.conversations.ekm.listOriginalConnectedChannelInfo");

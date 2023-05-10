@@ -12,6 +12,7 @@ public class FilesRemoteRemoveRequestBody {
      */
     @SpeakeasyMetadata("form:name=external_id")
     public String externalId;
+
     public FilesRemoteRemoveRequestBody withExternalId(String externalId) {
         this.externalId = externalId;
         return this;
@@ -22,6 +23,7 @@ public class FilesRemoteRemoveRequestBody {
      */
     @SpeakeasyMetadata("form:name=file")
     public String file;
+
     public FilesRemoteRemoveRequestBody withFile(String file) {
         this.file = file;
         return this;
@@ -32,6 +34,7 @@ public class FilesRemoteRemoveRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public FilesRemoteRemoveRequestBody withToken(String token) {
         this.token = token;
         return this;

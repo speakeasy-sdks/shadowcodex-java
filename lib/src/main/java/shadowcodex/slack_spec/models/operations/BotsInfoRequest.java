@@ -13,6 +13,7 @@ public class BotsInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=bot")
     public String bot;
+
     public BotsInfoRequest withBot(String bot) {
         this.bot = bot;
         return this;
@@ -23,6 +24,7 @@ public class BotsInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public BotsInfoRequest withToken(String token) {
         this.token = token;
         return this;

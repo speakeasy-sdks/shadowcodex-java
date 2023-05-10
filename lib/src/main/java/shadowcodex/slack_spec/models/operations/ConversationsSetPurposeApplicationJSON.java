@@ -15,6 +15,7 @@ public class ConversationsSetPurposeApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsSetPurposeApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class ConversationsSetPurposeApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("purpose")
     public String purpose;
+
     public ConversationsSetPurposeApplicationJSON withPurpose(String purpose) {
         this.purpose = purpose;
         return this;

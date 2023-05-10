@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminUsergroupsAddChannelsResponse {
     
     public String contentType;
+
     public AdminUsergroupsAddChannelsResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class AdminUsergroupsAddChannelsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public AdminUsergroupsAddChannelsResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class AdminUsergroupsAddChannelsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public AdminUsergroupsAddChannelsResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class AdminUsergroupsAddChannelsResponse {
     
     
     public Integer statusCode;
+
     public AdminUsergroupsAddChannelsResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class AdminUsergroupsAddChannelsResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminUsergroupsAddChannelsResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

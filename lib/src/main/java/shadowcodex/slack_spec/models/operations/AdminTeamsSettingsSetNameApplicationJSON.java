@@ -12,6 +12,7 @@ public class AdminTeamsSettingsSetNameApplicationJSON {
      */
     @JsonProperty("name")
     public String name;
+
     public AdminTeamsSettingsSetNameApplicationJSON withName(String name) {
         this.name = name;
         return this;
@@ -22,6 +23,7 @@ public class AdminTeamsSettingsSetNameApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminTeamsSettingsSetNameApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

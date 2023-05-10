@@ -14,6 +14,7 @@ public class AdminUsergroupsAddChannelsApplicationJSON {
      */
     @JsonProperty("channel_ids")
     public String channelIds;
+
     public AdminUsergroupsAddChannelsApplicationJSON withChannelIds(String channelIds) {
         this.channelIds = channelIds;
         return this;
@@ -25,6 +26,7 @@ public class AdminUsergroupsAddChannelsApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminUsergroupsAddChannelsApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -35,6 +37,7 @@ public class AdminUsergroupsAddChannelsApplicationJSON {
      */
     @JsonProperty("usergroup_id")
     public String usergroupId;
+
     public AdminUsergroupsAddChannelsApplicationJSON withUsergroupId(String usergroupId) {
         this.usergroupId = usergroupId;
         return this;

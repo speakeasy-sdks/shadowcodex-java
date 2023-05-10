@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminConversationsConvertToPrivateResponse {
     
     public String contentType;
+
     public AdminConversationsConvertToPrivateResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AdminConversationsConvertToPrivateResponse {
     
     
     public Integer statusCode;
+
     public AdminConversationsConvertToPrivateResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AdminConversationsConvertToPrivateResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminConversationsConvertToPrivateResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AdminConversationsConvertToPrivateResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsConvertToPrivateErrorSchema;
+
     public AdminConversationsConvertToPrivateResponse withAdminConversationsConvertToPrivateErrorSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsConvertToPrivateErrorSchema) {
         this.adminConversationsConvertToPrivateErrorSchema = adminConversationsConvertToPrivateErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AdminConversationsConvertToPrivateResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsConvertToPrivateSchema;
+
     public AdminConversationsConvertToPrivateResponse withAdminConversationsConvertToPrivateSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsConvertToPrivateSchema) {
         this.adminConversationsConvertToPrivateSchema = adminConversationsConvertToPrivateSchema;
         return this;

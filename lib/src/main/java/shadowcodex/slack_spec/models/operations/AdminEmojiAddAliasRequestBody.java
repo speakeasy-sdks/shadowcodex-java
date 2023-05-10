@@ -13,6 +13,7 @@ public class AdminEmojiAddAliasRequestBody {
      */
     @SpeakeasyMetadata("form:name=alias_for")
     public String aliasFor;
+
     public AdminEmojiAddAliasRequestBody withAliasFor(String aliasFor) {
         this.aliasFor = aliasFor;
         return this;
@@ -23,6 +24,7 @@ public class AdminEmojiAddAliasRequestBody {
      */
     @SpeakeasyMetadata("form:name=name")
     public String name;
+
     public AdminEmojiAddAliasRequestBody withName(String name) {
         this.name = name;
         return this;
@@ -33,6 +35,7 @@ public class AdminEmojiAddAliasRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public AdminEmojiAddAliasRequestBody withToken(String token) {
         this.token = token;
         return this;

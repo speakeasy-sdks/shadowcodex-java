@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class ReactionsAddRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public ReactionsAddApplicationJSON requestBody;
+
     public ReactionsAddRequest withRequestBody(ReactionsAddApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class ReactionsAddRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public ReactionsAddRequest withToken(String token) {
         this.token = token;
         return this;

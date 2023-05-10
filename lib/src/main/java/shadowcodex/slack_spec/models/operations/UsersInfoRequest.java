@@ -13,6 +13,7 @@ public class UsersInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=include_locale")
     public Boolean includeLocale;
+
     public UsersInfoRequest withIncludeLocale(Boolean includeLocale) {
         this.includeLocale = includeLocale;
         return this;
@@ -23,6 +24,7 @@ public class UsersInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public UsersInfoRequest withToken(String token) {
         this.token = token;
         return this;
@@ -33,6 +35,7 @@ public class UsersInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=user")
     public String user;
+
     public UsersInfoRequest withUser(String user) {
         this.user = user;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class WorkflowsUpdateStepResponse {
     
     public String contentType;
+
     public WorkflowsUpdateStepResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class WorkflowsUpdateStepResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public WorkflowsUpdateStepResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class WorkflowsUpdateStepResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public WorkflowsUpdateStepResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class WorkflowsUpdateStepResponse {
     
     
     public Integer statusCode;
+
     public WorkflowsUpdateStepResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class WorkflowsUpdateStepResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public WorkflowsUpdateStepResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

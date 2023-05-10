@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesCommentsDeleteResponse {
     
     public String contentType;
+
     public FilesCommentsDeleteResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class FilesCommentsDeleteResponse {
     
     
     public Integer statusCode;
+
     public FilesCommentsDeleteResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class FilesCommentsDeleteResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesCommentsDeleteResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class FilesCommentsDeleteResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesCommentsDeleteErrorSchema;
+
     public FilesCommentsDeleteResponse withFilesCommentsDeleteErrorSchema(java.util.Map<String, java.util.Map<String, Object>> filesCommentsDeleteErrorSchema) {
         this.filesCommentsDeleteErrorSchema = filesCommentsDeleteErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class FilesCommentsDeleteResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesCommentsDeleteSchema;
+
     public FilesCommentsDeleteResponse withFilesCommentsDeleteSchema(java.util.Map<String, java.util.Map<String, Object>> filesCommentsDeleteSchema) {
         this.filesCommentsDeleteSchema = filesCommentsDeleteSchema;
         return this;

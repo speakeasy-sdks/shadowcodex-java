@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class UsersSetPresenceRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public UsersSetPresenceApplicationJSON requestBody;
+
     public UsersSetPresenceRequest withRequestBody(UsersSetPresenceApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class UsersSetPresenceRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public UsersSetPresenceRequest withToken(String token) {
         this.token = token;
         return this;

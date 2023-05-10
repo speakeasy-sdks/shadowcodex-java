@@ -13,6 +13,7 @@ public class WorkflowsStepCompletedRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=outputs")
     public String outputs;
+
     public WorkflowsStepCompletedRequest withOutputs(String outputs) {
         this.outputs = outputs;
         return this;
@@ -23,6 +24,7 @@ public class WorkflowsStepCompletedRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public WorkflowsStepCompletedRequest withToken(String token) {
         this.token = token;
         return this;
@@ -33,6 +35,7 @@ public class WorkflowsStepCompletedRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=workflow_step_execute_id")
     public String workflowStepExecuteId;
+
     public WorkflowsStepCompletedRequest withWorkflowStepExecuteId(String workflowStepExecuteId) {
         this.workflowStepExecuteId = workflowStepExecuteId;
         return this;

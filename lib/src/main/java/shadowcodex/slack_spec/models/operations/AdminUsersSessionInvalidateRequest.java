@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminUsersSessionInvalidateRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminUsersSessionInvalidateApplicationJSON requestBody;
+
     public AdminUsersSessionInvalidateRequest withRequestBody(AdminUsersSessionInvalidateApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminUsersSessionInvalidateRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminUsersSessionInvalidateRequest withToken(String token) {
         this.token = token;
         return this;

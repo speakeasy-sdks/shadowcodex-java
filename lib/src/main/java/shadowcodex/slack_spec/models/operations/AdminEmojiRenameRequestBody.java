@@ -13,6 +13,7 @@ public class AdminEmojiRenameRequestBody {
      */
     @SpeakeasyMetadata("form:name=name")
     public String name;
+
     public AdminEmojiRenameRequestBody withName(String name) {
         this.name = name;
         return this;
@@ -23,6 +24,7 @@ public class AdminEmojiRenameRequestBody {
      */
     @SpeakeasyMetadata("form:name=new_name")
     public String newName;
+
     public AdminEmojiRenameRequestBody withNewName(String newName) {
         this.newName = newName;
         return this;
@@ -33,6 +35,7 @@ public class AdminEmojiRenameRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public AdminEmojiRenameRequestBody withToken(String token) {
         this.token = token;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class PinsListResponse {
     
     public String contentType;
+
     public PinsListResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class PinsListResponse {
     
     
     public Integer statusCode;
+
     public PinsListResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class PinsListResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public PinsListResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class PinsListResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> pinsListErrorSchema;
+
     public PinsListResponse withPinsListErrorSchema(java.util.Map<String, java.util.Map<String, Object>> pinsListErrorSchema) {
         this.pinsListErrorSchema = pinsListErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class PinsListResponse {
      */
     
     public java.util.Map<String, Object> pinsListSuccessSchema;
+
     public PinsListResponse withPinsListSuccessSchema(java.util.Map<String, Object> pinsListSuccessSchema) {
         this.pinsListSuccessSchema = pinsListSuccessSchema;
         return this;

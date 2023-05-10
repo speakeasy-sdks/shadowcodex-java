@@ -31,6 +31,14 @@ public class Auth {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Revokes a token.
+     * https://api.slack.com/methods/auth.revoke - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AuthRevokeResponse authRevoke(shadowcodex.slack_spec.models.operations.AuthRevokeRequest request, shadowcodex.slack_spec.models.operations.AuthRevokeSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/auth.revoke");
@@ -76,6 +84,14 @@ public class Auth {
         return res;
     }
 
+    /**
+     * Checks authentication &amp; identity.
+     * https://api.slack.com/methods/auth.test - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AuthTestResponse authTest(shadowcodex.slack_spec.models.operations.AuthTestRequest request, shadowcodex.slack_spec.models.operations.AuthTestSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/auth.test");

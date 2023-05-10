@@ -13,6 +13,7 @@ public class AdminInviteRequestsApprovedListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public AdminInviteRequestsApprovedListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -23,6 +24,7 @@ public class AdminInviteRequestsApprovedListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public AdminInviteRequestsApprovedListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -33,6 +35,7 @@ public class AdminInviteRequestsApprovedListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_id")
     public String teamId;
+
     public AdminInviteRequestsApprovedListRequest withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -43,6 +46,7 @@ public class AdminInviteRequestsApprovedListRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminInviteRequestsApprovedListRequest withToken(String token) {
         this.token = token;
         return this;

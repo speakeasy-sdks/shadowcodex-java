@@ -12,6 +12,7 @@ public class ConversationsInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public ConversationsInfoRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -22,6 +23,7 @@ public class ConversationsInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=include_locale")
     public Boolean includeLocale;
+
     public ConversationsInfoRequest withIncludeLocale(Boolean includeLocale) {
         this.includeLocale = includeLocale;
         return this;
@@ -32,6 +34,7 @@ public class ConversationsInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=include_num_members")
     public Boolean includeNumMembers;
+
     public ConversationsInfoRequest withIncludeNumMembers(Boolean includeNumMembers) {
         this.includeNumMembers = includeNumMembers;
         return this;
@@ -42,6 +45,7 @@ public class ConversationsInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public ConversationsInfoRequest withToken(String token) {
         this.token = token;
         return this;

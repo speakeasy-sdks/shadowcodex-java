@@ -14,6 +14,7 @@ public class AdminUsersInviteApplicationJSON {
      */
     @JsonProperty("channel_ids")
     public String channelIds;
+
     public AdminUsersInviteApplicationJSON withChannelIds(String channelIds) {
         this.channelIds = channelIds;
         return this;
@@ -25,6 +26,7 @@ public class AdminUsersInviteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("custom_message")
     public String customMessage;
+
     public AdminUsersInviteApplicationJSON withCustomMessage(String customMessage) {
         this.customMessage = customMessage;
         return this;
@@ -35,6 +37,7 @@ public class AdminUsersInviteApplicationJSON {
      */
     @JsonProperty("email")
     public String email;
+
     public AdminUsersInviteApplicationJSON withEmail(String email) {
         this.email = email;
         return this;
@@ -46,6 +49,7 @@ public class AdminUsersInviteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("guest_expiration_ts")
     public String guestExpirationTs;
+
     public AdminUsersInviteApplicationJSON withGuestExpirationTs(String guestExpirationTs) {
         this.guestExpirationTs = guestExpirationTs;
         return this;
@@ -57,6 +61,7 @@ public class AdminUsersInviteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("is_restricted")
     public Boolean isRestricted;
+
     public AdminUsersInviteApplicationJSON withIsRestricted(Boolean isRestricted) {
         this.isRestricted = isRestricted;
         return this;
@@ -68,6 +73,7 @@ public class AdminUsersInviteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("is_ultra_restricted")
     public Boolean isUltraRestricted;
+
     public AdminUsersInviteApplicationJSON withIsUltraRestricted(Boolean isUltraRestricted) {
         this.isUltraRestricted = isUltraRestricted;
         return this;
@@ -79,6 +85,7 @@ public class AdminUsersInviteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("real_name")
     public String realName;
+
     public AdminUsersInviteApplicationJSON withRealName(String realName) {
         this.realName = realName;
         return this;
@@ -90,6 +97,7 @@ public class AdminUsersInviteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("resend")
     public Boolean resend;
+
     public AdminUsersInviteApplicationJSON withResend(Boolean resend) {
         this.resend = resend;
         return this;
@@ -100,6 +108,7 @@ public class AdminUsersInviteApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminUsersInviteApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

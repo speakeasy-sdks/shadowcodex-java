@@ -13,6 +13,7 @@ public class SearchMessagesRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=count")
     public Long count;
+
     public SearchMessagesRequest withCount(Long count) {
         this.count = count;
         return this;
@@ -23,6 +24,7 @@ public class SearchMessagesRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=highlight")
     public Boolean highlight;
+
     public SearchMessagesRequest withHighlight(Boolean highlight) {
         this.highlight = highlight;
         return this;
@@ -30,6 +32,7 @@ public class SearchMessagesRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=page")
     public Long page;
+
     public SearchMessagesRequest withPage(Long page) {
         this.page = page;
         return this;
@@ -40,6 +43,7 @@ public class SearchMessagesRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=query")
     public String query;
+
     public SearchMessagesRequest withQuery(String query) {
         this.query = query;
         return this;
@@ -50,6 +54,7 @@ public class SearchMessagesRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=sort")
     public String sort;
+
     public SearchMessagesRequest withSort(String sort) {
         this.sort = sort;
         return this;
@@ -60,6 +65,7 @@ public class SearchMessagesRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=sort_dir")
     public String sortDir;
+
     public SearchMessagesRequest withSortDir(String sortDir) {
         this.sortDir = sortDir;
         return this;
@@ -70,6 +76,7 @@ public class SearchMessagesRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public SearchMessagesRequest withToken(String token) {
         this.token = token;
         return this;

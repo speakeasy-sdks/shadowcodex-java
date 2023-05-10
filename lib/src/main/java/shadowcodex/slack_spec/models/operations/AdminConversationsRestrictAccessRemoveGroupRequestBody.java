@@ -13,6 +13,7 @@ public class AdminConversationsRestrictAccessRemoveGroupRequestBody {
      */
     @SpeakeasyMetadata("form:name=channel_id")
     public String channelId;
+
     public AdminConversationsRestrictAccessRemoveGroupRequestBody withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -23,6 +24,7 @@ public class AdminConversationsRestrictAccessRemoveGroupRequestBody {
      */
     @SpeakeasyMetadata("form:name=group_id")
     public String groupId;
+
     public AdminConversationsRestrictAccessRemoveGroupRequestBody withGroupId(String groupId) {
         this.groupId = groupId;
         return this;
@@ -33,6 +35,7 @@ public class AdminConversationsRestrictAccessRemoveGroupRequestBody {
      */
     @SpeakeasyMetadata("form:name=team_id")
     public String teamId;
+
     public AdminConversationsRestrictAccessRemoveGroupRequestBody withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -43,6 +46,7 @@ public class AdminConversationsRestrictAccessRemoveGroupRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public AdminConversationsRestrictAccessRemoveGroupRequestBody withToken(String token) {
         this.token = token;
         return this;

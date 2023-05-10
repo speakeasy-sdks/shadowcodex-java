@@ -15,6 +15,7 @@ public class StarsRemoveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public StarsRemoveApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class StarsRemoveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("file")
     public String file;
+
     public StarsRemoveApplicationJSON withFile(String file) {
         this.file = file;
         return this;
@@ -37,6 +39,7 @@ public class StarsRemoveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("file_comment")
     public String fileComment;
+
     public StarsRemoveApplicationJSON withFileComment(String fileComment) {
         this.fileComment = fileComment;
         return this;
@@ -48,6 +51,7 @@ public class StarsRemoveApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("timestamp")
     public String timestamp;
+
     public StarsRemoveApplicationJSON withTimestamp(String timestamp) {
         this.timestamp = timestamp;
         return this;

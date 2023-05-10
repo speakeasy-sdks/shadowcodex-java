@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class UsersLookupByEmailResponse {
     
     public String contentType;
+
     public UsersLookupByEmailResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class UsersLookupByEmailResponse {
     
     
     public Integer statusCode;
+
     public UsersLookupByEmailResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class UsersLookupByEmailResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public UsersLookupByEmailResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class UsersLookupByEmailResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersLookupByEmailErrorSchema;
+
     public UsersLookupByEmailResponse withUsersLookupByEmailErrorSchema(java.util.Map<String, java.util.Map<String, Object>> usersLookupByEmailErrorSchema) {
         this.usersLookupByEmailErrorSchema = usersLookupByEmailErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class UsersLookupByEmailResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> usersLookupByEmailSuccessSchema;
+
     public UsersLookupByEmailResponse withUsersLookupByEmailSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> usersLookupByEmailSuccessSchema) {
         this.usersLookupByEmailSuccessSchema = usersLookupByEmailSuccessSchema;
         return this;

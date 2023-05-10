@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class ReactionsListRequest {
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=count")
     public Long count;
+
     public ReactionsListRequest withCount(Long count) {
         this.count = count;
         return this;
@@ -20,6 +21,7 @@ public class ReactionsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public ReactionsListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -30,6 +32,7 @@ public class ReactionsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=full")
     public Boolean full;
+
     public ReactionsListRequest withFull(Boolean full) {
         this.full = full;
         return this;
@@ -40,6 +43,7 @@ public class ReactionsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public ReactionsListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -47,6 +51,7 @@ public class ReactionsListRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=page")
     public Long page;
+
     public ReactionsListRequest withPage(Long page) {
         this.page = page;
         return this;
@@ -57,6 +62,7 @@ public class ReactionsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public ReactionsListRequest withToken(String token) {
         this.token = token;
         return this;
@@ -67,6 +73,7 @@ public class ReactionsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=user")
     public String user;
+
     public ReactionsListRequest withUser(String user) {
         this.user = user;
         return this;

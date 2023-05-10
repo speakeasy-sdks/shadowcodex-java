@@ -12,6 +12,7 @@ public class FilesRemoteAddRequestBody {
      */
     @SpeakeasyMetadata("form:name=external_id")
     public String externalId;
+
     public FilesRemoteAddRequestBody withExternalId(String externalId) {
         this.externalId = externalId;
         return this;
@@ -22,6 +23,7 @@ public class FilesRemoteAddRequestBody {
      */
     @SpeakeasyMetadata("form:name=external_url")
     public String externalUrl;
+
     public FilesRemoteAddRequestBody withExternalUrl(String externalUrl) {
         this.externalUrl = externalUrl;
         return this;
@@ -32,6 +34,7 @@ public class FilesRemoteAddRequestBody {
      */
     @SpeakeasyMetadata("form:name=filetype")
     public String filetype;
+
     public FilesRemoteAddRequestBody withFiletype(String filetype) {
         this.filetype = filetype;
         return this;
@@ -42,6 +45,7 @@ public class FilesRemoteAddRequestBody {
      */
     @SpeakeasyMetadata("form:name=indexable_file_contents")
     public String indexableFileContents;
+
     public FilesRemoteAddRequestBody withIndexableFileContents(String indexableFileContents) {
         this.indexableFileContents = indexableFileContents;
         return this;
@@ -52,6 +56,7 @@ public class FilesRemoteAddRequestBody {
      */
     @SpeakeasyMetadata("form:name=preview_image")
     public String previewImage;
+
     public FilesRemoteAddRequestBody withPreviewImage(String previewImage) {
         this.previewImage = previewImage;
         return this;
@@ -62,6 +67,7 @@ public class FilesRemoteAddRequestBody {
      */
     @SpeakeasyMetadata("form:name=title")
     public String title;
+
     public FilesRemoteAddRequestBody withTitle(String title) {
         this.title = title;
         return this;
@@ -72,6 +78,7 @@ public class FilesRemoteAddRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public FilesRemoteAddRequestBody withToken(String token) {
         this.token = token;
         return this;

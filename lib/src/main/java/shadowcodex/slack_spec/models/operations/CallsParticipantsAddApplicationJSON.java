@@ -12,6 +12,7 @@ public class CallsParticipantsAddApplicationJSON {
      */
     @JsonProperty("id")
     public String id;
+
     public CallsParticipantsAddApplicationJSON withId(String id) {
         this.id = id;
         return this;
@@ -22,6 +23,7 @@ public class CallsParticipantsAddApplicationJSON {
      */
     @JsonProperty("users")
     public String users;
+
     public CallsParticipantsAddApplicationJSON withUsers(String users) {
         this.users = users;
         return this;

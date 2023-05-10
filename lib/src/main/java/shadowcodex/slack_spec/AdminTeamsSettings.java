@@ -32,6 +32,14 @@ public class AdminTeamsSettings {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Fetch information about settings in a workspace
+     * https://api.slack.com/methods/admin.teams.settings.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsSettingsInfoResponse adminTeamsSettingsInfo(shadowcodex.slack_spec.models.operations.AdminTeamsSettingsInfoRequest request, shadowcodex.slack_spec.models.operations.AdminTeamsSettingsInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.settings.info");
@@ -85,6 +93,14 @@ public class AdminTeamsSettings {
         return res;
     }
 
+    /**
+     * Set the default channels of a workspace.
+     * https://api.slack.com/methods/admin.teams.settings.setDefaultChannels - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDefaultChannelsResponse adminTeamsSettingsSetDefaultChannels(shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDefaultChannelsRequestBody request, shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDefaultChannelsSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.settings.setDefaultChannels");
@@ -129,6 +145,14 @@ public class AdminTeamsSettings {
         return res;
     }
 
+    /**
+     * Set the description of a given workspace.
+     * https://api.slack.com/methods/admin.teams.settings.setDescription - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDescriptionResponse adminTeamsSettingsSetDescription(shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDescriptionRequest request, shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDescriptionSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.settings.setDescription");
@@ -181,6 +205,14 @@ public class AdminTeamsSettings {
         return res;
     }
 
+    /**
+     * An API method that allows admins to set the discoverability of a given workspace
+     * https://api.slack.com/methods/admin.teams.settings.setDiscoverability - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDiscoverabilityResponse adminTeamsSettingsSetDiscoverability(shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDiscoverabilityRequest request, shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetDiscoverabilitySecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.settings.setDiscoverability");
@@ -233,6 +265,14 @@ public class AdminTeamsSettings {
         return res;
     }
 
+    /**
+     * Sets the icon of a workspace.
+     * https://api.slack.com/methods/admin.teams.settings.setIcon - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetIconResponse adminTeamsSettingsSetIcon(shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetIconRequestBody request, shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetIconSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.settings.setIcon");
@@ -277,6 +317,14 @@ public class AdminTeamsSettings {
         return res;
     }
 
+    /**
+     * Set the name of a given workspace.
+     * https://api.slack.com/methods/admin.teams.settings.setName - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetNameResponse adminTeamsSettingsSetName(shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetNameRequest request, shadowcodex.slack_spec.models.operations.AdminTeamsSettingsSetNameSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.settings.setName");

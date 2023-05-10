@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AppsPermissionsRequestResponse {
     
     public String contentType;
+
     public AppsPermissionsRequestResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AppsPermissionsRequestResponse {
     
     
     public Integer statusCode;
+
     public AppsPermissionsRequestResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AppsPermissionsRequestResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AppsPermissionsRequestResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AppsPermissionsRequestResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> appsPermissionsRequestErrorSchema;
+
     public AppsPermissionsRequestResponse withAppsPermissionsRequestErrorSchema(java.util.Map<String, java.util.Map<String, Object>> appsPermissionsRequestErrorSchema) {
         this.appsPermissionsRequestErrorSchema = appsPermissionsRequestErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AppsPermissionsRequestResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> appsPermissionsRequestSchema;
+
     public AppsPermissionsRequestResponse withAppsPermissionsRequestSchema(java.util.Map<String, java.util.Map<String, Object>> appsPermissionsRequestSchema) {
         this.appsPermissionsRequestSchema = appsPermissionsRequestSchema;
         return this;

@@ -15,6 +15,7 @@ public class AdminUsersAssignApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel_ids")
     public String channelIds;
+
     public AdminUsersAssignApplicationJSON withChannelIds(String channelIds) {
         this.channelIds = channelIds;
         return this;
@@ -26,6 +27,7 @@ public class AdminUsersAssignApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("is_restricted")
     public Boolean isRestricted;
+
     public AdminUsersAssignApplicationJSON withIsRestricted(Boolean isRestricted) {
         this.isRestricted = isRestricted;
         return this;
@@ -37,6 +39,7 @@ public class AdminUsersAssignApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("is_ultra_restricted")
     public Boolean isUltraRestricted;
+
     public AdminUsersAssignApplicationJSON withIsUltraRestricted(Boolean isUltraRestricted) {
         this.isUltraRestricted = isUltraRestricted;
         return this;
@@ -47,6 +50,7 @@ public class AdminUsersAssignApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminUsersAssignApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -57,6 +61,7 @@ public class AdminUsersAssignApplicationJSON {
      */
     @JsonProperty("user_id")
     public String userId;
+
     public AdminUsersAssignApplicationJSON withUserId(String userId) {
         this.userId = userId;
         return this;

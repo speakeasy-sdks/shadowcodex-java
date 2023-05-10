@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminConversationsSearchResponse {
     
     public String contentType;
+
     public AdminConversationsSearchResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AdminConversationsSearchResponse {
     
     
     public Integer statusCode;
+
     public AdminConversationsSearchResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AdminConversationsSearchResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminConversationsSearchResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AdminConversationsSearchResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsSearchErrorSchema;
+
     public AdminConversationsSearchResponse withAdminConversationsSearchErrorSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsSearchErrorSchema) {
         this.adminConversationsSearchErrorSchema = adminConversationsSearchErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AdminConversationsSearchResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsSearchSchema;
+
     public AdminConversationsSearchResponse withAdminConversationsSearchSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsSearchSchema) {
         this.adminConversationsSearchSchema = adminConversationsSearchSchema;
         return this;

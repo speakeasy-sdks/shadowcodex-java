@@ -13,6 +13,7 @@ public class AdminAppsRequestsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public AdminAppsRequestsListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -23,6 +24,7 @@ public class AdminAppsRequestsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public AdminAppsRequestsListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -30,6 +32,7 @@ public class AdminAppsRequestsListRequest {
     
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_id")
     public String teamId;
+
     public AdminAppsRequestsListRequest withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -40,6 +43,7 @@ public class AdminAppsRequestsListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AdminAppsRequestsListRequest withToken(String token) {
         this.token = token;
         return this;

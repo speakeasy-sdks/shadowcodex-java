@@ -32,6 +32,14 @@ public class Reminders {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Creates a reminder.
+     * https://api.slack.com/methods/reminders.add - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.RemindersAddResponse remindersAdd(shadowcodex.slack_spec.models.operations.RemindersAddRequest request, shadowcodex.slack_spec.models.operations.RemindersAddSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reminders.add");
@@ -84,6 +92,14 @@ public class Reminders {
         return res;
     }
 
+    /**
+     * Marks a reminder as complete.
+     * https://api.slack.com/methods/reminders.complete - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.RemindersCompleteResponse remindersComplete(shadowcodex.slack_spec.models.operations.RemindersCompleteRequest request, shadowcodex.slack_spec.models.operations.RemindersCompleteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reminders.complete");
@@ -133,6 +149,14 @@ public class Reminders {
         return res;
     }
 
+    /**
+     * Deletes a reminder.
+     * https://api.slack.com/methods/reminders.delete - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.RemindersDeleteResponse remindersDelete(shadowcodex.slack_spec.models.operations.RemindersDeleteRequest request, shadowcodex.slack_spec.models.operations.RemindersDeleteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reminders.delete");
@@ -182,6 +206,14 @@ public class Reminders {
         return res;
     }
 
+    /**
+     * Gets information about a reminder.
+     * https://api.slack.com/methods/reminders.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.RemindersInfoResponse remindersInfo(shadowcodex.slack_spec.models.operations.RemindersInfoRequest request, shadowcodex.slack_spec.models.operations.RemindersInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reminders.info");
@@ -227,6 +259,14 @@ public class Reminders {
         return res;
     }
 
+    /**
+     * Lists all reminders created by or for a given user.
+     * https://api.slack.com/methods/reminders.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.RemindersListResponse remindersList(shadowcodex.slack_spec.models.operations.RemindersListRequest request, shadowcodex.slack_spec.models.operations.RemindersListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/reminders.list");

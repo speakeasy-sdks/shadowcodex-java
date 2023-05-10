@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class TeamInfoResponse {
     
     public String contentType;
+
     public TeamInfoResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class TeamInfoResponse {
     
     
     public Integer statusCode;
+
     public TeamInfoResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class TeamInfoResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public TeamInfoResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class TeamInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> teamInfoErrorSchema;
+
     public TeamInfoResponse withTeamInfoErrorSchema(java.util.Map<String, java.util.Map<String, Object>> teamInfoErrorSchema) {
         this.teamInfoErrorSchema = teamInfoErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class TeamInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> teamInfoSchema;
+
     public TeamInfoResponse withTeamInfoSchema(java.util.Map<String, java.util.Map<String, Object>> teamInfoSchema) {
         this.teamInfoSchema = teamInfoSchema;
         return this;

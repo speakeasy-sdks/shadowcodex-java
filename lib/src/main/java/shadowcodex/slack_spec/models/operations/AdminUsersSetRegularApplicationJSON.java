@@ -12,6 +12,7 @@ public class AdminUsersSetRegularApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminUsersSetRegularApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -22,6 +23,7 @@ public class AdminUsersSetRegularApplicationJSON {
      */
     @JsonProperty("user_id")
     public String userId;
+
     public AdminUsersSetRegularApplicationJSON withUserId(String userId) {
         this.userId = userId;
         return this;

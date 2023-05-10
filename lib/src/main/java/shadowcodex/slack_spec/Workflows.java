@@ -31,6 +31,14 @@ public class Workflows {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Indicate that an app's step in a workflow completed execution.
+     * https://api.slack.com/methods/workflows.stepCompleted - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.WorkflowsStepCompletedResponse workflowsStepCompleted(shadowcodex.slack_spec.models.operations.WorkflowsStepCompletedRequest request, shadowcodex.slack_spec.models.operations.WorkflowsStepCompletedSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/workflows.stepCompleted");
@@ -84,6 +92,14 @@ public class Workflows {
         return res;
     }
 
+    /**
+     * Indicate that an app's step in a workflow failed to execute.
+     * https://api.slack.com/methods/workflows.stepFailed - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.WorkflowsStepFailedResponse workflowsStepFailed(shadowcodex.slack_spec.models.operations.WorkflowsStepFailedRequest request, shadowcodex.slack_spec.models.operations.WorkflowsStepFailedSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/workflows.stepFailed");
@@ -137,6 +153,14 @@ public class Workflows {
         return res;
     }
 
+    /**
+     * Update the configuration for a workflow extension step.
+     * https://api.slack.com/methods/workflows.updateStep - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.WorkflowsUpdateStepResponse workflowsUpdateStep(shadowcodex.slack_spec.models.operations.WorkflowsUpdateStepRequest request, shadowcodex.slack_spec.models.operations.WorkflowsUpdateStepSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/workflows.updateStep");

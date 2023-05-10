@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class CallsParticipantsRemoveResponse {
     
     public String contentType;
+
     public CallsParticipantsRemoveResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class CallsParticipantsRemoveResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public CallsParticipantsRemoveResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class CallsParticipantsRemoveResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public CallsParticipantsRemoveResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class CallsParticipantsRemoveResponse {
     
     
     public Integer statusCode;
+
     public CallsParticipantsRemoveResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class CallsParticipantsRemoveResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public CallsParticipantsRemoveResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

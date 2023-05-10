@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesRevokePublicURLResponse {
     
     public String contentType;
+
     public FilesRevokePublicURLResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class FilesRevokePublicURLResponse {
     
     
     public Integer statusCode;
+
     public FilesRevokePublicURLResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class FilesRevokePublicURLResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesRevokePublicURLResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class FilesRevokePublicURLResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesRevokePublicURLErrorSchema;
+
     public FilesRevokePublicURLResponse withFilesRevokePublicURLErrorSchema(java.util.Map<String, java.util.Map<String, Object>> filesRevokePublicURLErrorSchema) {
         this.filesRevokePublicURLErrorSchema = filesRevokePublicURLErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class FilesRevokePublicURLResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> filesRevokePublicURLSchema;
+
     public FilesRevokePublicURLResponse withFilesRevokePublicURLSchema(java.util.Map<String, java.util.Map<String, Object>> filesRevokePublicURLSchema) {
         this.filesRevokePublicURLSchema = filesRevokePublicURLSchema;
         return this;

@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class RemindersCompleteSecurity {
     @SpeakeasyMetadata("security:scheme=true,type=oauth2,name=Authorization")
     public String slackAuth;
+
     public RemindersCompleteSecurity withSlackAuth(String slackAuth) {
         this.slackAuth = slackAuth;
         return this;

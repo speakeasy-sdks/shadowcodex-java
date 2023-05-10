@@ -12,6 +12,7 @@ public class FilesRemoteListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel")
     public String channel;
+
     public FilesRemoteListRequest withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -22,6 +23,7 @@ public class FilesRemoteListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public FilesRemoteListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -32,6 +34,7 @@ public class FilesRemoteListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public FilesRemoteListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -42,6 +45,7 @@ public class FilesRemoteListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public FilesRemoteListRequest withToken(String token) {
         this.token = token;
         return this;
@@ -52,6 +56,7 @@ public class FilesRemoteListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=ts_from")
     public Double tsFrom;
+
     public FilesRemoteListRequest withTsFrom(Double tsFrom) {
         this.tsFrom = tsFrom;
         return this;
@@ -62,6 +67,7 @@ public class FilesRemoteListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=ts_to")
     public Double tsTo;
+
     public FilesRemoteListRequest withTsTo(Double tsTo) {
         this.tsTo = tsTo;
         return this;

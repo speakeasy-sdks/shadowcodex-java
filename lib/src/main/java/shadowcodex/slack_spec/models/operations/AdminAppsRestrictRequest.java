@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminAppsRestrictRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminAppsRestrictApplicationJSON requestBody;
+
     public AdminAppsRestrictRequest withRequestBody(AdminAppsRestrictApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminAppsRestrictRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminAppsRestrictRequest withToken(String token) {
         this.token = token;
         return this;

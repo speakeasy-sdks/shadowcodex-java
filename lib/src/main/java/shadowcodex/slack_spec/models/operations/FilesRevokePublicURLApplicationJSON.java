@@ -15,6 +15,7 @@ public class FilesRevokePublicURLApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("file")
     public String file;
+
     public FilesRevokePublicURLApplicationJSON withFile(String file) {
         this.file = file;
         return this;

@@ -13,6 +13,7 @@ public class AdminEmojiRemoveRequestBody {
      */
     @SpeakeasyMetadata("form:name=name")
     public String name;
+
     public AdminEmojiRemoveRequestBody withName(String name) {
         this.name = name;
         return this;
@@ -23,6 +24,7 @@ public class AdminEmojiRemoveRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public AdminEmojiRemoveRequestBody withToken(String token) {
         this.token = token;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ConversationsSetPurposeResponse {
     
     public String contentType;
+
     public ConversationsSetPurposeResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ConversationsSetPurposeResponse {
     
     
     public Integer statusCode;
+
     public ConversationsSetPurposeResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ConversationsSetPurposeResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ConversationsSetPurposeResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ConversationsSetPurposeResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> conversationsSetPurposeErrorSchema;
+
     public ConversationsSetPurposeResponse withConversationsSetPurposeErrorSchema(java.util.Map<String, java.util.Map<String, Object>> conversationsSetPurposeErrorSchema) {
         this.conversationsSetPurposeErrorSchema = conversationsSetPurposeErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ConversationsSetPurposeResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> conversationsSetPurposeSuccessSchema;
+
     public ConversationsSetPurposeResponse withConversationsSetPurposeSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> conversationsSetPurposeSuccessSchema) {
         this.conversationsSetPurposeSuccessSchema = conversationsSetPurposeSuccessSchema;
         return this;

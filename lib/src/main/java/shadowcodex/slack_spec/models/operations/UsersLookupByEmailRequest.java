@@ -13,6 +13,7 @@ public class UsersLookupByEmailRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=email")
     public String email;
+
     public UsersLookupByEmailRequest withEmail(String email) {
         this.email = email;
         return this;
@@ -23,6 +24,7 @@ public class UsersLookupByEmailRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public UsersLookupByEmailRequest withToken(String token) {
         this.token = token;
         return this;

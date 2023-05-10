@@ -32,6 +32,14 @@ public class Chat {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Deletes a message.
+     * https://api.slack.com/methods/chat.delete - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatDeleteResponse chatDelete(shadowcodex.slack_spec.models.operations.ChatDeleteRequest request, shadowcodex.slack_spec.models.operations.ChatDeleteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.delete");
@@ -81,6 +89,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Deletes a pending scheduled message from the queue.
+     * https://api.slack.com/methods/chat.deleteScheduledMessage - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatDeleteScheduledMessageResponse chatDeleteScheduledMessage(shadowcodex.slack_spec.models.operations.ChatDeleteScheduledMessageRequest request, shadowcodex.slack_spec.models.operations.ChatDeleteScheduledMessageSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.deleteScheduledMessage");
@@ -133,6 +149,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Retrieve a permalink URL for a specific extant message
+     * https://api.slack.com/methods/chat.getPermalink - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatGetPermalinkResponse chatGetPermalink(shadowcodex.slack_spec.models.operations.ChatGetPermalinkRequest request, shadowcodex.slack_spec.models.operations.ChatGetPermalinkSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.getPermalink");
@@ -178,6 +202,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Share a me message into a channel.
+     * https://api.slack.com/methods/chat.meMessage - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatMeMessageResponse chatMeMessage(shadowcodex.slack_spec.models.operations.ChatMeMessageRequest request, shadowcodex.slack_spec.models.operations.ChatMeMessageSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.meMessage");
@@ -227,6 +259,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Sends an ephemeral message to a user in a channel.
+     * https://api.slack.com/methods/chat.postEphemeral - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatPostEphemeralResponse chatPostEphemeral(shadowcodex.slack_spec.models.operations.ChatPostEphemeralRequest request, shadowcodex.slack_spec.models.operations.ChatPostEphemeralSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.postEphemeral");
@@ -279,6 +319,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Sends a message to a channel.
+     * https://api.slack.com/methods/chat.postMessage - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatPostMessageResponse chatPostMessage(shadowcodex.slack_spec.models.operations.ChatPostMessageRequest request, shadowcodex.slack_spec.models.operations.ChatPostMessageSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.postMessage");
@@ -331,6 +379,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Schedules a message to be sent to a channel.
+     * https://api.slack.com/methods/chat.scheduleMessage - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatScheduleMessageResponse chatScheduleMessage(shadowcodex.slack_spec.models.operations.ChatScheduleMessageRequest request, shadowcodex.slack_spec.models.operations.ChatScheduleMessageSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.scheduleMessage");
@@ -380,6 +436,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Returns a list of scheduled messages.
+     * https://api.slack.com/methods/chat.scheduledMessages.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatScheduledMessagesListResponse chatScheduledMessagesList(shadowcodex.slack_spec.models.operations.ChatScheduledMessagesListRequest request, shadowcodex.slack_spec.models.operations.ChatScheduledMessagesListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.scheduledMessages.list");
@@ -433,6 +497,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Provide custom unfurl behavior for user-posted URLs
+     * https://api.slack.com/methods/chat.unfurl - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatUnfurlResponse chatUnfurl(shadowcodex.slack_spec.models.operations.ChatUnfurlRequest request, shadowcodex.slack_spec.models.operations.ChatUnfurlSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.unfurl");
@@ -485,6 +557,14 @@ public class Chat {
         return res;
     }
 
+    /**
+     * Updates a message.
+     * https://api.slack.com/methods/chat.update - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.ChatUpdateResponse chatUpdate(shadowcodex.slack_spec.models.operations.ChatUpdateRequest request, shadowcodex.slack_spec.models.operations.ChatUpdateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/chat.update");

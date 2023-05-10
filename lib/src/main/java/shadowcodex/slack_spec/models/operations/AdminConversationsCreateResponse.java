@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminConversationsCreateResponse {
     
     public String contentType;
+
     public AdminConversationsCreateResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AdminConversationsCreateResponse {
     
     
     public Integer statusCode;
+
     public AdminConversationsCreateResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AdminConversationsCreateResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminConversationsCreateResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AdminConversationsCreateResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsCreateErrorSchema;
+
     public AdminConversationsCreateResponse withAdminConversationsCreateErrorSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsCreateErrorSchema) {
         this.adminConversationsCreateErrorSchema = adminConversationsCreateErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AdminConversationsCreateResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsCreateSchema;
+
     public AdminConversationsCreateResponse withAdminConversationsCreateSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsCreateSchema) {
         this.adminConversationsCreateSchema = adminConversationsCreateSchema;
         return this;

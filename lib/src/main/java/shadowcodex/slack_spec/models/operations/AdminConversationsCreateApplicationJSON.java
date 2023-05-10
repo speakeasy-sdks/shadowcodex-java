@@ -15,6 +15,7 @@ public class AdminConversationsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("description")
     public String description;
+
     public AdminConversationsCreateApplicationJSON withDescription(String description) {
         this.description = description;
         return this;
@@ -25,6 +26,7 @@ public class AdminConversationsCreateApplicationJSON {
      */
     @JsonProperty("is_private")
     public Boolean isPrivate;
+
     public AdminConversationsCreateApplicationJSON withIsPrivate(Boolean isPrivate) {
         this.isPrivate = isPrivate;
         return this;
@@ -35,6 +37,7 @@ public class AdminConversationsCreateApplicationJSON {
      */
     @JsonProperty("name")
     public String name;
+
     public AdminConversationsCreateApplicationJSON withName(String name) {
         this.name = name;
         return this;
@@ -46,6 +49,7 @@ public class AdminConversationsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("org_wide")
     public Boolean orgWide;
+
     public AdminConversationsCreateApplicationJSON withOrgWide(Boolean orgWide) {
         this.orgWide = orgWide;
         return this;
@@ -57,6 +61,7 @@ public class AdminConversationsCreateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminConversationsCreateApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

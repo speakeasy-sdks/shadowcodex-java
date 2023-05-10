@@ -31,6 +31,14 @@ public class CallsParticipants {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Registers new participants added to a Call.
+     * https://api.slack.com/methods/calls.participants.add - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.CallsParticipantsAddResponse callsParticipantsAdd(shadowcodex.slack_spec.models.operations.CallsParticipantsAddRequest request, shadowcodex.slack_spec.models.operations.CallsParticipantsAddSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/calls.participants.add");
@@ -83,6 +91,14 @@ public class CallsParticipants {
         return res;
     }
 
+    /**
+     * Registers participants removed from a Call.
+     * https://api.slack.com/methods/calls.participants.remove - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.CallsParticipantsRemoveResponse callsParticipantsRemove(shadowcodex.slack_spec.models.operations.CallsParticipantsRemoveRequest request, shadowcodex.slack_spec.models.operations.CallsParticipantsRemoveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/calls.participants.remove");

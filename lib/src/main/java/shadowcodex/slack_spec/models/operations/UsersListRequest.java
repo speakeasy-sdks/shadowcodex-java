@@ -12,6 +12,7 @@ public class UsersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public UsersListRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -22,6 +23,7 @@ public class UsersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=include_locale")
     public Boolean includeLocale;
+
     public UsersListRequest withIncludeLocale(Boolean includeLocale) {
         this.includeLocale = includeLocale;
         return this;
@@ -32,6 +34,7 @@ public class UsersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public UsersListRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -42,6 +45,7 @@ public class UsersListRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public UsersListRequest withToken(String token) {
         this.token = token;
         return this;

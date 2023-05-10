@@ -13,6 +13,7 @@ public class AdminConversationsEkmListOriginalConnectedChannelInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel_ids")
     public String channelIds;
+
     public AdminConversationsEkmListOriginalConnectedChannelInfoRequest withChannelIds(String channelIds) {
         this.channelIds = channelIds;
         return this;
@@ -23,6 +24,7 @@ public class AdminConversationsEkmListOriginalConnectedChannelInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=cursor")
     public String cursor;
+
     public AdminConversationsEkmListOriginalConnectedChannelInfoRequest withCursor(String cursor) {
         this.cursor = cursor;
         return this;
@@ -33,6 +35,7 @@ public class AdminConversationsEkmListOriginalConnectedChannelInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=limit")
     public Long limit;
+
     public AdminConversationsEkmListOriginalConnectedChannelInfoRequest withLimit(Long limit) {
         this.limit = limit;
         return this;
@@ -43,6 +46,7 @@ public class AdminConversationsEkmListOriginalConnectedChannelInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_ids")
     public String teamIds;
+
     public AdminConversationsEkmListOriginalConnectedChannelInfoRequest withTeamIds(String teamIds) {
         this.teamIds = teamIds;
         return this;
@@ -53,6 +57,7 @@ public class AdminConversationsEkmListOriginalConnectedChannelInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AdminConversationsEkmListOriginalConnectedChannelInfoRequest withToken(String token) {
         this.token = token;
         return this;

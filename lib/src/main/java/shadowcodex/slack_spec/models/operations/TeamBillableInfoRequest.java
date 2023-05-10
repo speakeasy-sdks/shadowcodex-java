@@ -13,6 +13,7 @@ public class TeamBillableInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public TeamBillableInfoRequest withToken(String token) {
         this.token = token;
         return this;
@@ -23,6 +24,7 @@ public class TeamBillableInfoRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=user")
     public String user;
+
     public TeamBillableInfoRequest withUser(String user) {
         this.user = user;
         return this;

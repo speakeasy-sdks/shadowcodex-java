@@ -12,6 +12,7 @@ public class AppsUninstallRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=client_id")
     public String clientId;
+
     public AppsUninstallRequest withClientId(String clientId) {
         this.clientId = clientId;
         return this;
@@ -22,6 +23,7 @@ public class AppsUninstallRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=client_secret")
     public String clientSecret;
+
     public AppsUninstallRequest withClientSecret(String clientSecret) {
         this.clientSecret = clientSecret;
         return this;
@@ -32,6 +34,7 @@ public class AppsUninstallRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AppsUninstallRequest withToken(String token) {
         this.token = token;
         return this;

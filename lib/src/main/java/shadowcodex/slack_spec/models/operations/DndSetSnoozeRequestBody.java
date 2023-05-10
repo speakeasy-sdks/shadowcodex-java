@@ -13,6 +13,7 @@ public class DndSetSnoozeRequestBody {
      */
     @SpeakeasyMetadata("form:name=num_minutes")
     public String numMinutes;
+
     public DndSetSnoozeRequestBody withNumMinutes(String numMinutes) {
         this.numMinutes = numMinutes;
         return this;
@@ -23,6 +24,7 @@ public class DndSetSnoozeRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public DndSetSnoozeRequestBody withToken(String token) {
         this.token = token;
         return this;

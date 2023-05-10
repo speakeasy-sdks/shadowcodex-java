@@ -13,6 +13,7 @@ public class UsersGetPresenceRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public UsersGetPresenceRequest withToken(String token) {
         this.token = token;
         return this;
@@ -23,6 +24,7 @@ public class UsersGetPresenceRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=user")
     public String user;
+
     public UsersGetPresenceRequest withUser(String user) {
         this.user = user;
         return this;

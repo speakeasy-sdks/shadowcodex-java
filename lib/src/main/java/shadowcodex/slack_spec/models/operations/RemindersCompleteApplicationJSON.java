@@ -15,6 +15,7 @@ public class RemindersCompleteApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("reminder")
     public String reminder;
+
     public RemindersCompleteApplicationJSON withReminder(String reminder) {
         this.reminder = reminder;
         return this;

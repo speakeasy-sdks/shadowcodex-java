@@ -13,6 +13,7 @@ public class UsersSetPhotoRequestBody {
      */
     @SpeakeasyMetadata("form:name=crop_w")
     public String cropW;
+
     public UsersSetPhotoRequestBody withCropW(String cropW) {
         this.cropW = cropW;
         return this;
@@ -23,6 +24,7 @@ public class UsersSetPhotoRequestBody {
      */
     @SpeakeasyMetadata("form:name=crop_x")
     public String cropX;
+
     public UsersSetPhotoRequestBody withCropX(String cropX) {
         this.cropX = cropX;
         return this;
@@ -33,6 +35,7 @@ public class UsersSetPhotoRequestBody {
      */
     @SpeakeasyMetadata("form:name=crop_y")
     public String cropY;
+
     public UsersSetPhotoRequestBody withCropY(String cropY) {
         this.cropY = cropY;
         return this;
@@ -43,6 +46,7 @@ public class UsersSetPhotoRequestBody {
      */
     @SpeakeasyMetadata("form:name=image")
     public String image;
+
     public UsersSetPhotoRequestBody withImage(String image) {
         this.image = image;
         return this;
@@ -53,6 +57,7 @@ public class UsersSetPhotoRequestBody {
      */
     @SpeakeasyMetadata("form:name=token")
     public String token;
+
     public UsersSetPhotoRequestBody withToken(String token) {
         this.token = token;
         return this;

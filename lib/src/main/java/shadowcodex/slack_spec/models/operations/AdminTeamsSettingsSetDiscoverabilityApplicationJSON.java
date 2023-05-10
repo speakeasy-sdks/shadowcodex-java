@@ -12,6 +12,7 @@ public class AdminTeamsSettingsSetDiscoverabilityApplicationJSON {
      */
     @JsonProperty("discoverability")
     public String discoverability;
+
     public AdminTeamsSettingsSetDiscoverabilityApplicationJSON withDiscoverability(String discoverability) {
         this.discoverability = discoverability;
         return this;
@@ -22,6 +23,7 @@ public class AdminTeamsSettingsSetDiscoverabilityApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminTeamsSettingsSetDiscoverabilityApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

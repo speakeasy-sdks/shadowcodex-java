@@ -13,6 +13,7 @@ public class MigrationExchangeRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=team_id")
     public String teamId;
+
     public MigrationExchangeRequest withTeamId(String teamId) {
         this.teamId = teamId;
         return this;
@@ -23,6 +24,7 @@ public class MigrationExchangeRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=to_old")
     public Boolean toOld;
+
     public MigrationExchangeRequest withToOld(Boolean toOld) {
         this.toOld = toOld;
         return this;
@@ -33,6 +35,7 @@ public class MigrationExchangeRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public MigrationExchangeRequest withToken(String token) {
         this.token = token;
         return this;
@@ -43,6 +46,7 @@ public class MigrationExchangeRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=users")
     public String users;
+
     public MigrationExchangeRequest withUsers(String users) {
         this.users = users;
         return this;

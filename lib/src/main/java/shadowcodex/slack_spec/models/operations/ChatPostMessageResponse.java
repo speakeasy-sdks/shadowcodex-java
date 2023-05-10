@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ChatPostMessageResponse {
     
     public String contentType;
+
     public ChatPostMessageResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ChatPostMessageResponse {
     
     
     public Integer statusCode;
+
     public ChatPostMessageResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ChatPostMessageResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ChatPostMessageResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ChatPostMessageResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatPostMessageErrorSchema;
+
     public ChatPostMessageResponse withChatPostMessageErrorSchema(java.util.Map<String, java.util.Map<String, Object>> chatPostMessageErrorSchema) {
         this.chatPostMessageErrorSchema = chatPostMessageErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ChatPostMessageResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatPostMessageSuccessSchema;
+
     public ChatPostMessageResponse withChatPostMessageSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> chatPostMessageSuccessSchema) {
         this.chatPostMessageSuccessSchema = chatPostMessageSuccessSchema;
         return this;

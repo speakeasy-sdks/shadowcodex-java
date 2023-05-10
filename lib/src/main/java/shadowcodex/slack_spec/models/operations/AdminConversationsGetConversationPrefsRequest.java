@@ -13,6 +13,7 @@ public class AdminConversationsGetConversationPrefsRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=channel_id")
     public String channelId;
+
     public AdminConversationsGetConversationPrefsRequest withChannelId(String channelId) {
         this.channelId = channelId;
         return this;
@@ -23,6 +24,7 @@ public class AdminConversationsGetConversationPrefsRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminConversationsGetConversationPrefsRequest withToken(String token) {
         this.token = token;
         return this;

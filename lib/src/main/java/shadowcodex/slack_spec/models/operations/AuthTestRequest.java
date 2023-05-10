@@ -13,6 +13,7 @@ public class AuthTestRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AuthTestRequest withToken(String token) {
         this.token = token;
         return this;

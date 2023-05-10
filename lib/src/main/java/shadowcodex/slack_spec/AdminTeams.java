@@ -32,6 +32,14 @@ public class AdminTeams {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Create an Enterprise team.
+     * https://api.slack.com/methods/admin.teams.create - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsCreateResponse adminTeamsCreate(shadowcodex.slack_spec.models.operations.AdminTeamsCreateRequest request, shadowcodex.slack_spec.models.operations.AdminTeamsCreateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.create");
@@ -84,6 +92,14 @@ public class AdminTeams {
         return res;
     }
 
+    /**
+     * List all teams on an Enterprise organization
+     * https://api.slack.com/methods/admin.teams.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AdminTeamsListResponse adminTeamsList(shadowcodex.slack_spec.models.operations.AdminTeamsListRequest request, shadowcodex.slack_spec.models.operations.AdminTeamsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/admin.teams.list");

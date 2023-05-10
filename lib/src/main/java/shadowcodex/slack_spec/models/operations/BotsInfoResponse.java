@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class BotsInfoResponse {
     
     public String contentType;
+
     public BotsInfoResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class BotsInfoResponse {
     
     
     public Integer statusCode;
+
     public BotsInfoResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class BotsInfoResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public BotsInfoResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class BotsInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> botsInfoErrorSchema;
+
     public BotsInfoResponse withBotsInfoErrorSchema(java.util.Map<String, java.util.Map<String, Object>> botsInfoErrorSchema) {
         this.botsInfoErrorSchema = botsInfoErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class BotsInfoResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> botsInfoSchema;
+
     public BotsInfoResponse withBotsInfoSchema(java.util.Map<String, java.util.Map<String, Object>> botsInfoSchema) {
         this.botsInfoSchema = botsInfoSchema;
         return this;

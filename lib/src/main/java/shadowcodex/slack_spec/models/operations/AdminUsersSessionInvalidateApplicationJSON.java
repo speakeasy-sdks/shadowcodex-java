@@ -9,6 +9,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class AdminUsersSessionInvalidateApplicationJSON {
     @JsonProperty("session_id")
     public Integer sessionId;
+
     public AdminUsersSessionInvalidateApplicationJSON withSessionId(Integer sessionId) {
         this.sessionId = sessionId;
         return this;
@@ -19,6 +20,7 @@ public class AdminUsersSessionInvalidateApplicationJSON {
      */
     @JsonProperty("team_id")
     public String teamId;
+
     public AdminUsersSessionInvalidateApplicationJSON withTeamId(String teamId) {
         this.teamId = teamId;
         return this;

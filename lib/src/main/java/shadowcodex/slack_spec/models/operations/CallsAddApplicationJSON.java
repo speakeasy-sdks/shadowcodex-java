@@ -15,6 +15,7 @@ public class CallsAddApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("created_by")
     public String createdBy;
+
     public CallsAddApplicationJSON withCreatedBy(String createdBy) {
         this.createdBy = createdBy;
         return this;
@@ -26,6 +27,7 @@ public class CallsAddApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("date_start")
     public Integer dateStart;
+
     public CallsAddApplicationJSON withDateStart(Integer dateStart) {
         this.dateStart = dateStart;
         return this;
@@ -37,6 +39,7 @@ public class CallsAddApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("desktop_app_join_url")
     public String desktopAppJoinUrl;
+
     public CallsAddApplicationJSON withDesktopAppJoinUrl(String desktopAppJoinUrl) {
         this.desktopAppJoinUrl = desktopAppJoinUrl;
         return this;
@@ -48,6 +51,7 @@ public class CallsAddApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("external_display_id")
     public String externalDisplayId;
+
     public CallsAddApplicationJSON withExternalDisplayId(String externalDisplayId) {
         this.externalDisplayId = externalDisplayId;
         return this;
@@ -58,6 +62,7 @@ public class CallsAddApplicationJSON {
      */
     @JsonProperty("external_unique_id")
     public String externalUniqueId;
+
     public CallsAddApplicationJSON withExternalUniqueId(String externalUniqueId) {
         this.externalUniqueId = externalUniqueId;
         return this;
@@ -68,6 +73,7 @@ public class CallsAddApplicationJSON {
      */
     @JsonProperty("join_url")
     public String joinUrl;
+
     public CallsAddApplicationJSON withJoinUrl(String joinUrl) {
         this.joinUrl = joinUrl;
         return this;
@@ -79,6 +85,7 @@ public class CallsAddApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("title")
     public String title;
+
     public CallsAddApplicationJSON withTitle(String title) {
         this.title = title;
         return this;
@@ -90,6 +97,7 @@ public class CallsAddApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("users")
     public String users;
+
     public CallsAddApplicationJSON withUsers(String users) {
         this.users = users;
         return this;

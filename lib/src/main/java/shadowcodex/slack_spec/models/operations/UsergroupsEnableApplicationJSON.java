@@ -15,6 +15,7 @@ public class UsergroupsEnableApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("include_count")
     public Boolean includeCount;
+
     public UsergroupsEnableApplicationJSON withIncludeCount(Boolean includeCount) {
         this.includeCount = includeCount;
         return this;
@@ -25,6 +26,7 @@ public class UsergroupsEnableApplicationJSON {
      */
     @JsonProperty("usergroup")
     public String usergroup;
+
     public UsergroupsEnableApplicationJSON withUsergroup(String usergroup) {
         this.usergroup = usergroup;
         return this;

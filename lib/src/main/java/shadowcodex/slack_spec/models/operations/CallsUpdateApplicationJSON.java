@@ -15,6 +15,7 @@ public class CallsUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("desktop_app_join_url")
     public String desktopAppJoinUrl;
+
     public CallsUpdateApplicationJSON withDesktopAppJoinUrl(String desktopAppJoinUrl) {
         this.desktopAppJoinUrl = desktopAppJoinUrl;
         return this;
@@ -25,6 +26,7 @@ public class CallsUpdateApplicationJSON {
      */
     @JsonProperty("id")
     public String id;
+
     public CallsUpdateApplicationJSON withId(String id) {
         this.id = id;
         return this;
@@ -36,6 +38,7 @@ public class CallsUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("join_url")
     public String joinUrl;
+
     public CallsUpdateApplicationJSON withJoinUrl(String joinUrl) {
         this.joinUrl = joinUrl;
         return this;
@@ -47,6 +50,7 @@ public class CallsUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("title")
     public String title;
+
     public CallsUpdateApplicationJSON withTitle(String title) {
         this.title = title;
         return this;

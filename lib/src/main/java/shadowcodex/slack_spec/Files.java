@@ -32,6 +32,14 @@ public class Files {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Deletes an existing comment on a file.
+     * https://api.slack.com/methods/files.comments.delete - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesCommentsDeleteResponse filesCommentsDelete(shadowcodex.slack_spec.models.operations.FilesCommentsDeleteRequest request, shadowcodex.slack_spec.models.operations.FilesCommentsDeleteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.comments.delete");
@@ -81,6 +89,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Deletes a file.
+     * https://api.slack.com/methods/files.delete - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesDeleteResponse filesDelete(shadowcodex.slack_spec.models.operations.FilesDeleteRequest request, shadowcodex.slack_spec.models.operations.FilesDeleteSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.delete");
@@ -130,6 +146,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Gets information about a file.
+     * https://api.slack.com/methods/files.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesInfoResponse filesInfo(shadowcodex.slack_spec.models.operations.FilesInfoRequest request, shadowcodex.slack_spec.models.operations.FilesInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.info");
@@ -175,6 +199,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * List for a team, in a channel, or from a user with applied filters.
+     * https://api.slack.com/methods/files.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesListResponse filesList(shadowcodex.slack_spec.models.operations.FilesListRequest request, shadowcodex.slack_spec.models.operations.FilesListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.list");
@@ -220,6 +252,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Adds a file from a remote service
+     * https://api.slack.com/methods/files.remote.add - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesRemoteAddResponse filesRemoteAdd(shadowcodex.slack_spec.models.operations.FilesRemoteAddRequestBody request, shadowcodex.slack_spec.models.operations.FilesRemoteAddSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.remote.add");
@@ -261,6 +301,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Retrieve information about a remote file added to Slack
+     * https://api.slack.com/methods/files.remote.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesRemoteInfoResponse filesRemoteInfo(shadowcodex.slack_spec.models.operations.FilesRemoteInfoRequest request, shadowcodex.slack_spec.models.operations.FilesRemoteInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.remote.info");
@@ -306,6 +354,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Retrieve information about a remote file added to Slack
+     * https://api.slack.com/methods/files.remote.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesRemoteListResponse filesRemoteList(shadowcodex.slack_spec.models.operations.FilesRemoteListRequest request, shadowcodex.slack_spec.models.operations.FilesRemoteListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.remote.list");
@@ -351,6 +407,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Remove a remote file.
+     * https://api.slack.com/methods/files.remote.remove - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesRemoteRemoveResponse filesRemoteRemove(shadowcodex.slack_spec.models.operations.FilesRemoteRemoveRequestBody request, shadowcodex.slack_spec.models.operations.FilesRemoteRemoveSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.remote.remove");
@@ -392,6 +456,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Share a remote file into a channel.
+     * https://api.slack.com/methods/files.remote.share - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesRemoteShareResponse filesRemoteShare(shadowcodex.slack_spec.models.operations.FilesRemoteShareRequest request, shadowcodex.slack_spec.models.operations.FilesRemoteShareSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.remote.share");
@@ -437,6 +509,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Updates an existing remote file.
+     * https://api.slack.com/methods/files.remote.update - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesRemoteUpdateResponse filesRemoteUpdate(shadowcodex.slack_spec.models.operations.FilesRemoteUpdateRequestBody request, shadowcodex.slack_spec.models.operations.FilesRemoteUpdateSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.remote.update");
@@ -478,6 +558,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Revokes public/external sharing access for a file
+     * https://api.slack.com/methods/files.revokePublicURL - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesRevokePublicURLResponse filesRevokePublicURL(shadowcodex.slack_spec.models.operations.FilesRevokePublicURLRequest request, shadowcodex.slack_spec.models.operations.FilesRevokePublicURLSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.revokePublicURL");
@@ -527,6 +615,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Enables a file for public/external sharing.
+     * https://api.slack.com/methods/files.sharedPublicURL - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesSharedPublicURLResponse filesSharedPublicURL(shadowcodex.slack_spec.models.operations.FilesSharedPublicURLRequest request, shadowcodex.slack_spec.models.operations.FilesSharedPublicURLSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.sharedPublicURL");
@@ -576,6 +672,14 @@ public class Files {
         return res;
     }
 
+    /**
+     * Uploads or creates a file.
+     * https://api.slack.com/methods/files.upload - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.FilesUploadResponse filesUpload(shadowcodex.slack_spec.models.operations.FilesUploadRequestBody request, shadowcodex.slack_spec.models.operations.FilesUploadSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/files.upload");

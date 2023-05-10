@@ -15,6 +15,7 @@ public class ConversationsMarkApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("channel")
     public String channel;
+
     public ConversationsMarkApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -26,6 +27,7 @@ public class ConversationsMarkApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("ts")
     public Double ts;
+
     public ConversationsMarkApplicationJSON withTs(Double ts) {
         this.ts = ts;
         return this;

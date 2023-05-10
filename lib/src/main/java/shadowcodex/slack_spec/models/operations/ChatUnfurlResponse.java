@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class ChatUnfurlResponse {
     
     public String contentType;
+
     public ChatUnfurlResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class ChatUnfurlResponse {
     
     
     public Integer statusCode;
+
     public ChatUnfurlResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class ChatUnfurlResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public ChatUnfurlResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class ChatUnfurlResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatUnfurlErrorSchema;
+
     public ChatUnfurlResponse withChatUnfurlErrorSchema(java.util.Map<String, java.util.Map<String, Object>> chatUnfurlErrorSchema) {
         this.chatUnfurlErrorSchema = chatUnfurlErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class ChatUnfurlResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> chatUnfurlSuccessSchema;
+
     public ChatUnfurlResponse withChatUnfurlSuccessSchema(java.util.Map<String, java.util.Map<String, Object>> chatUnfurlSuccessSchema) {
         this.chatUnfurlSuccessSchema = chatUnfurlSuccessSchema;
         return this;

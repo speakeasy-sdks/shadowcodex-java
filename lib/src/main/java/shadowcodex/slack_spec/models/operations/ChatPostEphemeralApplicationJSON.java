@@ -15,6 +15,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("as_user")
     public Boolean asUser;
+
     public ChatPostEphemeralApplicationJSON withAsUser(Boolean asUser) {
         this.asUser = asUser;
         return this;
@@ -26,6 +27,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("attachments")
     public String attachments;
+
     public ChatPostEphemeralApplicationJSON withAttachments(String attachments) {
         this.attachments = attachments;
         return this;
@@ -37,6 +39,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("blocks")
     public String blocks;
+
     public ChatPostEphemeralApplicationJSON withBlocks(String blocks) {
         this.blocks = blocks;
         return this;
@@ -47,6 +50,7 @@ public class ChatPostEphemeralApplicationJSON {
      */
     @JsonProperty("channel")
     public String channel;
+
     public ChatPostEphemeralApplicationJSON withChannel(String channel) {
         this.channel = channel;
         return this;
@@ -58,6 +62,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("icon_emoji")
     public String iconEmoji;
+
     public ChatPostEphemeralApplicationJSON withIconEmoji(String iconEmoji) {
         this.iconEmoji = iconEmoji;
         return this;
@@ -69,6 +74,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("icon_url")
     public String iconUrl;
+
     public ChatPostEphemeralApplicationJSON withIconUrl(String iconUrl) {
         this.iconUrl = iconUrl;
         return this;
@@ -80,6 +86,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("link_names")
     public Boolean linkNames;
+
     public ChatPostEphemeralApplicationJSON withLinkNames(Boolean linkNames) {
         this.linkNames = linkNames;
         return this;
@@ -91,6 +98,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("parse")
     public String parse;
+
     public ChatPostEphemeralApplicationJSON withParse(String parse) {
         this.parse = parse;
         return this;
@@ -102,6 +110,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("text")
     public String text;
+
     public ChatPostEphemeralApplicationJSON withText(String text) {
         this.text = text;
         return this;
@@ -113,6 +122,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("thread_ts")
     public String threadTs;
+
     public ChatPostEphemeralApplicationJSON withThreadTs(String threadTs) {
         this.threadTs = threadTs;
         return this;
@@ -123,6 +133,7 @@ public class ChatPostEphemeralApplicationJSON {
      */
     @JsonProperty("user")
     public String user;
+
     public ChatPostEphemeralApplicationJSON withUser(String user) {
         this.user = user;
         return this;
@@ -134,6 +145,7 @@ public class ChatPostEphemeralApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("username")
     public String username;
+
     public ChatPostEphemeralApplicationJSON withUsername(String username) {
         this.username = username;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class FilesRemoteRemoveResponse {
     
     public String contentType;
+
     public FilesRemoteRemoveResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class FilesRemoteRemoveResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public FilesRemoteRemoveResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class FilesRemoteRemoveResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public FilesRemoteRemoveResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class FilesRemoteRemoveResponse {
     
     
     public Integer statusCode;
+
     public FilesRemoteRemoveResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class FilesRemoteRemoveResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public FilesRemoteRemoveResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

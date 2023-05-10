@@ -31,6 +31,14 @@ public class Apps {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Get a list of authorizations for the given event context. Each authorization represents an app installation that the event is visible to.
+     * https://api.slack.com/methods/apps.event.authorizations.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsEventAuthorizationsListResponse appsEventAuthorizationsList(shadowcodex.slack_spec.models.operations.AppsEventAuthorizationsListRequest request, shadowcodex.slack_spec.models.operations.AppsEventAuthorizationsListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.event.authorizations.list");
@@ -84,6 +92,14 @@ public class Apps {
         return res;
     }
 
+    /**
+     * Returns list of permissions this app has on a team.
+     * https://api.slack.com/methods/apps.permissions.info - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsPermissionsInfoResponse appsPermissionsInfo(shadowcodex.slack_spec.models.operations.AppsPermissionsInfoRequest request, shadowcodex.slack_spec.models.operations.AppsPermissionsInfoSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.permissions.info");
@@ -129,6 +145,14 @@ public class Apps {
         return res;
     }
 
+    /**
+     * Allows an app to request additional scopes
+     * https://api.slack.com/methods/apps.permissions.request - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsPermissionsRequestResponse appsPermissionsRequest(shadowcodex.slack_spec.models.operations.AppsPermissionsRequestRequest request, shadowcodex.slack_spec.models.operations.AppsPermissionsRequestSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.permissions.request");
@@ -174,6 +198,14 @@ public class Apps {
         return res;
     }
 
+    /**
+     * Returns list of resource grants this app has on a team.
+     * https://api.slack.com/methods/apps.permissions.resources.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsPermissionsResourcesListResponse appsPermissionsResourcesList(shadowcodex.slack_spec.models.operations.AppsPermissionsResourcesListRequest request, shadowcodex.slack_spec.models.operations.AppsPermissionsResourcesListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.permissions.resources.list");
@@ -219,6 +251,14 @@ public class Apps {
         return res;
     }
 
+    /**
+     * Returns list of scopes this app has on a team.
+     * https://api.slack.com/methods/apps.permissions.scopes.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsPermissionsScopesListResponse appsPermissionsScopesList(shadowcodex.slack_spec.models.operations.AppsPermissionsScopesListRequest request, shadowcodex.slack_spec.models.operations.AppsPermissionsScopesListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.permissions.scopes.list");
@@ -264,6 +304,14 @@ public class Apps {
         return res;
     }
 
+    /**
+     * Uninstalls your app from a workspace.
+     * https://api.slack.com/methods/apps.uninstall - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.AppsUninstallResponse appsUninstall(shadowcodex.slack_spec.models.operations.AppsUninstallRequest request, shadowcodex.slack_spec.models.operations.AppsUninstallSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/apps.uninstall");

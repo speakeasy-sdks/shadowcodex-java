@@ -9,6 +9,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class ChatDeleteRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public ChatDeleteApplicationJSON requestBody;
+
     public ChatDeleteRequest withRequestBody(ChatDeleteApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -19,6 +20,7 @@ public class ChatDeleteRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public ChatDeleteRequest withToken(String token) {
         this.token = token;
         return this;

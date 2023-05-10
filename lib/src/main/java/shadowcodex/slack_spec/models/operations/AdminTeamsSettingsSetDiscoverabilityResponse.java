@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminTeamsSettingsSetDiscoverabilityResponse {
     
     public String contentType;
+
     public AdminTeamsSettingsSetDiscoverabilityResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class AdminTeamsSettingsSetDiscoverabilityResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public AdminTeamsSettingsSetDiscoverabilityResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class AdminTeamsSettingsSetDiscoverabilityResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public AdminTeamsSettingsSetDiscoverabilityResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class AdminTeamsSettingsSetDiscoverabilityResponse {
     
     
     public Integer statusCode;
+
     public AdminTeamsSettingsSetDiscoverabilityResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class AdminTeamsSettingsSetDiscoverabilityResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminTeamsSettingsSetDiscoverabilityResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

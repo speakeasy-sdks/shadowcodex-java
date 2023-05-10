@@ -10,6 +10,7 @@ import shadowcodex.slack_spec.utils.SpeakeasyMetadata;
 public class AdminConversationsRenameRequest {
     @SpeakeasyMetadata("request:mediaType=application/json")
     public AdminConversationsRenameApplicationJSON requestBody;
+
     public AdminConversationsRenameRequest withRequestBody(AdminConversationsRenameApplicationJSON requestBody) {
         this.requestBody = requestBody;
         return this;
@@ -20,6 +21,7 @@ public class AdminConversationsRenameRequest {
      */
     @SpeakeasyMetadata("header:style=simple,explode=false,name=token")
     public String token;
+
     public AdminConversationsRenameRequest withToken(String token) {
         this.token = token;
         return this;

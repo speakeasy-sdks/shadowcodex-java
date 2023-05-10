@@ -15,6 +15,7 @@ public class UsergroupsUsersUpdateApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("include_count")
     public Boolean includeCount;
+
     public UsergroupsUsersUpdateApplicationJSON withIncludeCount(Boolean includeCount) {
         this.includeCount = includeCount;
         return this;
@@ -25,6 +26,7 @@ public class UsergroupsUsersUpdateApplicationJSON {
      */
     @JsonProperty("usergroup")
     public String usergroup;
+
     public UsergroupsUsersUpdateApplicationJSON withUsergroup(String usergroup) {
         this.usergroup = usergroup;
         return this;
@@ -35,6 +37,7 @@ public class UsergroupsUsersUpdateApplicationJSON {
      */
     @JsonProperty("users")
     public String users;
+
     public UsergroupsUsersUpdateApplicationJSON withUsers(String users) {
         this.users = users;
         return this;

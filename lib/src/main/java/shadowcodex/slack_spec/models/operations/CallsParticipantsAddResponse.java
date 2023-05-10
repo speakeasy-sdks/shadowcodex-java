@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class CallsParticipantsAddResponse {
     
     public String contentType;
+
     public CallsParticipantsAddResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -20,6 +21,7 @@ public class CallsParticipantsAddResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate;
+
     public CallsParticipantsAddResponse withDefaultErrorTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultErrorTemplate) {
         this.defaultErrorTemplate = defaultErrorTemplate;
         return this;
@@ -30,6 +32,7 @@ public class CallsParticipantsAddResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate;
+
     public CallsParticipantsAddResponse withDefaultSuccessTemplate(java.util.Map<String, java.util.Map<String, Object>> defaultSuccessTemplate) {
         this.defaultSuccessTemplate = defaultSuccessTemplate;
         return this;
@@ -37,6 +40,7 @@ public class CallsParticipantsAddResponse {
     
     
     public Integer statusCode;
+
     public CallsParticipantsAddResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -44,6 +48,7 @@ public class CallsParticipantsAddResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public CallsParticipantsAddResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;

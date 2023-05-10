@@ -31,6 +31,14 @@ public class Emoji {
 		this._genVersion = genVersion;
 	}
 
+    /**
+     * Lists custom emoji for a team.
+     * https://api.slack.com/methods/emoji.list - API method documentation
+     * @param request the request object containing all of the parameters for the API call
+     * @param security the security details to use for authentication
+     * @return the response from the API call
+     * @throws Exception if the API call fails
+     */
     public shadowcodex.slack_spec.models.operations.EmojiListResponse emojiList(shadowcodex.slack_spec.models.operations.EmojiListRequest request, shadowcodex.slack_spec.models.operations.EmojiListSecurity security) throws Exception {
         String baseUrl = this._serverUrl;
         String url = shadowcodex.slack_spec.utils.Utils.generateURL(baseUrl, "/emoji.list");

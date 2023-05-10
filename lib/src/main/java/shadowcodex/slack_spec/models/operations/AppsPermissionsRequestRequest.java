@@ -13,6 +13,7 @@ public class AppsPermissionsRequestRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=scopes")
     public String scopes;
+
     public AppsPermissionsRequestRequest withScopes(String scopes) {
         this.scopes = scopes;
         return this;
@@ -23,6 +24,7 @@ public class AppsPermissionsRequestRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=token")
     public String token;
+
     public AppsPermissionsRequestRequest withToken(String token) {
         this.token = token;
         return this;
@@ -33,6 +35,7 @@ public class AppsPermissionsRequestRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=trigger_id")
     public String triggerId;
+
     public AppsPermissionsRequestRequest withTriggerId(String triggerId) {
         this.triggerId = triggerId;
         return this;

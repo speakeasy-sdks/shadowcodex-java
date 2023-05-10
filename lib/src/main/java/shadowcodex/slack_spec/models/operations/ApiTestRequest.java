@@ -12,6 +12,7 @@ public class ApiTestRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=error")
     public String error;
+
     public ApiTestRequest withError(String error) {
         this.error = error;
         return this;
@@ -22,6 +23,7 @@ public class ApiTestRequest {
      */
     @SpeakeasyMetadata("queryParam:style=form,explode=true,name=foo")
     public String foo;
+
     public ApiTestRequest withFoo(String foo) {
         this.foo = foo;
         return this;

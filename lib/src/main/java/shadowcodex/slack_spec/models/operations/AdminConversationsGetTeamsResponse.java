@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class AdminConversationsGetTeamsResponse {
     
     public String contentType;
+
     public AdminConversationsGetTeamsResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class AdminConversationsGetTeamsResponse {
     
     
     public Integer statusCode;
+
     public AdminConversationsGetTeamsResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class AdminConversationsGetTeamsResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public AdminConversationsGetTeamsResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class AdminConversationsGetTeamsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsGetTeamsErrorSchema;
+
     public AdminConversationsGetTeamsResponse withAdminConversationsGetTeamsErrorSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsGetTeamsErrorSchema) {
         this.adminConversationsGetTeamsErrorSchema = adminConversationsGetTeamsErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class AdminConversationsGetTeamsResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> adminConversationsGetTeamsSchema;
+
     public AdminConversationsGetTeamsResponse withAdminConversationsGetTeamsSchema(java.util.Map<String, java.util.Map<String, Object>> adminConversationsGetTeamsSchema) {
         this.adminConversationsGetTeamsSchema = adminConversationsGetTeamsSchema;
         return this;

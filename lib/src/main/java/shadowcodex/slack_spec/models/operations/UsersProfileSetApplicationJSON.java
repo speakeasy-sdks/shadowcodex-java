@@ -15,6 +15,7 @@ public class UsersProfileSetApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("name")
     public String name;
+
     public UsersProfileSetApplicationJSON withName(String name) {
         this.name = name;
         return this;
@@ -26,6 +27,7 @@ public class UsersProfileSetApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("profile")
     public String profile;
+
     public UsersProfileSetApplicationJSON withProfile(String profile) {
         this.profile = profile;
         return this;
@@ -37,6 +39,7 @@ public class UsersProfileSetApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("user")
     public String user;
+
     public UsersProfileSetApplicationJSON withUser(String user) {
         this.user = user;
         return this;
@@ -48,6 +51,7 @@ public class UsersProfileSetApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("value")
     public String value;
+
     public UsersProfileSetApplicationJSON withValue(String value) {
         this.value = value;
         return this;

@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 public class DndEndSnoozeResponse {
     
     public String contentType;
+
     public DndEndSnoozeResponse withContentType(String contentType) {
         this.contentType = contentType;
         return this;
@@ -17,6 +18,7 @@ public class DndEndSnoozeResponse {
     
     
     public Integer statusCode;
+
     public DndEndSnoozeResponse withStatusCode(Integer statusCode) {
         this.statusCode = statusCode;
         return this;
@@ -24,6 +26,7 @@ public class DndEndSnoozeResponse {
     
     
     public HttpResponse<byte[]> rawResponse;
+
     public DndEndSnoozeResponse withRawResponse(HttpResponse<byte[]> rawResponse) {
         this.rawResponse = rawResponse;
         return this;
@@ -34,6 +37,7 @@ public class DndEndSnoozeResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> dndEndSnoozeErrorSchema;
+
     public DndEndSnoozeResponse withDndEndSnoozeErrorSchema(java.util.Map<String, java.util.Map<String, Object>> dndEndSnoozeErrorSchema) {
         this.dndEndSnoozeErrorSchema = dndEndSnoozeErrorSchema;
         return this;
@@ -44,6 +48,7 @@ public class DndEndSnoozeResponse {
      */
     
     public java.util.Map<String, java.util.Map<String, Object>> dndEndSnoozeSchema;
+
     public DndEndSnoozeResponse withDndEndSnoozeSchema(java.util.Map<String, java.util.Map<String, Object>> dndEndSnoozeSchema) {
         this.dndEndSnoozeSchema = dndEndSnoozeSchema;
         return this;

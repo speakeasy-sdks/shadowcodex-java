@@ -15,6 +15,7 @@ public class AdminUsergroupsAddTeamsApplicationJSON {
     @JsonInclude(Include.NON_ABSENT)
     @JsonProperty("auto_provision")
     public Boolean autoProvision;
+
     public AdminUsergroupsAddTeamsApplicationJSON withAutoProvision(Boolean autoProvision) {
         this.autoProvision = autoProvision;
         return this;
@@ -25,6 +26,7 @@ public class AdminUsergroupsAddTeamsApplicationJSON {
      */
     @JsonProperty("team_ids")
     public String teamIds;
+
     public AdminUsergroupsAddTeamsApplicationJSON withTeamIds(String teamIds) {
         this.teamIds = teamIds;
         return this;
@@ -35,6 +37,7 @@ public class AdminUsergroupsAddTeamsApplicationJSON {
      */
     @JsonProperty("usergroup_id")
     public String usergroupId;
+
     public AdminUsergroupsAddTeamsApplicationJSON withUsergroupId(String usergroupId) {
         this.usergroupId = usergroupId;
         return this;
